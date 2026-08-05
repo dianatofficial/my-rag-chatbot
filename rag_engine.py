@@ -1,9 +1,3 @@
-```chart 
-```` بسته نشده بود؛ همین باعث می‌شود مدل ساختار نامعتبر تولید کند و پارسر نمودار در `app.py` کار نکند.
-3. انتهای فایل شما متن Markdown مربوط به `build_index.py` را هم شامل می‌شد که باید حذف شود (احتمالاً اشتباهی paste شده).
-
-## `rag_engine.py` (کامل و تصحیح‌شده)
-```python
 import os
 from pathlib import Path
 
@@ -240,3 +234,4 @@ python -m py_compile rag_engine.py build_index.py
 python build_index.py
 
 اگر `app.py` هم تابع `format_docs` را import می‌کند، آن را به `_format_docs` تغییر دهید.
+
