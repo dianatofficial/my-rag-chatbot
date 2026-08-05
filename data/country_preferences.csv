@@ -1,0 +1,2389 @@
+country,scenario_type,character_group,n_saved,n_outcomes,save_rate,country_name,cultural_cluster
+ABW,Age,Old,3,12,0.25,,
+ABW,Age,Young,5,6,0.8333,,
+ABW,Fitness,Fat,2,5,0.4,,
+ABW,Fitness,Fit,4,5,0.8,,
+ABW,Gender,Female,2,4,0.5,,
+ABW,Gender,Male,3,9,0.3333,,
+ABW,Social Status,High,2,5,0.4,,
+ABW,Social Status,Low,1,5,0.2,,
+ABW,Species,Hoomans,6,8,0.75,,
+ABW,Species,Pets,2,6,0.3333,,
+ABW,Utilitarian,Less,2,7,0.2857,,
+ABW,Utilitarian,More,7,11,0.6364,,
+AFG,Age,Old,4,11,0.3636,Afghanistan,0.0
+AFG,Age,Young,14,17,0.8235,Afghanistan,0.0
+AFG,Fitness,Fat,4,14,0.2857,Afghanistan,0.0
+AFG,Fitness,Fit,7,11,0.6364,Afghanistan,0.0
+AFG,Gender,Female,9,19,0.4737,Afghanistan,0.0
+AFG,Gender,Male,5,14,0.3571,Afghanistan,0.0
+AFG,Social Status,High,4,5,0.8,Afghanistan,0.0
+AFG,Social Status,Low,0,3,0.0,Afghanistan,0.0
+AFG,Species,Hoomans,6,10,0.6,Afghanistan,0.0
+AFG,Species,Pets,1,7,0.1429,Afghanistan,0.0
+AFG,Utilitarian,Less,6,20,0.3,Afghanistan,0.0
+AFG,Utilitarian,More,10,11,0.9091,Afghanistan,0.0
+AGO,Age,Old,2,11,0.1818,Angola,0.0
+AGO,Age,Young,4,5,0.8,Angola,0.0
+AGO,Fitness,Fat,10,20,0.5,Angola,0.0
+AGO,Fitness,Fit,4,8,0.5,Angola,0.0
+AGO,Gender,Female,8,18,0.4444,Angola,0.0
+AGO,Gender,Male,10,16,0.625,Angola,0.0
+AGO,Social Status,High,4,5,0.8,Angola,0.0
+AGO,Social Status,Low,1,6,0.1667,Angola,0.0
+AGO,Species,Hoomans,12,14,0.8571,Angola,0.0
+AGO,Species,Pets,0,17,0.0,Angola,0.0
+AGO,Utilitarian,Less,4,13,0.3077,Angola,0.0
+AGO,Utilitarian,More,16,24,0.6667,Angola,0.0
+AIA,Fitness,Fat,0,1,0.0,,
+AIA,Gender,Female,1,1,1.0,,
+AIA,Gender,Male,1,1,1.0,,
+AIA,Species,Hoomans,1,1,1.0,,
+AIA,Utilitarian,Less,1,1,1.0,,
+ALA,Age,Old,1,5,0.2,,
+ALA,Age,Young,5,6,0.8333,,
+ALA,Fitness,Fat,1,3,0.3333,,
+ALA,Fitness,Fit,3,7,0.4286,,
+ALA,Gender,Female,8,10,0.8,,
+ALA,Gender,Male,2,4,0.5,,
+ALA,Social Status,High,1,2,0.5,,
+ALA,Social Status,Low,1,2,0.5,,
+ALA,Species,Hoomans,11,14,0.7857,,
+ALA,Species,Pets,2,8,0.25,,
+ALA,Utilitarian,Less,3,10,0.3,,
+ALA,Utilitarian,More,6,8,0.75,,
+ALB,Age,Old,8,61,0.1311,Albania,0.0
+ALB,Age,Young,63,75,0.84,Albania,0.0
+ALB,Fitness,Fat,20,60,0.3333,Albania,0.0
+ALB,Fitness,Fit,37,60,0.6167,Albania,0.0
+ALB,Gender,Female,40,68,0.5882,Albania,0.0
+ALB,Gender,Male,24,60,0.4,Albania,0.0
+ALB,Social Status,High,14,19,0.7368,Albania,0.0
+ALB,Social Status,Low,3,17,0.1765,Albania,0.0
+ALB,Species,Hoomans,67,80,0.8375,Albania,0.0
+ALB,Species,Pets,22,85,0.2588,Albania,0.0
+ALB,Utilitarian,Less,10,78,0.1282,Albania,0.0
+ALB,Utilitarian,More,47,60,0.7833,Albania,0.0
+AND,Age,Old,4,12,0.3333,Andorra,1.0
+AND,Age,Young,9,13,0.6923,Andorra,1.0
+AND,Fitness,Fat,6,14,0.4286,Andorra,1.0
+AND,Fitness,Fit,3,11,0.2727,Andorra,1.0
+AND,Gender,Female,10,15,0.6667,Andorra,1.0
+AND,Gender,Male,5,14,0.3571,Andorra,1.0
+AND,Social Status,High,5,9,0.5556,Andorra,1.0
+AND,Social Status,Low,1,6,0.1667,Andorra,1.0
+AND,Species,Hoomans,13,16,0.8125,Andorra,1.0
+AND,Species,Pets,3,16,0.1875,Andorra,1.0
+AND,Utilitarian,Less,6,17,0.3529,Andorra,1.0
+AND,Utilitarian,More,12,16,0.75,Andorra,1.0
+ARE,Age,Old,118,446,0.2646,United Arab Emirates,1.0
+ARE,Age,Young,317,437,0.7254,United Arab Emirates,1.0
+ARE,Fitness,Fat,167,463,0.3607,United Arab Emirates,1.0
+ARE,Fitness,Fit,182,371,0.4906,United Arab Emirates,1.0
+ARE,Gender,Female,243,484,0.5021,United Arab Emirates,1.0
+ARE,Gender,Male,194,503,0.3857,United Arab Emirates,1.0
+ARE,Social Status,High,133,183,0.7268,United Arab Emirates,1.0
+ARE,Social Status,Low,43,141,0.305,United Arab Emirates,1.0
+ARE,Species,Hoomans,388,504,0.7698,United Arab Emirates,1.0
+ARE,Species,Pets,87,460,0.1891,United Arab Emirates,1.0
+ARE,Utilitarian,Less,108,489,0.2209,United Arab Emirates,1.0
+ARE,Utilitarian,More,387,501,0.7725,United Arab Emirates,1.0
+ARG,Age,Old,522,2317,0.2253,Argentina,2.0
+ARG,Age,Young,1638,2163,0.7573,Argentina,2.0
+ARG,Fitness,Fat,938,2369,0.3959,Argentina,2.0
+ARG,Fitness,Fit,1057,1897,0.5572,Argentina,2.0
+ARG,Gender,Female,1300,2381,0.546,Argentina,2.0
+ARG,Gender,Male,882,2328,0.3789,Argentina,2.0
+ARG,Social Status,High,645,869,0.7422,Argentina,2.0
+ARG,Social Status,Low,194,709,0.2736,Argentina,2.0
+ARG,Species,Hoomans,1594,2263,0.7044,Argentina,2.0
+ARG,Species,Pets,688,2336,0.2945,Argentina,2.0
+ARG,Utilitarian,Less,543,2368,0.2293,Argentina,2.0
+ARG,Utilitarian,More,1846,2458,0.751,Argentina,2.0
+ARM,Age,Old,11,53,0.2075,Armenia,1.0
+ARM,Age,Young,48,62,0.7742,Armenia,1.0
+ARM,Fitness,Fat,26,68,0.3824,Armenia,1.0
+ARM,Fitness,Fit,23,46,0.5,Armenia,1.0
+ARM,Gender,Female,33,62,0.5323,Armenia,1.0
+ARM,Gender,Male,16,60,0.2667,Armenia,1.0
+ARM,Social Status,High,13,20,0.65,Armenia,1.0
+ARM,Social Status,Low,5,17,0.2941,Armenia,1.0
+ARM,Species,Hoomans,41,53,0.7736,Armenia,1.0
+ARM,Species,Pets,5,52,0.0962,Armenia,1.0
+ARM,Utilitarian,Less,15,63,0.2381,Armenia,1.0
+ARM,Utilitarian,More,49,62,0.7903,Armenia,1.0
+ASM,Age,Old,1,3,0.3333,,
+ASM,Age,Young,1,1,1.0,,
+ASM,Fitness,Fat,2,2,1.0,,
+ASM,Fitness,Fit,1,3,0.3333,,
+ASM,Gender,Female,2,2,1.0,,
+ASM,Gender,Male,1,2,0.5,,
+ASM,Social Status,High,1,1,1.0,,
+ASM,Social Status,Low,0,1,0.0,,
+ASM,Species,Hoomans,2,2,1.0,,
+ASM,Species,Pets,1,2,0.5,,
+ASM,Utilitarian,Less,0,1,0.0,,
+ASM,Utilitarian,More,1,1,1.0,,
+ATA,Fitness,Fat,0,1,0.0,,
+ATG,Age,Old,0,2,0.0,,
+ATG,Age,Young,5,5,1.0,,
+ATG,Fitness,Fat,1,5,0.2,,
+ATG,Fitness,Fit,0,2,0.0,,
+ATG,Gender,Female,1,3,0.3333,,
+ATG,Gender,Male,0,2,0.0,,
+ATG,Social Status,High,1,1,1.0,,
+ATG,Social Status,Low,0,1,0.0,,
+ATG,Species,Hoomans,2,3,0.6667,,
+ATG,Species,Pets,0,3,0.0,,
+ATG,Utilitarian,Less,2,4,0.5,,
+ATG,Utilitarian,More,1,2,0.5,,
+AUS,Age,Old,1776,8995,0.1974,Australia,0.0
+AUS,Age,Young,6068,8362,0.7257,Australia,0.0
+AUS,Fitness,Fat,3041,9213,0.3301,Australia,0.0
+AUS,Fitness,Fit,3971,7273,0.546,Australia,0.0
+AUS,Gender,Female,4449,9048,0.4917,Australia,0.0
+AUS,Gender,Male,3282,9033,0.3633,Australia,0.0
+AUS,Social Status,High,2165,3311,0.6539,Australia,0.0
+AUS,Social Status,Low,814,2833,0.2873,Australia,0.0
+AUS,Species,Hoomans,7102,9112,0.7794,Australia,0.0
+AUS,Species,Pets,1687,8911,0.1893,Australia,0.0
+AUS,Utilitarian,Less,1796,9532,0.1884,Australia,0.0
+AUS,Utilitarian,More,7133,9492,0.7515,Australia,0.0
+AUT,Age,Old,603,3044,0.1981,Austria,0.0
+AUT,Age,Young,2167,2949,0.7348,Austria,0.0
+AUT,Fitness,Fat,1066,3015,0.3536,Austria,0.0
+AUT,Fitness,Fit,1237,2467,0.5014,Austria,0.0
+AUT,Gender,Female,1472,3083,0.4775,Austria,0.0
+AUT,Gender,Male,1106,3018,0.3665,Austria,0.0
+AUT,Social Status,High,740,1146,0.6457,Austria,0.0
+AUT,Social Status,Low,267,907,0.2944,Austria,0.0
+AUT,Species,Hoomans,2461,3023,0.8141,Austria,0.0
+AUT,Species,Pets,469,3037,0.1544,Austria,0.0
+AUT,Utilitarian,Less,662,3273,0.2023,Austria,0.0
+AUT,Utilitarian,More,2273,3114,0.7299,Austria,0.0
+AZE,Age,Old,52,196,0.2653,Azerbaijan,2.0
+AZE,Age,Young,128,161,0.795,Azerbaijan,2.0
+AZE,Fitness,Fat,67,202,0.3317,Azerbaijan,2.0
+AZE,Fitness,Fit,81,148,0.5473,Azerbaijan,2.0
+AZE,Gender,Female,103,209,0.4928,Azerbaijan,2.0
+AZE,Gender,Male,79,193,0.4093,Azerbaijan,2.0
+AZE,Social Status,High,48,78,0.6154,Azerbaijan,2.0
+AZE,Social Status,Low,17,46,0.3696,Azerbaijan,2.0
+AZE,Species,Hoomans,122,193,0.6321,Azerbaijan,2.0
+AZE,Species,Pets,76,210,0.3619,Azerbaijan,2.0
+AZE,Utilitarian,Less,45,204,0.2206,Azerbaijan,2.0
+AZE,Utilitarian,More,129,191,0.6754,Azerbaijan,2.0
+BDI,Age,Old,1,2,0.5,,
+BDI,Gender,Female,0,1,0.0,,
+BDI,Species,Hoomans,1,1,1.0,,
+BDI,Utilitarian,More,0,1,0.0,,
+BEL,Age,Old,1434,6830,0.21,Belgium,0.0
+BEL,Age,Young,4581,6249,0.7331,Belgium,0.0
+BEL,Fitness,Fat,2407,6733,0.3575,Belgium,0.0
+BEL,Fitness,Fit,2964,5614,0.528,Belgium,0.0
+BEL,Gender,Female,3454,6786,0.509,Belgium,0.0
+BEL,Gender,Male,2474,6852,0.3611,Belgium,0.0
+BEL,Social Status,High,1676,2432,0.6891,Belgium,0.0
+BEL,Social Status,Low,643,2033,0.3163,Belgium,0.0
+BEL,Species,Hoomans,5596,6783,0.825,Belgium,0.0
+BEL,Species,Pets,978,6628,0.1476,Belgium,0.0
+BEL,Utilitarian,Less,1436,7084,0.2027,Belgium,0.0
+BEL,Utilitarian,More,5243,7019,0.747,Belgium,0.0
+BEN,Age,Young,1,2,0.5,,
+BEN,Fitness,Fit,1,1,1.0,,
+BEN,Species,Pets,0,1,0.0,,
+BES,Age,Old,1,2,0.5,,
+BES,Age,Young,0,1,0.0,,
+BES,Fitness,Fit,1,1,1.0,,
+BES,Gender,Female,1,1,1.0,,
+BES,Social Status,Low,1,1,1.0,,
+BES,Species,Hoomans,1,1,1.0,,
+BES,Utilitarian,Less,2,5,0.4,,
+BFA,Age,Old,0,1,0.0,,
+BFA,Fitness,Fat,0,1,0.0,,
+BFA,Gender,Female,1,1,1.0,,
+BFA,Gender,Male,1,1,1.0,,
+BFA,Social Status,High,1,1,1.0,,
+BFA,Social Status,Low,0,2,0.0,,
+BFA,Species,Hoomans,2,2,1.0,,
+BFA,Species,Pets,0,2,0.0,,
+BFA,Utilitarian,Less,0,2,0.0,,
+BFA,Utilitarian,More,2,2,1.0,,
+BGD,Age,Old,20,70,0.2857,Bangladesh,0.0
+BGD,Age,Young,55,79,0.6962,Bangladesh,0.0
+BGD,Fitness,Fat,36,89,0.4045,Bangladesh,0.0
+BGD,Fitness,Fit,35,58,0.6034,Bangladesh,0.0
+BGD,Gender,Female,41,77,0.5325,Bangladesh,0.0
+BGD,Gender,Male,31,81,0.3827,Bangladesh,0.0
+BGD,Social Status,High,19,25,0.76,Bangladesh,0.0
+BGD,Social Status,Low,9,28,0.3214,Bangladesh,0.0
+BGD,Species,Hoomans,63,87,0.7241,Bangladesh,0.0
+BGD,Species,Pets,13,67,0.194,Bangladesh,0.0
+BGD,Utilitarian,Less,20,76,0.2632,Bangladesh,0.0
+BGD,Utilitarian,More,56,81,0.6914,Bangladesh,0.0
+BGR,Age,Old,156,747,0.2088,Bulgaria,0.0
+BGR,Age,Young,542,726,0.7466,Bulgaria,0.0
+BGR,Fitness,Fat,269,778,0.3458,Bulgaria,0.0
+BGR,Fitness,Fit,372,639,0.5822,Bulgaria,0.0
+BGR,Gender,Female,387,768,0.5039,Bulgaria,0.0
+BGR,Gender,Male,288,722,0.3989,Bulgaria,0.0
+BGR,Social Status,High,206,295,0.6983,Bulgaria,0.0
+BGR,Social Status,Low,80,256,0.3125,Bulgaria,0.0
+BGR,Species,Hoomans,605,765,0.7908,Bulgaria,0.0
+BGR,Species,Pets,144,780,0.1846,Bulgaria,0.0
+BGR,Utilitarian,Less,189,838,0.2255,Bulgaria,0.0
+BGR,Utilitarian,More,562,779,0.7214,Bulgaria,0.0
+BHR,Age,Old,8,25,0.32,Bahrain,1.0
+BHR,Age,Young,22,35,0.6286,Bahrain,1.0
+BHR,Fitness,Fat,11,26,0.4231,Bahrain,1.0
+BHR,Fitness,Fit,11,22,0.5,Bahrain,1.0
+BHR,Gender,Female,5,18,0.2778,Bahrain,1.0
+BHR,Gender,Male,8,36,0.2222,Bahrain,1.0
+BHR,Social Status,High,9,16,0.5625,Bahrain,1.0
+BHR,Social Status,Low,2,6,0.3333,Bahrain,1.0
+BHR,Species,Hoomans,27,36,0.75,Bahrain,1.0
+BHR,Species,Pets,7,30,0.2333,Bahrain,1.0
+BHR,Utilitarian,Less,11,31,0.3548,Bahrain,1.0
+BHR,Utilitarian,More,21,30,0.7,Bahrain,1.0
+BHS,Age,Old,2,14,0.1429,Bahamas,2.0
+BHS,Age,Young,12,15,0.8,Bahamas,2.0
+BHS,Fitness,Fat,7,22,0.3182,Bahamas,2.0
+BHS,Fitness,Fit,5,8,0.625,Bahamas,2.0
+BHS,Gender,Female,15,20,0.75,Bahamas,2.0
+BHS,Gender,Male,4,14,0.2857,Bahamas,2.0
+BHS,Social Status,High,4,4,1.0,Bahamas,2.0
+BHS,Social Status,Low,3,6,0.5,Bahamas,2.0
+BHS,Species,Hoomans,12,15,0.8,Bahamas,2.0
+BHS,Species,Pets,2,20,0.1,Bahamas,2.0
+BHS,Utilitarian,Less,1,16,0.0625,Bahamas,2.0
+BHS,Utilitarian,More,11,17,0.6471,Bahamas,2.0
+BIH,Age,Old,28,171,0.1637,Bosnia and Herzegovina,0.0
+BIH,Age,Young,128,166,0.7711,Bosnia and Herzegovina,0.0
+BIH,Fitness,Fat,58,181,0.3204,Bosnia and Herzegovina,0.0
+BIH,Fitness,Fit,73,147,0.4966,Bosnia and Herzegovina,0.0
+BIH,Gender,Female,101,187,0.5401,Bosnia and Herzegovina,0.0
+BIH,Gender,Male,69,186,0.371,Bosnia and Herzegovina,0.0
+BIH,Social Status,High,53,77,0.6883,Bosnia and Herzegovina,0.0
+BIH,Social Status,Low,12,41,0.2927,Bosnia and Herzegovina,0.0
+BIH,Species,Hoomans,148,191,0.7749,Bosnia and Herzegovina,0.0
+BIH,Species,Pets,38,182,0.2088,Bosnia and Herzegovina,0.0
+BIH,Utilitarian,Less,37,213,0.1737,Bosnia and Herzegovina,0.0
+BIH,Utilitarian,More,158,202,0.7822,Bosnia and Herzegovina,0.0
+BLM,Utilitarian,More,1,1,1.0,,
+BLR,Age,Old,121,565,0.2142,Belarus,0.0
+BLR,Age,Young,374,541,0.6913,Belarus,0.0
+BLR,Fitness,Fat,202,559,0.3614,Belarus,0.0
+BLR,Fitness,Fit,252,477,0.5283,Belarus,0.0
+BLR,Gender,Female,258,549,0.4699,Belarus,0.0
+BLR,Gender,Male,230,571,0.4028,Belarus,0.0
+BLR,Social Status,High,140,218,0.6422,Belarus,0.0
+BLR,Social Status,Low,60,200,0.3,Belarus,0.0
+BLR,Species,Hoomans,472,589,0.8014,Belarus,0.0
+BLR,Species,Pets,85,605,0.1405,Belarus,0.0
+BLR,Utilitarian,Less,140,662,0.2115,Belarus,0.0
+BLR,Utilitarian,More,461,656,0.7027,Belarus,0.0
+BLZ,Age,Old,1,6,0.1667,,
+BLZ,Age,Young,5,8,0.625,,
+BLZ,Fitness,Fat,1,3,0.3333,,
+BLZ,Fitness,Fit,3,4,0.75,,
+BLZ,Gender,Female,3,8,0.375,,
+BLZ,Gender,Male,1,2,0.5,,
+BLZ,Social Status,Low,2,4,0.5,,
+BLZ,Species,Hoomans,2,2,1.0,,
+BLZ,Species,Pets,1,5,0.2,,
+BLZ,Utilitarian,Less,3,7,0.4286,,
+BLZ,Utilitarian,More,5,5,1.0,,
+BMU,Age,Old,3,7,0.4286,,
+BMU,Age,Young,7,10,0.7,,
+BMU,Fitness,Fat,1,5,0.2,,
+BMU,Fitness,Fit,3,4,0.75,,
+BMU,Gender,Female,2,10,0.2,,
+BMU,Gender,Male,1,5,0.2,,
+BMU,Social Status,High,2,3,0.6667,,
+BMU,Social Status,Low,0,2,0.0,,
+BMU,Species,Hoomans,4,5,0.8,,
+BMU,Species,Pets,1,8,0.125,,
+BMU,Utilitarian,Less,2,16,0.125,,
+BMU,Utilitarian,More,4,4,1.0,,
+BOL,Age,Old,12,81,0.1481,Bolivia,2.0
+BOL,Age,Young,56,68,0.8235,Bolivia,2.0
+BOL,Fitness,Fat,18,56,0.3214,Bolivia,2.0
+BOL,Fitness,Fit,25,44,0.5682,Bolivia,2.0
+BOL,Gender,Female,40,70,0.5714,Bolivia,2.0
+BOL,Gender,Male,29,69,0.4203,Bolivia,2.0
+BOL,Social Status,High,13,18,0.7222,Bolivia,2.0
+BOL,Social Status,Low,8,23,0.3478,Bolivia,2.0
+BOL,Species,Hoomans,43,71,0.6056,Bolivia,2.0
+BOL,Species,Pets,23,77,0.2987,Bolivia,2.0
+BOL,Utilitarian,Less,16,65,0.2462,Bolivia,2.0
+BOL,Utilitarian,More,52,71,0.7324,Bolivia,2.0
+BRA,Age,Old,4362,19320,0.2258,Brazil,0.0
+BRA,Age,Young,13075,17986,0.727,Brazil,0.0
+BRA,Fitness,Fat,7675,19012,0.4037,Brazil,0.0
+BRA,Fitness,Fit,7792,15756,0.4945,Brazil,0.0
+BRA,Gender,Female,10112,19092,0.5296,Brazil,0.0
+BRA,Gender,Male,7087,19509,0.3633,Brazil,0.0
+BRA,Social Status,High,4962,7053,0.7035,Brazil,0.0
+BRA,Social Status,Low,1898,5758,0.3296,Brazil,0.0
+BRA,Species,Hoomans,12850,19550,0.6573,Brazil,0.0
+BRA,Species,Pets,6271,19563,0.3206,Brazil,0.0
+BRA,Utilitarian,Less,4669,20320,0.2298,Brazil,0.0
+BRA,Utilitarian,More,14738,20200,0.7296,Brazil,0.0
+BRB,Age,Old,4,16,0.25,Barbados,0.0
+BRB,Age,Young,15,21,0.7143,Barbados,0.0
+BRB,Fitness,Fat,6,16,0.375,Barbados,0.0
+BRB,Fitness,Fit,6,13,0.4615,Barbados,0.0
+BRB,Gender,Female,10,16,0.625,Barbados,0.0
+BRB,Gender,Male,4,18,0.2222,Barbados,0.0
+BRB,Social Status,High,2,6,0.3333,Barbados,0.0
+BRB,Social Status,Low,0,5,0.0,Barbados,0.0
+BRB,Species,Hoomans,12,15,0.8,Barbados,0.0
+BRB,Species,Pets,5,25,0.2,Barbados,0.0
+BRB,Utilitarian,Less,1,12,0.0833,Barbados,0.0
+BRB,Utilitarian,More,15,22,0.6818,Barbados,0.0
+BRN,Age,Old,6,18,0.3333,Brunei,1.0
+BRN,Age,Young,14,19,0.7368,Brunei,1.0
+BRN,Fitness,Fat,8,28,0.2857,Brunei,1.0
+BRN,Fitness,Fit,11,13,0.8462,Brunei,1.0
+BRN,Gender,Female,8,20,0.4,Brunei,1.0
+BRN,Gender,Male,17,31,0.5484,Brunei,1.0
+BRN,Social Status,High,7,11,0.6364,Brunei,1.0
+BRN,Social Status,Low,0,1,0.0,Brunei,1.0
+BRN,Species,Hoomans,19,22,0.8636,Brunei,1.0
+BRN,Species,Pets,9,24,0.375,Brunei,1.0
+BRN,Utilitarian,Less,6,25,0.24,Brunei,1.0
+BRN,Utilitarian,More,15,30,0.5,Brunei,1.0
+BTN,Age,Old,0,1,0.0,,
+BTN,Age,Young,1,1,1.0,,
+BTN,Gender,Male,0,1,0.0,,
+BTN,Species,Pets,0,1,0.0,,
+BTN,Utilitarian,More,1,1,1.0,,
+BWA,Age,Old,0,4,0.0,,
+BWA,Age,Young,1,1,1.0,,
+BWA,Fitness,Fat,0,3,0.0,,
+BWA,Fitness,Fit,1,2,0.5,,
+BWA,Gender,Female,5,6,0.8333,,
+BWA,Gender,Male,0,1,0.0,,
+BWA,Species,Hoomans,3,4,0.75,,
+BWA,Species,Pets,0,2,0.0,,
+BWA,Utilitarian,Less,1,1,1.0,,
+BWA,Utilitarian,More,0,1,0.0,,
+CAF,Fitness,Fat,0,1,0.0,,
+CAN,Age,Old,2634,13400,0.1966,Canada,0.0
+CAN,Age,Young,9194,12640,0.7274,Canada,0.0
+CAN,Fitness,Fat,4629,13591,0.3406,Canada,0.0
+CAN,Fitness,Fit,5784,10766,0.5372,Canada,0.0
+CAN,Gender,Female,6699,13538,0.4948,Canada,0.0
+CAN,Gender,Male,4775,13301,0.359,Canada,0.0
+CAN,Social Status,High,3316,4867,0.6813,Canada,0.0
+CAN,Social Status,Low,1168,4032,0.2897,Canada,0.0
+CAN,Species,Hoomans,10706,13486,0.7939,Canada,0.0
+CAN,Species,Pets,2241,13503,0.166,Canada,0.0
+CAN,Utilitarian,Less,2734,13807,0.198,Canada,0.0
+CAN,Utilitarian,More,10597,14010,0.7564,Canada,0.0
+CHE,Age,Old,582,2786,0.2089,Switzerland,0.0
+CHE,Age,Young,1904,2719,0.7003,Switzerland,0.0
+CHE,Fitness,Fat,1059,2907,0.3643,Switzerland,0.0
+CHE,Fitness,Fit,1129,2330,0.4845,Switzerland,0.0
+CHE,Gender,Female,1450,2876,0.5042,Switzerland,0.0
+CHE,Gender,Male,1004,2890,0.3474,Switzerland,0.0
+CHE,Social Status,High,667,1049,0.6358,Switzerland,0.0
+CHE,Social Status,Low,289,924,0.3128,Switzerland,0.0
+CHE,Species,Hoomans,2354,2921,0.8059,Switzerland,0.0
+CHE,Species,Pets,417,2877,0.1449,Switzerland,0.0
+CHE,Utilitarian,Less,619,3043,0.2034,Switzerland,0.0
+CHE,Utilitarian,More,2233,3062,0.7293,Switzerland,0.0
+CHL,Age,Old,314,1294,0.2427,Chile,2.0
+CHL,Age,Young,836,1160,0.7207,Chile,2.0
+CHL,Fitness,Fat,485,1273,0.381,Chile,2.0
+CHL,Fitness,Fit,590,1054,0.5598,Chile,2.0
+CHL,Gender,Female,721,1306,0.5521,Chile,2.0
+CHL,Gender,Male,429,1234,0.3476,Chile,2.0
+CHL,Social Status,High,356,484,0.7355,Chile,2.0
+CHL,Social Status,Low,114,392,0.2908,Chile,2.0
+CHL,Species,Hoomans,907,1254,0.7233,Chile,2.0
+CHL,Species,Pets,320,1255,0.255,Chile,2.0
+CHL,Utilitarian,Less,262,1275,0.2055,Chile,2.0
+CHL,Utilitarian,More,995,1361,0.7311,Chile,2.0
+CHN,Age,Old,199,750,0.2653,China,1.0
+CHN,Age,Young,431,695,0.6201,China,1.0
+CHN,Fitness,Fat,261,795,0.3283,China,1.0
+CHN,Fitness,Fit,284,617,0.4603,China,1.0
+CHN,Gender,Female,333,713,0.467,China,1.0
+CHN,Gender,Male,256,748,0.3422,China,1.0
+CHN,Social Status,High,184,291,0.6323,China,1.0
+CHN,Social Status,Low,56,239,0.2343,China,1.0
+CHN,Species,Hoomans,590,753,0.7835,China,1.0
+CHN,Species,Pets,106,732,0.1448,China,1.0
+CHN,Utilitarian,Less,169,846,0.1998,China,1.0
+CHN,Utilitarian,More,543,831,0.6534,China,1.0
+CIV,Age,Old,1,4,0.25,,
+CIV,Age,Young,7,8,0.875,,
+CIV,Fitness,Fat,3,7,0.4286,,
+CIV,Fitness,Fit,0,4,0.0,,
+CIV,Gender,Female,3,7,0.4286,,
+CIV,Gender,Male,5,12,0.4167,,
+CIV,Social Status,High,1,3,0.3333,,
+CIV,Social Status,Low,0,3,0.0,,
+CIV,Species,Hoomans,5,6,0.8333,,
+CIV,Species,Pets,0,5,0.0,,
+CIV,Utilitarian,Less,1,7,0.1429,,
+CIV,Utilitarian,More,5,8,0.625,,
+CMR,Age,Old,0,1,0.0,,
+CMR,Age,Young,2,3,0.6667,,
+CMR,Fitness,Fat,0,4,0.0,,
+CMR,Fitness,Fit,0,2,0.0,,
+CMR,Gender,Female,1,3,0.3333,,
+CMR,Gender,Male,1,2,0.5,,
+CMR,Social Status,High,0,1,0.0,,
+CMR,Social Status,Low,0,1,0.0,,
+CMR,Species,Hoomans,6,7,0.8571,,
+CMR,Species,Pets,1,1,1.0,,
+CMR,Utilitarian,Less,1,2,0.5,,
+CMR,Utilitarian,More,1,2,0.5,,
+COD,Fitness,Fat,1,1,1.0,,
+COD,Fitness,Fit,0,2,0.0,,
+COD,Gender,Male,1,1,1.0,,
+COD,Species,Hoomans,1,1,1.0,,
+COD,Species,Pets,0,2,0.0,,
+COD,Utilitarian,Less,0,5,0.0,,
+COD,Utilitarian,More,5,5,1.0,,
+COG,Age,Old,0,1,0.0,,
+COG,Age,Young,1,1,1.0,,
+COG,Gender,Female,1,1,1.0,,
+COG,Gender,Male,0,1,0.0,,
+COG,Social Status,High,0,1,0.0,,
+COG,Species,Hoomans,1,2,0.5,,
+COG,Species,Pets,0,1,0.0,,
+COK,Gender,Female,1,1,1.0,,
+COK,Social Status,Low,0,1,0.0,,
+COK,Species,Hoomans,1,1,1.0,,
+COK,Utilitarian,Less,0,1,0.0,,
+COK,Utilitarian,More,0,1,0.0,,
+COL,Age,Old,298,1290,0.231,Colombia,2.0
+COL,Age,Young,934,1228,0.7606,Colombia,2.0
+COL,Fitness,Fat,416,1226,0.3393,Colombia,2.0
+COL,Fitness,Fit,645,1092,0.5907,Colombia,2.0
+COL,Gender,Female,638,1201,0.5312,Colombia,2.0
+COL,Gender,Male,483,1248,0.387,Colombia,2.0
+COL,Social Status,High,389,497,0.7827,Colombia,2.0
+COL,Social Status,Low,101,362,0.279,Colombia,2.0
+COL,Species,Hoomans,878,1289,0.6811,Colombia,2.0
+COL,Species,Pets,400,1265,0.3162,Colombia,2.0
+COL,Utilitarian,Less,300,1355,0.2214,Colombia,2.0
+COL,Utilitarian,More,1027,1342,0.7653,Colombia,2.0
+COM,Age,Young,0,1,0.0,,
+COM,Gender,Female,1,1,1.0,,
+CPV,Age,Young,1,1,1.0,,
+CPV,Fitness,Fat,1,5,0.2,,
+CPV,Fitness,Fit,1,2,0.5,,
+CPV,Gender,Female,1,5,0.2,,
+CPV,Gender,Male,2,6,0.3333,,
+CPV,Social Status,High,1,2,0.5,,
+CPV,Social Status,Low,0,3,0.0,,
+CPV,Species,Hoomans,2,5,0.4,,
+CPV,Species,Pets,0,4,0.0,,
+CPV,Utilitarian,Less,0,2,0.0,,
+CPV,Utilitarian,More,5,5,1.0,,
+CRI,Age,Old,64,332,0.1928,Costa Rica,2.0
+CRI,Age,Young,196,272,0.7206,Costa Rica,2.0
+CRI,Fitness,Fat,128,334,0.3832,Costa Rica,2.0
+CRI,Fitness,Fit,140,216,0.6481,Costa Rica,2.0
+CRI,Gender,Female,199,350,0.5686,Costa Rica,2.0
+CRI,Gender,Male,111,322,0.3447,Costa Rica,2.0
+CRI,Social Status,High,70,110,0.6364,Costa Rica,2.0
+CRI,Social Status,Low,39,106,0.3679,Costa Rica,2.0
+CRI,Species,Hoomans,219,317,0.6909,Costa Rica,2.0
+CRI,Species,Pets,67,326,0.2055,Costa Rica,2.0
+CRI,Utilitarian,Less,69,309,0.2233,Costa Rica,2.0
+CRI,Utilitarian,More,241,334,0.7216,Costa Rica,2.0
+CUB,Age,Old,0,2,0.0,,
+CUB,Age,Young,3,4,0.75,,
+CUB,Fitness,Fat,0,5,0.0,,
+CUB,Fitness,Fit,1,2,0.5,,
+CUB,Gender,Female,1,2,0.5,,
+CUB,Gender,Male,0,4,0.0,,
+CUB,Social Status,High,1,1,1.0,,
+CUB,Social Status,Low,0,1,0.0,,
+CUB,Species,Hoomans,2,2,1.0,,
+CUB,Species,Pets,0,2,0.0,,
+CUB,Utilitarian,Less,0,3,0.0,,
+CUB,Utilitarian,More,0,1,0.0,,
+CUW,Age,Old,1,5,0.2,,
+CUW,Age,Young,9,11,0.8182,,
+CUW,Fitness,Fat,4,9,0.4444,,
+CUW,Fitness,Fit,0,2,0.0,,
+CUW,Gender,Female,1,3,0.3333,,
+CUW,Gender,Male,1,2,0.5,,
+CUW,Social Status,High,0,1,0.0,,
+CUW,Social Status,Low,0,2,0.0,,
+CUW,Species,Hoomans,6,8,0.75,,
+CUW,Species,Pets,1,8,0.125,,
+CUW,Utilitarian,Less,0,7,0.0,,
+CUW,Utilitarian,More,7,13,0.5385,,
+CYM,Age,Old,4,10,0.4,,
+CYM,Age,Young,8,9,0.8889,,
+CYM,Fitness,Fat,3,9,0.3333,,
+CYM,Fitness,Fit,5,8,0.625,,
+CYM,Gender,Female,6,7,0.8571,,
+CYM,Gender,Male,5,9,0.5556,,
+CYM,Social Status,High,2,7,0.2857,,
+CYM,Social Status,Low,0,2,0.0,,
+CYM,Species,Hoomans,7,8,0.875,,
+CYM,Species,Pets,0,10,0.0,,
+CYM,Utilitarian,Less,1,5,0.2,,
+CYM,Utilitarian,More,13,19,0.6842,,
+CYP,Age,Old,27,115,0.2348,Cyprus,0.0
+CYP,Age,Young,73,111,0.6577,Cyprus,0.0
+CYP,Fitness,Fat,34,111,0.3063,Cyprus,0.0
+CYP,Fitness,Fit,47,94,0.5,Cyprus,0.0
+CYP,Gender,Female,66,122,0.541,Cyprus,0.0
+CYP,Gender,Male,52,117,0.4444,Cyprus,0.0
+CYP,Social Status,High,34,48,0.7083,Cyprus,0.0
+CYP,Social Status,Low,7,34,0.2059,Cyprus,0.0
+CYP,Species,Hoomans,97,124,0.7823,Cyprus,0.0
+CYP,Species,Pets,16,103,0.1553,Cyprus,0.0
+CYP,Utilitarian,Less,16,104,0.1538,Cyprus,0.0
+CYP,Utilitarian,More,86,109,0.789,Cyprus,0.0
+CZE,Age,Old,1374,7100,0.1935,Czechia,2.0
+CZE,Age,Young,4915,6562,0.749,Czechia,2.0
+CZE,Fitness,Fat,2438,7091,0.3438,Czechia,2.0
+CZE,Fitness,Fit,3153,5734,0.5499,Czechia,2.0
+CZE,Gender,Female,3710,7165,0.5178,Czechia,2.0
+CZE,Gender,Male,2628,7087,0.3708,Czechia,2.0
+CZE,Social Status,High,1850,2598,0.7121,Czechia,2.0
+CZE,Social Status,Low,577,2207,0.2614,Czechia,2.0
+CZE,Species,Hoomans,5506,7059,0.78,Czechia,2.0
+CZE,Species,Pets,1336,7103,0.1881,Czechia,2.0
+CZE,Utilitarian,Less,1463,7433,0.1968,Czechia,2.0
+CZE,Utilitarian,More,5695,7619,0.7475,Czechia,2.0
+DEU,Age,Old,4518,22222,0.2033,Germany,0.0
+DEU,Age,Young,14761,20889,0.7066,Germany,0.0
+DEU,Fitness,Fat,7891,22304,0.3538,Germany,0.0
+DEU,Fitness,Fit,8832,17716,0.4985,Germany,0.0
+DEU,Gender,Female,10580,22258,0.4753,Germany,0.0
+DEU,Gender,Male,8015,22318,0.3591,Germany,0.0
+DEU,Social Status,High,5111,8329,0.6136,Germany,0.0
+DEU,Social Status,Low,2030,6769,0.2999,Germany,0.0
+DEU,Species,Hoomans,18037,22420,0.8045,Germany,0.0
+DEU,Species,Pets,3297,22416,0.1471,Germany,0.0
+DEU,Utilitarian,Less,4648,23443,0.1983,Germany,0.0
+DEU,Utilitarian,More,16946,23260,0.7285,Germany,0.0
+DJI,Age,Old,1,2,0.5,,
+DJI,Age,Young,2,3,0.6667,,
+DJI,Fitness,Fat,2,5,0.4,,
+DJI,Fitness,Fit,1,4,0.25,,
+DJI,Gender,Female,3,3,1.0,,
+DJI,Gender,Male,2,4,0.5,,
+DJI,Social Status,High,1,1,1.0,,
+DJI,Social Status,Low,0,1,0.0,,
+DJI,Species,Hoomans,3,3,1.0,,
+DJI,Species,Pets,0,2,0.0,,
+DJI,Utilitarian,Less,0,1,0.0,,
+DJI,Utilitarian,More,4,4,1.0,,
+DMA,Age,Old,0,3,0.0,,
+DMA,Age,Young,4,6,0.6667,,
+DMA,Fitness,Fat,2,7,0.2857,,
+DMA,Fitness,Fit,0,1,0.0,,
+DMA,Gender,Female,1,2,0.5,,
+DMA,Gender,Male,0,3,0.0,,
+DMA,Social Status,High,0,1,0.0,,
+DMA,Species,Hoomans,2,3,0.6667,,
+DMA,Species,Pets,0,1,0.0,,
+DMA,Utilitarian,Less,1,5,0.2,,
+DMA,Utilitarian,More,2,2,1.0,,
+DNK,Age,Old,560,2613,0.2143,Denmark,0.0
+DNK,Age,Young,1643,2290,0.7175,Denmark,0.0
+DNK,Fitness,Fat,908,2620,0.3466,Denmark,0.0
+DNK,Fitness,Fit,1019,2018,0.505,Denmark,0.0
+DNK,Gender,Female,1123,2564,0.438,Denmark,0.0
+DNK,Gender,Male,957,2568,0.3727,Denmark,0.0
+DNK,Social Status,High,573,885,0.6475,Denmark,0.0
+DNK,Social Status,Low,205,702,0.292,Denmark,0.0
+DNK,Species,Hoomans,2228,2662,0.837,Denmark,0.0
+DNK,Species,Pets,308,2555,0.1205,Denmark,0.0
+DNK,Utilitarian,Less,535,2721,0.1966,Denmark,0.0
+DNK,Utilitarian,More,1973,2723,0.7246,Denmark,0.0
+DOM,Age,Old,17,115,0.1478,Dominican Republic,2.0
+DOM,Age,Young,91,119,0.7647,Dominican Republic,2.0
+DOM,Fitness,Fat,37,112,0.3304,Dominican Republic,2.0
+DOM,Fitness,Fit,53,86,0.6163,Dominican Republic,2.0
+DOM,Gender,Female,88,142,0.6197,Dominican Republic,2.0
+DOM,Gender,Male,45,131,0.3435,Dominican Republic,2.0
+DOM,Social Status,High,26,42,0.619,Dominican Republic,2.0
+DOM,Social Status,Low,13,36,0.3611,Dominican Republic,2.0
+DOM,Species,Hoomans,93,129,0.7209,Dominican Republic,2.0
+DOM,Species,Pets,28,136,0.2059,Dominican Republic,2.0
+DOM,Utilitarian,Less,22,113,0.1947,Dominican Republic,2.0
+DOM,Utilitarian,More,103,140,0.7357,Dominican Republic,2.0
+DZA,Age,Old,35,142,0.2465,Algeria,2.0
+DZA,Age,Young,111,145,0.7655,Algeria,2.0
+DZA,Fitness,Fat,62,165,0.3758,Algeria,2.0
+DZA,Fitness,Fit,73,116,0.6293,Algeria,2.0
+DZA,Gender,Female,88,161,0.5466,Algeria,2.0
+DZA,Gender,Male,74,162,0.4568,Algeria,2.0
+DZA,Social Status,High,37,51,0.7255,Algeria,2.0
+DZA,Social Status,Low,18,49,0.3673,Algeria,2.0
+DZA,Species,Hoomans,134,167,0.8024,Algeria,2.0
+DZA,Species,Pets,31,163,0.1902,Algeria,2.0
+DZA,Utilitarian,Less,30,153,0.1961,Algeria,2.0
+DZA,Utilitarian,More,123,158,0.7785,Algeria,2.0
+ECU,Age,Old,45,213,0.2113,Ecuador,2.0
+ECU,Age,Young,173,227,0.7621,Ecuador,2.0
+ECU,Fitness,Fat,88,224,0.3929,Ecuador,2.0
+ECU,Fitness,Fit,89,154,0.5779,Ecuador,2.0
+ECU,Gender,Female,119,221,0.5385,Ecuador,2.0
+ECU,Gender,Male,66,194,0.3402,Ecuador,2.0
+ECU,Social Status,High,59,79,0.7468,Ecuador,2.0
+ECU,Social Status,Low,23,78,0.2949,Ecuador,2.0
+ECU,Species,Hoomans,165,244,0.6762,Ecuador,2.0
+ECU,Species,Pets,76,220,0.3455,Ecuador,2.0
+ECU,Utilitarian,Less,59,236,0.25,Ecuador,2.0
+ECU,Utilitarian,More,167,221,0.7557,Ecuador,2.0
+EGY,Age,Old,54,231,0.2338,Egypt,1.0
+EGY,Age,Young,174,232,0.75,Egypt,1.0
+EGY,Fitness,Fat,81,218,0.3716,Egypt,1.0
+EGY,Fitness,Fit,110,212,0.5189,Egypt,1.0
+EGY,Gender,Female,130,222,0.5856,Egypt,1.0
+EGY,Gender,Male,113,247,0.4575,Egypt,1.0
+EGY,Social Status,High,50,76,0.6579,Egypt,1.0
+EGY,Social Status,Low,27,75,0.36,Egypt,1.0
+EGY,Species,Hoomans,191,229,0.8341,Egypt,1.0
+EGY,Species,Pets,26,230,0.113,Egypt,1.0
+EGY,Utilitarian,Less,50,216,0.2315,Egypt,1.0
+EGY,Utilitarian,More,174,230,0.7565,Egypt,1.0
+ESP,Age,Old,1723,8411,0.2049,Spain,0.0
+ESP,Age,Young,5835,7864,0.742,Spain,0.0
+ESP,Fitness,Fat,3042,8468,0.3592,Spain,0.0
+ESP,Fitness,Fit,3522,6758,0.5212,Spain,0.0
+ESP,Gender,Female,4380,8522,0.514,Spain,0.0
+ESP,Gender,Male,3023,8467,0.357,Spain,0.0
+ESP,Social Status,High,2000,3036,0.6588,Spain,0.0
+ESP,Social Status,Low,782,2505,0.3122,Spain,0.0
+ESP,Species,Hoomans,6769,8491,0.7972,Spain,0.0
+ESP,Species,Pets,1519,8389,0.1811,Spain,0.0
+ESP,Utilitarian,Less,1880,8748,0.2149,Spain,0.0
+ESP,Utilitarian,More,6637,8908,0.7451,Spain,0.0
+EST,Age,Old,118,549,0.2149,Estonia,0.0
+EST,Age,Young,329,457,0.7199,Estonia,0.0
+EST,Fitness,Fat,183,540,0.3389,Estonia,0.0
+EST,Fitness,Fit,241,440,0.5477,Estonia,0.0
+EST,Gender,Female,272,527,0.5161,Estonia,0.0
+EST,Gender,Male,198,535,0.3701,Estonia,0.0
+EST,Social Status,High,139,212,0.6557,Estonia,0.0
+EST,Social Status,Low,48,168,0.2857,Estonia,0.0
+EST,Species,Hoomans,423,544,0.7776,Estonia,0.0
+EST,Species,Pets,99,564,0.1755,Estonia,0.0
+EST,Utilitarian,Less,129,587,0.2198,Estonia,0.0
+EST,Utilitarian,More,401,560,0.7161,Estonia,0.0
+ETH,Age,Old,1,1,1.0,,
+ETH,Age,Young,2,2,1.0,,
+ETH,Fitness,Fat,1,1,1.0,,
+ETH,Fitness,Fit,1,1,1.0,,
+ETH,Gender,Female,0,1,0.0,,
+ETH,Gender,Male,0,2,0.0,,
+ETH,Social Status,High,1,1,1.0,,
+ETH,Species,Hoomans,2,2,1.0,,
+ETH,Species,Pets,0,1,0.0,,
+ETH,Utilitarian,Less,0,1,0.0,,
+ETH,Utilitarian,More,2,3,0.6667,,
+FIN,Age,Old,852,3996,0.2132,Finland,0.0
+FIN,Age,Young,2698,3879,0.6955,Finland,0.0
+FIN,Fitness,Fat,1431,3972,0.3603,Finland,0.0
+FIN,Fitness,Fit,1631,3241,0.5032,Finland,0.0
+FIN,Gender,Female,1990,4040,0.4926,Finland,0.0
+FIN,Gender,Male,1521,4161,0.3655,Finland,0.0
+FIN,Social Status,High,956,1474,0.6486,Finland,0.0
+FIN,Social Status,Low,361,1226,0.2945,Finland,0.0
+FIN,Species,Hoomans,3220,4054,0.7943,Finland,0.0
+FIN,Species,Pets,667,4145,0.1609,Finland,0.0
+FIN,Utilitarian,Less,893,4171,0.2141,Finland,0.0
+FIN,Utilitarian,More,3081,4279,0.72,Finland,0.0
+FJI,Age,Old,1,7,0.1429,,
+FJI,Age,Young,5,5,1.0,,
+FJI,Fitness,Fit,1,3,0.3333,,
+FJI,Gender,Female,0,1,0.0,,
+FJI,Gender,Male,0,1,0.0,,
+FJI,Social Status,High,1,2,0.5,,
+FJI,Social Status,Low,0,2,0.0,,
+FJI,Species,Hoomans,2,7,0.2857,,
+FJI,Species,Pets,4,7,0.5714,,
+FJI,Utilitarian,Less,0,4,0.0,,
+FJI,Utilitarian,More,3,3,1.0,,
+FLK,Age,Young,1,1,1.0,,
+FLK,Fitness,Fit,0,1,0.0,,
+FLK,Species,Hoomans,0,1,0.0,,
+FRA,Age,Old,3265,19026,0.1716,France,2.0
+FRA,Age,Young,13921,17730,0.7852,France,2.0
+FRA,Fitness,Fat,6971,19283,0.3615,France,2.0
+FRA,Fitness,Fit,8199,15287,0.5363,France,2.0
+FRA,Gender,Female,10926,18978,0.5757,France,2.0
+FRA,Gender,Male,6198,19238,0.3222,France,2.0
+FRA,Social Status,High,5047,7067,0.7142,France,2.0
+FRA,Social Status,Low,1713,5866,0.292,France,2.0
+FRA,Species,Hoomans,15712,19351,0.8119,France,2.0
+FRA,Species,Pets,3226,19263,0.1675,France,2.0
+FRA,Utilitarian,Less,3704,20157,0.1838,France,2.0
+FRA,Utilitarian,More,15433,20025,0.7707,France,2.0
+FRO,Age,Old,1,18,0.0556,,
+FRO,Age,Young,1,2,0.5,,
+FRO,Fitness,Fat,4,9,0.4444,,
+FRO,Fitness,Fit,2,9,0.2222,,
+FRO,Gender,Female,5,13,0.3846,,
+FRO,Gender,Male,1,9,0.1111,,
+FRO,Social Status,High,4,7,0.5714,,
+FRO,Social Status,Low,3,4,0.75,,
+FRO,Species,Hoomans,9,10,0.9,,
+FRO,Species,Pets,1,5,0.2,,
+FRO,Utilitarian,Less,0,12,0.0,,
+FRO,Utilitarian,More,9,11,0.8182,,
+FSM,Gender,Female,0,1,0.0,,
+FSM,Social Status,High,1,1,1.0,,
+FSM,Species,Pets,0,1,0.0,,
+FSM,Utilitarian,Less,0,1,0.0,,
+GAB,Age,Old,0,2,0.0,,
+GAB,Age,Young,1,2,0.5,,
+GAB,Fitness,Fat,1,2,0.5,,
+GAB,Fitness,Fit,1,2,0.5,,
+GAB,Gender,Female,2,2,1.0,,
+GAB,Gender,Male,0,4,0.0,,
+GAB,Social Status,High,2,2,1.0,,
+GAB,Species,Hoomans,1,3,0.3333,,
+GAB,Species,Pets,2,4,0.5,,
+GAB,Utilitarian,Less,1,3,0.3333,,
+GAB,Utilitarian,More,1,3,0.3333,,
+GBR,Age,Old,3534,17945,0.1969,United Kingdom,0.0
+GBR,Age,Young,12094,16643,0.7267,United Kingdom,0.0
+GBR,Fitness,Fat,6039,17952,0.3364,United Kingdom,0.0
+GBR,Fitness,Fit,7793,14506,0.5372,United Kingdom,0.0
+GBR,Gender,Female,8412,17768,0.4734,United Kingdom,0.0
+GBR,Gender,Male,6598,17954,0.3675,United Kingdom,0.0
+GBR,Social Status,High,4185,6387,0.6552,United Kingdom,0.0
+GBR,Social Status,Low,1535,5451,0.2816,United Kingdom,0.0
+GBR,Species,Hoomans,14143,18026,0.7846,United Kingdom,0.0
+GBR,Species,Pets,3269,18089,0.1807,United Kingdom,0.0
+GBR,Utilitarian,Less,3469,18755,0.185,United Kingdom,0.0
+GBR,Utilitarian,More,14356,19016,0.7549,United Kingdom,0.0
+GEO,Age,Old,25,121,0.2066,Georgia,0.0
+GEO,Age,Young,76,111,0.6847,Georgia,0.0
+GEO,Fitness,Fat,50,129,0.3876,Georgia,0.0
+GEO,Fitness,Fit,58,102,0.5686,Georgia,0.0
+GEO,Gender,Female,44,99,0.4444,Georgia,0.0
+GEO,Gender,Male,49,114,0.4298,Georgia,0.0
+GEO,Social Status,High,26,35,0.7429,Georgia,0.0
+GEO,Social Status,Low,8,34,0.2353,Georgia,0.0
+GEO,Species,Hoomans,93,126,0.7381,Georgia,0.0
+GEO,Species,Pets,25,128,0.1953,Georgia,0.0
+GEO,Utilitarian,Less,26,115,0.2261,Georgia,0.0
+GEO,Utilitarian,More,88,124,0.7097,Georgia,0.0
+GGY,Age,Old,3,17,0.1765,Guernsey,2.0
+GGY,Age,Young,8,10,0.8,Guernsey,2.0
+GGY,Fitness,Fat,1,12,0.0833,Guernsey,2.0
+GGY,Fitness,Fit,7,10,0.7,Guernsey,2.0
+GGY,Gender,Female,12,19,0.6316,Guernsey,2.0
+GGY,Gender,Male,3,7,0.4286,Guernsey,2.0
+GGY,Social Status,High,3,3,1.0,Guernsey,2.0
+GGY,Social Status,Low,0,3,0.0,Guernsey,2.0
+GGY,Species,Hoomans,17,19,0.8947,Guernsey,2.0
+GGY,Species,Pets,3,9,0.3333,Guernsey,2.0
+GGY,Utilitarian,Less,3,11,0.2727,Guernsey,2.0
+GGY,Utilitarian,More,7,9,0.7778,Guernsey,2.0
+GHA,Age,Old,3,13,0.2308,,
+GHA,Age,Young,3,4,0.75,,
+GHA,Fitness,Fat,4,9,0.4444,,
+GHA,Fitness,Fit,2,5,0.4,,
+GHA,Gender,Female,7,10,0.7,,
+GHA,Gender,Male,4,11,0.3636,,
+GHA,Social Status,High,3,4,0.75,,
+GHA,Social Status,Low,1,3,0.3333,,
+GHA,Species,Hoomans,12,13,0.9231,,
+GHA,Species,Pets,2,14,0.1429,,
+GHA,Utilitarian,Less,0,8,0.0,,
+GHA,Utilitarian,More,6,9,0.6667,,
+GIB,Age,Old,3,13,0.2308,,
+GIB,Age,Young,8,9,0.8889,,
+GIB,Fitness,Fat,3,10,0.3,,
+GIB,Fitness,Fit,3,6,0.5,,
+GIB,Gender,Female,3,10,0.3,,
+GIB,Gender,Male,2,9,0.2222,,
+GIB,Social Status,High,2,5,0.4,,
+GIB,Social Status,Low,1,5,0.2,,
+GIB,Species,Hoomans,5,8,0.625,,
+GIB,Species,Pets,5,14,0.3571,,
+GIB,Utilitarian,Less,2,13,0.1538,,
+GIB,Utilitarian,More,10,13,0.7692,,
+GIN,Age,Old,0,3,0.0,,
+GIN,Fitness,Fat,2,3,0.6667,,
+GIN,Gender,Male,0,1,0.0,,
+GIN,Species,Pets,0,1,0.0,,
+GIN,Utilitarian,More,1,1,1.0,,
+GLP,Age,Old,2,10,0.2,,
+GLP,Age,Young,8,9,0.8889,,
+GLP,Fitness,Fat,5,12,0.4167,,
+GLP,Fitness,Fit,9,16,0.5625,,
+GLP,Gender,Female,6,11,0.5455,,
+GLP,Gender,Male,3,16,0.1875,,
+GLP,Social Status,High,4,5,0.8,,
+GLP,Social Status,Low,1,3,0.3333,,
+GLP,Species,Hoomans,8,9,0.8889,,
+GLP,Species,Pets,1,13,0.0769,,
+GLP,Utilitarian,Less,1,14,0.0714,,
+GLP,Utilitarian,More,8,14,0.5714,,
+GMB,Age,Old,0,1,0.0,,
+GMB,Gender,Male,2,2,1.0,,
+GMB,Social Status,High,0,1,0.0,,
+GMB,Species,Hoomans,1,2,0.5,,
+GMB,Utilitarian,More,1,1,1.0,,
+GNB,Age,Old,1,1,1.0,,
+GNB,Age,Young,1,1,1.0,,
+GNB,Gender,Female,1,1,1.0,,
+GNB,Social Status,Low,0,2,0.0,,
+GNQ,Fitness,Fit,1,1,1.0,,
+GRC,Age,Old,246,1164,0.2113,Greece,0.0
+GRC,Age,Young,826,1094,0.755,Greece,0.0
+GRC,Fitness,Fat,412,1140,0.3614,Greece,0.0
+GRC,Fitness,Fit,510,949,0.5374,Greece,0.0
+GRC,Gender,Female,593,1207,0.4913,Greece,0.0
+GRC,Gender,Male,451,1150,0.3922,Greece,0.0
+GRC,Social Status,High,287,425,0.6753,Greece,0.0
+GRC,Social Status,Low,123,345,0.3565,Greece,0.0
+GRC,Species,Hoomans,952,1160,0.8207,Greece,0.0
+GRC,Species,Pets,173,1144,0.1512,Greece,0.0
+GRC,Utilitarian,Less,266,1217,0.2186,Greece,0.0
+GRC,Utilitarian,More,879,1182,0.7437,Greece,0.0
+GRD,Age,Old,0,6,0.0,,
+GRD,Age,Young,1,1,1.0,,
+GRD,Fitness,Fat,1,2,0.5,,
+GRD,Fitness,Fit,3,3,1.0,,
+GRD,Gender,Female,2,5,0.4,,
+GRD,Gender,Male,0,1,0.0,,
+GRD,Social Status,High,1,1,1.0,,
+GRD,Social Status,Low,1,1,1.0,,
+GRD,Species,Hoomans,3,3,1.0,,
+GRD,Species,Pets,1,4,0.25,,
+GRD,Utilitarian,Less,2,6,0.3333,,
+GRD,Utilitarian,More,0,1,0.0,,
+GRL,Age,Old,0,3,0.0,,
+GRL,Age,Young,4,5,0.8,,
+GRL,Fitness,Fat,0,3,0.0,,
+GRL,Fitness,Fit,3,4,0.75,,
+GRL,Gender,Female,3,6,0.5,,
+GRL,Gender,Male,0,5,0.0,,
+GRL,Social Status,High,2,3,0.6667,,
+GRL,Social Status,Low,1,3,0.3333,,
+GRL,Species,Hoomans,6,8,0.75,,
+GRL,Species,Pets,3,5,0.6,,
+GRL,Utilitarian,Less,1,4,0.25,,
+GRL,Utilitarian,More,6,7,0.8571,,
+GTM,Age,Old,36,134,0.2687,Guatemala,2.0
+GTM,Age,Young,88,110,0.8,Guatemala,2.0
+GTM,Fitness,Fat,49,121,0.405,Guatemala,2.0
+GTM,Fitness,Fit,67,97,0.6907,Guatemala,2.0
+GTM,Gender,Female,70,125,0.56,Guatemala,2.0
+GTM,Gender,Male,51,125,0.408,Guatemala,2.0
+GTM,Social Status,High,38,56,0.6786,Guatemala,2.0
+GTM,Social Status,Low,8,42,0.1905,Guatemala,2.0
+GTM,Species,Hoomans,93,133,0.6992,Guatemala,2.0
+GTM,Species,Pets,23,131,0.1756,Guatemala,2.0
+GTM,Utilitarian,Less,25,125,0.2,Guatemala,2.0
+GTM,Utilitarian,More,91,133,0.6842,Guatemala,2.0
+GUF,Age,Old,2,10,0.2,,
+GUF,Age,Young,14,16,0.875,,
+GUF,Fitness,Fat,2,6,0.3333,,
+GUF,Fitness,Fit,4,10,0.4,,
+GUF,Gender,Female,13,17,0.7647,,
+GUF,Gender,Male,2,16,0.125,,
+GUF,Social Status,High,2,4,0.5,,
+GUF,Social Status,Low,0,1,0.0,,
+GUF,Species,Hoomans,6,10,0.6,,
+GUF,Species,Pets,2,10,0.2,,
+GUF,Utilitarian,Less,0,9,0.0,,
+GUF,Utilitarian,More,9,12,0.75,,
+GUM,Age,Old,3,17,0.1765,Guam,0.0
+GUM,Age,Young,16,27,0.5926,Guam,0.0
+GUM,Fitness,Fat,8,26,0.3077,Guam,0.0
+GUM,Fitness,Fit,18,27,0.6667,Guam,0.0
+GUM,Gender,Female,20,29,0.6897,Guam,0.0
+GUM,Gender,Male,8,25,0.32,Guam,0.0
+GUM,Social Status,High,3,6,0.5,Guam,0.0
+GUM,Social Status,Low,3,6,0.5,Guam,0.0
+GUM,Species,Hoomans,21,32,0.6562,Guam,0.0
+GUM,Species,Pets,4,23,0.1739,Guam,0.0
+GUM,Utilitarian,Less,4,23,0.1739,Guam,0.0
+GUM,Utilitarian,More,22,27,0.8148,Guam,0.0
+GUY,Age,Old,3,6,0.5,,
+GUY,Age,Young,3,5,0.6,,
+GUY,Fitness,Fat,1,3,0.3333,,
+GUY,Fitness,Fit,3,3,1.0,,
+GUY,Gender,Female,2,5,0.4,,
+GUY,Gender,Male,2,4,0.5,,
+GUY,Social Status,High,3,3,1.0,,
+GUY,Social Status,Low,0,1,0.0,,
+GUY,Species,Hoomans,6,7,0.8571,,
+GUY,Species,Pets,3,6,0.5,,
+GUY,Utilitarian,Less,2,5,0.4,,
+HKG,Age,Old,325,1236,0.2629,Hong Kong,1.0
+HKG,Age,Young,764,1178,0.6486,Hong Kong,1.0
+HKG,Fitness,Fat,427,1254,0.3405,Hong Kong,1.0
+HKG,Fitness,Fit,528,1017,0.5192,Hong Kong,1.0
+HKG,Gender,Female,570,1257,0.4535,Hong Kong,1.0
+HKG,Gender,Male,498,1309,0.3804,Hong Kong,1.0
+HKG,Social Status,High,294,453,0.649,Hong Kong,1.0
+HKG,Social Status,Low,118,376,0.3138,Hong Kong,1.0
+HKG,Species,Hoomans,966,1264,0.7642,Hong Kong,1.0
+HKG,Species,Pets,224,1180,0.1898,Hong Kong,1.0
+HKG,Utilitarian,Less,284,1278,0.2222,Hong Kong,1.0
+HKG,Utilitarian,More,905,1272,0.7115,Hong Kong,1.0
+HND,Age,Old,14,72,0.1944,Honduras,2.0
+HND,Age,Young,30,43,0.6977,Honduras,2.0
+HND,Fitness,Fat,11,40,0.275,Honduras,2.0
+HND,Fitness,Fit,17,38,0.4474,Honduras,2.0
+HND,Gender,Female,35,54,0.6481,Honduras,2.0
+HND,Gender,Male,13,41,0.3171,Honduras,2.0
+HND,Social Status,High,21,25,0.84,Honduras,2.0
+HND,Social Status,Low,4,18,0.2222,Honduras,2.0
+HND,Species,Hoomans,39,56,0.6964,Honduras,2.0
+HND,Species,Pets,13,50,0.26,Honduras,2.0
+HND,Utilitarian,Less,9,51,0.1765,Honduras,2.0
+HND,Utilitarian,More,34,48,0.7083,Honduras,2.0
+HRV,Age,Old,135,654,0.2064,Croatia,0.0
+HRV,Age,Young,428,565,0.7575,Croatia,0.0
+HRV,Fitness,Fat,205,609,0.3366,Croatia,0.0
+HRV,Fitness,Fit,299,526,0.5684,Croatia,0.0
+HRV,Gender,Female,313,614,0.5098,Croatia,0.0
+HRV,Gender,Male,234,635,0.3685,Croatia,0.0
+HRV,Social Status,High,157,229,0.6856,Croatia,0.0
+HRV,Social Status,Low,63,199,0.3166,Croatia,0.0
+HRV,Species,Hoomans,497,633,0.7852,Croatia,0.0
+HRV,Species,Pets,99,637,0.1554,Croatia,0.0
+HRV,Utilitarian,Less,114,655,0.174,Croatia,0.0
+HRV,Utilitarian,More,484,652,0.7423,Croatia,0.0
+HTI,Age,Old,0,3,0.0,,
+HTI,Age,Young,4,5,0.8,,
+HTI,Fitness,Fit,0,1,0.0,,
+HTI,Gender,Female,2,4,0.5,,
+HTI,Gender,Male,2,8,0.25,,
+HTI,Social Status,High,1,2,0.5,,
+HTI,Social Status,Low,0,1,0.0,,
+HTI,Species,Hoomans,1,1,1.0,,
+HTI,Species,Pets,0,3,0.0,,
+HTI,Utilitarian,Less,0,3,0.0,,
+HTI,Utilitarian,More,3,4,0.75,,
+HUN,Age,Old,1116,6098,0.183,Hungary,2.0
+HUN,Age,Young,4385,5893,0.7441,Hungary,2.0
+HUN,Fitness,Fat,2189,6273,0.349,Hungary,2.0
+HUN,Fitness,Fit,2668,4983,0.5354,Hungary,2.0
+HUN,Gender,Female,3306,6271,0.5272,Hungary,2.0
+HUN,Gender,Male,2182,6158,0.3543,Hungary,2.0
+HUN,Social Status,High,1568,2277,0.6886,Hungary,2.0
+HUN,Social Status,Low,521,1877,0.2776,Hungary,2.0
+HUN,Species,Hoomans,5167,6260,0.8254,Hungary,2.0
+HUN,Species,Pets,864,6234,0.1386,Hungary,2.0
+HUN,Utilitarian,Less,1177,6446,0.1826,Hungary,2.0
+HUN,Utilitarian,More,4866,6350,0.7663,Hungary,2.0
+IDN,Age,Old,262,933,0.2808,Indonesia,1.0
+IDN,Age,Young,583,857,0.6803,Indonesia,1.0
+IDN,Fitness,Fat,333,896,0.3717,Indonesia,1.0
+IDN,Fitness,Fit,380,694,0.5476,Indonesia,1.0
+IDN,Gender,Female,463,923,0.5016,Indonesia,1.0
+IDN,Gender,Male,358,927,0.3862,Indonesia,1.0
+IDN,Social Status,High,258,367,0.703,Indonesia,1.0
+IDN,Social Status,Low,81,269,0.3011,Indonesia,1.0
+IDN,Species,Hoomans,694,919,0.7552,Indonesia,1.0
+IDN,Species,Pets,172,914,0.1882,Indonesia,1.0
+IDN,Utilitarian,Less,210,929,0.226,Indonesia,1.0
+IDN,Utilitarian,More,716,963,0.7435,Indonesia,1.0
+IMN,Age,Old,3,25,0.12,Isle of Man,0.0
+IMN,Age,Young,15,19,0.7895,Isle of Man,0.0
+IMN,Fitness,Fat,6,26,0.2308,Isle of Man,0.0
+IMN,Fitness,Fit,7,19,0.3684,Isle of Man,0.0
+IMN,Gender,Female,8,19,0.4211,Isle of Man,0.0
+IMN,Gender,Male,9,17,0.5294,Isle of Man,0.0
+IMN,Social Status,High,2,5,0.4,Isle of Man,0.0
+IMN,Social Status,Low,0,2,0.0,Isle of Man,0.0
+IMN,Species,Hoomans,8,11,0.7273,Isle of Man,0.0
+IMN,Species,Pets,5,20,0.25,Isle of Man,0.0
+IMN,Utilitarian,Less,3,19,0.1579,Isle of Man,0.0
+IMN,Utilitarian,More,19,19,1.0,Isle of Man,0.0
+IND,Age,Old,381,1403,0.2716,India,1.0
+IND,Age,Young,947,1401,0.6759,India,1.0
+IND,Fitness,Fat,526,1369,0.3842,India,1.0
+IND,Fitness,Fit,585,1154,0.5069,India,1.0
+IND,Gender,Female,692,1407,0.4918,India,1.0
+IND,Gender,Male,492,1420,0.3465,India,1.0
+IND,Social Status,High,375,554,0.6769,India,1.0
+IND,Social Status,Low,126,413,0.3051,India,1.0
+IND,Species,Hoomans,1131,1494,0.757,India,1.0
+IND,Species,Pets,291,1463,0.1989,India,1.0
+IND,Utilitarian,Less,333,1490,0.2235,India,1.0
+IND,Utilitarian,More,1070,1468,0.7289,India,1.0
+IOT,Age,Old,1,1,1.0,,
+IOT,Utilitarian,Less,0,1,0.0,,
+IOT,Utilitarian,More,1,1,1.0,,
+IRL,Age,Old,274,1311,0.209,Ireland,0.0
+IRL,Age,Young,904,1239,0.7296,Ireland,0.0
+IRL,Fitness,Fat,446,1339,0.3331,Ireland,0.0
+IRL,Fitness,Fit,559,1088,0.5138,Ireland,0.0
+IRL,Gender,Female,606,1269,0.4775,Ireland,0.0
+IRL,Gender,Male,471,1305,0.3609,Ireland,0.0
+IRL,Social Status,High,304,482,0.6307,Ireland,0.0
+IRL,Social Status,Low,107,369,0.29,Ireland,0.0
+IRL,Species,Hoomans,1023,1289,0.7936,Ireland,0.0
+IRL,Species,Pets,217,1299,0.1671,Ireland,0.0
+IRL,Utilitarian,Less,275,1369,0.2009,Ireland,0.0
+IRL,Utilitarian,More,1041,1362,0.7643,Ireland,0.0
+IRN,Age,Old,28,126,0.2222,Iran,1.0
+IRN,Age,Young,96,129,0.7442,Iran,1.0
+IRN,Fitness,Fat,44,118,0.3729,Iran,1.0
+IRN,Fitness,Fit,55,108,0.5093,Iran,1.0
+IRN,Gender,Female,56,113,0.4956,Iran,1.0
+IRN,Gender,Male,62,148,0.4189,Iran,1.0
+IRN,Social Status,High,32,48,0.6667,Iran,1.0
+IRN,Social Status,Low,8,34,0.2353,Iran,1.0
+IRN,Species,Hoomans,113,132,0.8561,Iran,1.0
+IRN,Species,Pets,20,127,0.1575,Iran,1.0
+IRN,Utilitarian,Less,27,126,0.2143,Iran,1.0
+IRN,Utilitarian,More,91,121,0.7521,Iran,1.0
+IRQ,Age,Old,14,53,0.2642,Iraq,0.0
+IRQ,Age,Young,37,47,0.7872,Iraq,0.0
+IRQ,Fitness,Fat,27,63,0.4286,Iraq,0.0
+IRQ,Fitness,Fit,22,49,0.449,Iraq,0.0
+IRQ,Gender,Female,33,64,0.5156,Iraq,0.0
+IRQ,Gender,Male,24,55,0.4364,Iraq,0.0
+IRQ,Social Status,High,23,27,0.8519,Iraq,0.0
+IRQ,Social Status,Low,4,19,0.2105,Iraq,0.0
+IRQ,Species,Hoomans,47,57,0.8246,Iraq,0.0
+IRQ,Species,Pets,11,65,0.1692,Iraq,0.0
+IRQ,Utilitarian,Less,11,63,0.1746,Iraq,0.0
+IRQ,Utilitarian,More,31,42,0.7381,Iraq,0.0
+ISL,Age,Old,27,154,0.1753,Iceland,0.0
+ISL,Age,Young,115,160,0.7188,Iceland,0.0
+ISL,Fitness,Fat,55,169,0.3254,Iceland,0.0
+ISL,Fitness,Fit,59,118,0.5,Iceland,0.0
+ISL,Gender,Female,68,147,0.4626,Iceland,0.0
+ISL,Gender,Male,57,169,0.3373,Iceland,0.0
+ISL,Social Status,High,29,45,0.6444,Iceland,0.0
+ISL,Social Status,Low,20,70,0.2857,Iceland,0.0
+ISL,Species,Hoomans,124,160,0.775,Iceland,0.0
+ISL,Species,Pets,27,169,0.1598,Iceland,0.0
+ISL,Utilitarian,Less,23,176,0.1307,Iceland,0.0
+ISL,Utilitarian,More,115,158,0.7278,Iceland,0.0
+ISR,Age,Old,565,2378,0.2376,Israel,0.0
+ISR,Age,Young,1628,2223,0.7323,Israel,0.0
+ISR,Fitness,Fat,868,2348,0.3697,Israel,0.0
+ISR,Fitness,Fit,1024,1913,0.5353,Israel,0.0
+ISR,Gender,Female,1180,2368,0.4983,Israel,0.0
+ISR,Gender,Male,1017,2492,0.4081,Israel,0.0
+ISR,Social Status,High,629,884,0.7115,Israel,0.0
+ISR,Social Status,Low,220,716,0.3073,Israel,0.0
+ISR,Species,Hoomans,1800,2387,0.7541,Israel,0.0
+ISR,Species,Pets,535,2395,0.2234,Israel,0.0
+ISR,Utilitarian,Less,498,2588,0.1924,Israel,0.0
+ISR,Utilitarian,More,1894,2468,0.7674,Israel,0.0
+ITA,Age,Old,1519,8188,0.1855,Italy,0.0
+ITA,Age,Young,5981,7832,0.7637,Italy,0.0
+ITA,Fitness,Fat,2953,8335,0.3543,Italy,0.0
+ITA,Fitness,Fit,3638,6776,0.5369,Italy,0.0
+ITA,Gender,Female,4260,8355,0.5099,Italy,0.0
+ITA,Gender,Male,3054,8152,0.3746,Italy,0.0
+ITA,Social Status,High,2079,3013,0.69,Italy,0.0
+ITA,Social Status,Low,749,2496,0.3001,Italy,0.0
+ITA,Species,Hoomans,6838,8198,0.8341,Italy,0.0
+ITA,Species,Pets,1142,8210,0.1391,Italy,0.0
+ITA,Utilitarian,Less,1782,8824,0.2019,Italy,0.0
+ITA,Utilitarian,More,6369,8465,0.7524,Italy,0.0
+JAM,Age,Old,9,30,0.3,Jamaica,0.0
+JAM,Age,Young,28,35,0.8,Jamaica,0.0
+JAM,Fitness,Fat,6,24,0.25,Jamaica,0.0
+JAM,Fitness,Fit,17,34,0.5,Jamaica,0.0
+JAM,Gender,Female,20,30,0.6667,Jamaica,0.0
+JAM,Gender,Male,17,41,0.4146,Jamaica,0.0
+JAM,Social Status,High,17,24,0.7083,Jamaica,0.0
+JAM,Social Status,Low,4,10,0.4,Jamaica,0.0
+JAM,Species,Hoomans,23,28,0.8214,Jamaica,0.0
+JAM,Species,Pets,4,33,0.1212,Jamaica,0.0
+JAM,Utilitarian,Less,9,37,0.2432,Jamaica,0.0
+JAM,Utilitarian,More,32,43,0.7442,Jamaica,0.0
+JEY,Age,Old,7,26,0.2692,Jersey,0.0
+JEY,Age,Young,13,17,0.7647,Jersey,0.0
+JEY,Fitness,Fat,6,20,0.3,Jersey,0.0
+JEY,Fitness,Fit,11,21,0.5238,Jersey,0.0
+JEY,Gender,Female,10,21,0.4762,Jersey,0.0
+JEY,Gender,Male,5,20,0.25,Jersey,0.0
+JEY,Social Status,High,3,8,0.375,Jersey,0.0
+JEY,Social Status,Low,1,5,0.2,Jersey,0.0
+JEY,Species,Hoomans,15,21,0.7143,Jersey,0.0
+JEY,Species,Pets,6,22,0.2727,Jersey,0.0
+JEY,Utilitarian,Less,4,33,0.1212,Jersey,0.0
+JEY,Utilitarian,More,20,22,0.9091,Jersey,0.0
+JOR,Age,Old,44,180,0.2444,Jordan,1.0
+JOR,Age,Young,103,143,0.7203,Jordan,1.0
+JOR,Fitness,Fat,82,162,0.5062,Jordan,1.0
+JOR,Fitness,Fit,79,131,0.6031,Jordan,1.0
+JOR,Gender,Female,81,162,0.5,Jordan,1.0
+JOR,Gender,Male,76,181,0.4199,Jordan,1.0
+JOR,Social Status,High,51,66,0.7727,Jordan,1.0
+JOR,Social Status,Low,18,51,0.3529,Jordan,1.0
+JOR,Species,Hoomans,155,184,0.8424,Jordan,1.0
+JOR,Species,Pets,34,186,0.1828,Jordan,1.0
+JOR,Utilitarian,Less,41,185,0.2216,Jordan,1.0
+JOR,Utilitarian,More,137,178,0.7697,Jordan,1.0
+JPN,Age,Old,1868,7431,0.2514,Japan,1.0
+JPN,Age,Young,4712,6905,0.6824,Japan,1.0
+JPN,Fitness,Fat,2828,7474,0.3784,Japan,1.0
+JPN,Fitness,Fit,3001,5980,0.5018,Japan,1.0
+JPN,Gender,Female,3700,7419,0.4987,Japan,1.0
+JPN,Gender,Male,2804,7331,0.3825,Japan,1.0
+JPN,Social Status,High,1733,2672,0.6486,Japan,1.0
+JPN,Social Status,Low,650,2186,0.2973,Japan,1.0
+JPN,Species,Hoomans,5819,7443,0.7818,Japan,1.0
+JPN,Species,Pets,1310,7500,0.1747,Japan,1.0
+JPN,Utilitarian,Less,2008,7606,0.264,Japan,1.0
+JPN,Utilitarian,More,5290,7888,0.6706,Japan,1.0
+KAZ,Age,Old,50,240,0.2083,Kazakhstan,0.0
+KAZ,Age,Young,169,225,0.7511,Kazakhstan,0.0
+KAZ,Fitness,Fat,99,252,0.3929,Kazakhstan,0.0
+KAZ,Fitness,Fit,110,189,0.582,Kazakhstan,0.0
+KAZ,Gender,Female,119,247,0.4818,Kazakhstan,0.0
+KAZ,Gender,Male,105,259,0.4054,Kazakhstan,0.0
+KAZ,Social Status,High,61,87,0.7011,Kazakhstan,0.0
+KAZ,Social Status,Low,24,71,0.338,Kazakhstan,0.0
+KAZ,Species,Hoomans,179,248,0.7218,Kazakhstan,0.0
+KAZ,Species,Pets,54,257,0.2101,Kazakhstan,0.0
+KAZ,Utilitarian,Less,63,265,0.2377,Kazakhstan,0.0
+KAZ,Utilitarian,More,200,282,0.7092,Kazakhstan,0.0
+KEN,Age,Old,10,51,0.1961,Kenya,0.0
+KEN,Age,Young,24,33,0.7273,Kenya,0.0
+KEN,Fitness,Fat,19,44,0.4318,Kenya,0.0
+KEN,Fitness,Fit,12,30,0.4,Kenya,0.0
+KEN,Gender,Female,22,41,0.5366,Kenya,0.0
+KEN,Gender,Male,15,45,0.3333,Kenya,0.0
+KEN,Social Status,High,11,15,0.7333,Kenya,0.0
+KEN,Social Status,Low,5,12,0.4167,Kenya,0.0
+KEN,Species,Hoomans,37,40,0.925,Kenya,0.0
+KEN,Species,Pets,4,42,0.0952,Kenya,0.0
+KEN,Utilitarian,Less,7,43,0.1628,Kenya,0.0
+KEN,Utilitarian,More,27,41,0.6585,Kenya,0.0
+KGZ,Age,Old,6,31,0.1935,Kyrgyzstan,0.0
+KGZ,Age,Young,14,22,0.6364,Kyrgyzstan,0.0
+KGZ,Fitness,Fat,14,29,0.4828,Kyrgyzstan,0.0
+KGZ,Fitness,Fit,10,23,0.4348,Kyrgyzstan,0.0
+KGZ,Gender,Female,11,24,0.4583,Kyrgyzstan,0.0
+KGZ,Gender,Male,10,31,0.3226,Kyrgyzstan,0.0
+KGZ,Social Status,High,4,5,0.8,Kyrgyzstan,0.0
+KGZ,Social Status,Low,5,15,0.3333,Kyrgyzstan,0.0
+KGZ,Species,Hoomans,21,28,0.75,Kyrgyzstan,0.0
+KGZ,Species,Pets,10,39,0.2564,Kyrgyzstan,0.0
+KGZ,Utilitarian,Less,6,37,0.1622,Kyrgyzstan,0.0
+KGZ,Utilitarian,More,26,41,0.6341,Kyrgyzstan,0.0
+KHM,Age,Old,15,41,0.3659,Cambodia,1.0
+KHM,Age,Young,21,34,0.6176,Cambodia,1.0
+KHM,Fitness,Fat,13,34,0.3824,Cambodia,1.0
+KHM,Fitness,Fit,15,30,0.5,Cambodia,1.0
+KHM,Gender,Female,24,46,0.5217,Cambodia,1.0
+KHM,Gender,Male,14,35,0.4,Cambodia,1.0
+KHM,Social Status,High,8,16,0.5,Cambodia,1.0
+KHM,Social Status,Low,1,10,0.1,Cambodia,1.0
+KHM,Species,Hoomans,36,48,0.75,Cambodia,1.0
+KHM,Species,Pets,6,35,0.1714,Cambodia,1.0
+KHM,Utilitarian,Less,12,57,0.2105,Cambodia,1.0
+KHM,Utilitarian,More,23,36,0.6389,Cambodia,1.0
+KNA,Age,Old,0,1,0.0,,
+KNA,Age,Young,2,2,1.0,,
+KNA,Fitness,Fit,1,1,1.0,,
+KNA,Gender,Female,1,2,0.5,,
+KNA,Species,Hoomans,1,1,1.0,,
+KNA,Species,Pets,1,2,0.5,,
+KNA,Utilitarian,Less,0,1,0.0,,
+KOR,Age,Old,377,1444,0.2611,South Korea,1.0
+KOR,Age,Young,908,1341,0.6771,South Korea,1.0
+KOR,Fitness,Fat,586,1533,0.3823,South Korea,1.0
+KOR,Fitness,Fit,556,1106,0.5027,South Korea,1.0
+KOR,Gender,Female,756,1453,0.5203,South Korea,1.0
+KOR,Gender,Male,545,1518,0.359,South Korea,1.0
+KOR,Social Status,High,363,537,0.676,South Korea,1.0
+KOR,Social Status,Low,127,434,0.2926,South Korea,1.0
+KOR,Species,Hoomans,1263,1501,0.8414,South Korea,1.0
+KOR,Species,Pets,189,1478,0.1279,South Korea,1.0
+KOR,Utilitarian,Less,343,1465,0.2341,South Korea,1.0
+KOR,Utilitarian,More,1096,1551,0.7066,South Korea,1.0
+KWT,Age,Old,28,90,0.3111,Kuwait,1.0
+KWT,Age,Young,54,74,0.7297,Kuwait,1.0
+KWT,Fitness,Fat,29,78,0.3718,Kuwait,1.0
+KWT,Fitness,Fit,41,79,0.519,Kuwait,1.0
+KWT,Gender,Female,50,95,0.5263,Kuwait,1.0
+KWT,Gender,Male,28,76,0.3684,Kuwait,1.0
+KWT,Social Status,High,33,57,0.5789,Kuwait,1.0
+KWT,Social Status,Low,4,23,0.1739,Kuwait,1.0
+KWT,Species,Hoomans,73,94,0.7766,Kuwait,1.0
+KWT,Species,Pets,13,78,0.1667,Kuwait,1.0
+KWT,Utilitarian,Less,18,83,0.2169,Kuwait,1.0
+KWT,Utilitarian,More,53,83,0.6386,Kuwait,1.0
+LAO,Age,Old,5,9,0.5556,,
+LAO,Age,Young,7,9,0.7778,,
+LAO,Fitness,Fat,2,4,0.5,,
+LAO,Fitness,Fit,6,7,0.8571,,
+LAO,Gender,Female,1,6,0.1667,,
+LAO,Gender,Male,4,6,0.6667,,
+LAO,Social Status,High,2,3,0.6667,,
+LAO,Species,Hoomans,2,2,1.0,,
+LAO,Species,Pets,0,11,0.0,,
+LAO,Utilitarian,Less,2,8,0.25,,
+LAO,Utilitarian,More,5,5,1.0,,
+LBN,Age,Old,27,100,0.27,Lebanon,1.0
+LBN,Age,Young,73,100,0.73,Lebanon,1.0
+LBN,Fitness,Fat,52,109,0.4771,Lebanon,1.0
+LBN,Fitness,Fit,37,76,0.4868,Lebanon,1.0
+LBN,Gender,Female,52,118,0.4407,Lebanon,1.0
+LBN,Gender,Male,42,99,0.4242,Lebanon,1.0
+LBN,Social Status,High,24,30,0.8,Lebanon,1.0
+LBN,Social Status,Low,8,33,0.2424,Lebanon,1.0
+LBN,Species,Hoomans,86,114,0.7544,Lebanon,1.0
+LBN,Species,Pets,21,120,0.175,Lebanon,1.0
+LBN,Utilitarian,Less,20,84,0.2381,Lebanon,1.0
+LBN,Utilitarian,More,88,117,0.7521,Lebanon,1.0
+LBR,Age,Old,0,1,0.0,,
+LBR,Age,Young,1,1,1.0,,
+LBR,Fitness,Fat,2,5,0.4,,
+LBR,Gender,Male,2,2,1.0,,
+LBR,Social Status,High,1,1,1.0,,
+LBR,Social Status,Low,0,1,0.0,,
+LBR,Species,Hoomans,4,4,1.0,,
+LBR,Species,Pets,0,1,0.0,,
+LBR,Utilitarian,Less,1,1,1.0,,
+LBR,Utilitarian,More,3,3,1.0,,
+LBY,Age,Old,2,6,0.3333,,
+LBY,Age,Young,5,8,0.625,,
+LBY,Fitness,Fat,4,9,0.4444,,
+LBY,Fitness,Fit,3,6,0.5,,
+LBY,Gender,Female,3,6,0.5,,
+LBY,Gender,Male,2,5,0.4,,
+LBY,Social Status,High,2,2,1.0,,
+LBY,Social Status,Low,1,4,0.25,,
+LBY,Species,Hoomans,7,9,0.7778,,
+LBY,Species,Pets,0,9,0.0,,
+LBY,Utilitarian,Less,1,7,0.1429,,
+LBY,Utilitarian,More,3,7,0.4286,,
+LCA,Age,Old,1,3,0.3333,,
+LCA,Age,Young,3,3,1.0,,
+LCA,Fitness,Fat,2,4,0.5,,
+LCA,Fitness,Fit,3,4,0.75,,
+LCA,Gender,Female,1,1,1.0,,
+LCA,Gender,Male,0,2,0.0,,
+LCA,Social Status,High,1,1,1.0,,
+LCA,Social Status,Low,0,1,0.0,,
+LCA,Species,Pets,1,2,0.5,,
+LCA,Utilitarian,Less,1,5,0.2,,
+LCA,Utilitarian,More,1,1,1.0,,
+LIE,Age,Old,3,14,0.2143,,
+LIE,Age,Young,7,9,0.7778,,
+LIE,Fitness,Fat,4,12,0.3333,,
+LIE,Fitness,Fit,4,6,0.6667,,
+LIE,Gender,Female,7,13,0.5385,,
+LIE,Gender,Male,5,7,0.7143,,
+LIE,Social Status,High,3,4,0.75,,
+LIE,Species,Hoomans,8,10,0.8,,
+LIE,Species,Pets,4,12,0.3333,,
+LIE,Utilitarian,Less,7,14,0.5,,
+LIE,Utilitarian,More,8,11,0.7273,,
+LKA,Age,Old,16,56,0.2857,Sri Lanka,0.0
+LKA,Age,Young,29,45,0.6444,Sri Lanka,0.0
+LKA,Fitness,Fat,15,46,0.3261,Sri Lanka,0.0
+LKA,Fitness,Fit,29,53,0.5472,Sri Lanka,0.0
+LKA,Gender,Female,31,63,0.4921,Sri Lanka,0.0
+LKA,Gender,Male,17,44,0.3864,Sri Lanka,0.0
+LKA,Social Status,High,13,21,0.619,Sri Lanka,0.0
+LKA,Social Status,Low,3,17,0.1765,Sri Lanka,0.0
+LKA,Species,Hoomans,48,65,0.7385,Sri Lanka,0.0
+LKA,Species,Pets,10,54,0.1852,Sri Lanka,0.0
+LKA,Utilitarian,Less,14,59,0.2373,Sri Lanka,0.0
+LKA,Utilitarian,More,38,54,0.7037,Sri Lanka,0.0
+LSO,Age,Old,0,1,0.0,,
+LSO,Age,Young,1,2,0.5,,
+LSO,Fitness,Fat,0,1,0.0,,
+LSO,Gender,Female,1,1,1.0,,
+LSO,Gender,Male,1,2,0.5,,
+LSO,Species,Pets,0,2,0.0,,
+LTU,Age,Old,342,1681,0.2035,Lithuania,0.0
+LTU,Age,Young,1170,1573,0.7438,Lithuania,0.0
+LTU,Fitness,Fat,552,1702,0.3243,Lithuania,0.0
+LTU,Fitness,Fit,774,1352,0.5725,Lithuania,0.0
+LTU,Gender,Female,906,1728,0.5243,Lithuania,0.0
+LTU,Gender,Male,643,1668,0.3855,Lithuania,0.0
+LTU,Social Status,High,485,667,0.7271,Lithuania,0.0
+LTU,Social Status,Low,148,522,0.2835,Lithuania,0.0
+LTU,Species,Hoomans,1379,1716,0.8036,Lithuania,0.0
+LTU,Species,Pets,308,1694,0.1818,Lithuania,0.0
+LTU,Utilitarian,Less,334,1678,0.199,Lithuania,0.0
+LTU,Utilitarian,More,1373,1810,0.7586,Lithuania,0.0
+LUX,Age,Old,48,251,0.1912,Luxembourg,0.0
+LUX,Age,Young,158,228,0.693,Luxembourg,0.0
+LUX,Fitness,Fat,98,256,0.3828,Luxembourg,0.0
+LUX,Fitness,Fit,113,210,0.5381,Luxembourg,0.0
+LUX,Gender,Female,101,250,0.404,Luxembourg,0.0
+LUX,Gender,Male,85,255,0.3333,Luxembourg,0.0
+LUX,Social Status,High,44,95,0.4632,Luxembourg,0.0
+LUX,Social Status,Low,17,46,0.3696,Luxembourg,0.0
+LUX,Species,Hoomans,178,213,0.8357,Luxembourg,0.0
+LUX,Species,Pets,38,256,0.1484,Luxembourg,0.0
+LUX,Utilitarian,Less,43,245,0.1755,Luxembourg,0.0
+LUX,Utilitarian,More,192,261,0.7356,Luxembourg,0.0
+LVA,Age,Old,87,409,0.2127,Latvia,0.0
+LVA,Age,Young,286,411,0.6959,Latvia,0.0
+LVA,Fitness,Fat,138,421,0.3278,Latvia,0.0
+LVA,Fitness,Fit,209,380,0.55,Latvia,0.0
+LVA,Gender,Female,206,433,0.4758,Latvia,0.0
+LVA,Gender,Male,164,438,0.3744,Latvia,0.0
+LVA,Social Status,High,109,160,0.6813,Latvia,0.0
+LVA,Social Status,Low,31,128,0.2422,Latvia,0.0
+LVA,Species,Hoomans,337,442,0.7624,Latvia,0.0
+LVA,Species,Pets,73,413,0.1768,Latvia,0.0
+LVA,Utilitarian,Less,104,460,0.2261,Latvia,0.0
+LVA,Utilitarian,More,322,455,0.7077,Latvia,0.0
+MAC,Age,Old,7,30,0.2333,Macao,1.0
+MAC,Age,Young,11,17,0.6471,Macao,1.0
+MAC,Fitness,Fat,12,27,0.4444,Macao,1.0
+MAC,Fitness,Fit,20,36,0.5556,Macao,1.0
+MAC,Gender,Female,13,25,0.52,Macao,1.0
+MAC,Gender,Male,11,29,0.3793,Macao,1.0
+MAC,Social Status,High,11,13,0.8462,Macao,1.0
+MAC,Social Status,Low,4,8,0.5,Macao,1.0
+MAC,Species,Hoomans,23,34,0.6765,Macao,1.0
+MAC,Species,Pets,2,21,0.0952,Macao,1.0
+MAC,Utilitarian,Less,9,19,0.4737,Macao,1.0
+MAC,Utilitarian,More,20,34,0.5882,Macao,1.0
+MAF,Age,Old,0,3,0.0,,
+MAF,Age,Young,1,3,0.3333,,
+MAF,Fitness,Fit,1,3,0.3333,,
+MAF,Gender,Female,1,1,1.0,,
+MAF,Gender,Male,0,6,0.0,,
+MAF,Social Status,Low,1,1,1.0,,
+MAF,Species,Hoomans,4,5,0.8,,
+MAF,Utilitarian,Less,0,2,0.0,,
+MAR,Age,Old,57,246,0.2317,Morocco,2.0
+MAR,Age,Young,180,232,0.7759,Morocco,2.0
+MAR,Fitness,Fat,89,248,0.3589,Morocco,2.0
+MAR,Fitness,Fit,106,212,0.5,Morocco,2.0
+MAR,Gender,Female,117,235,0.4979,Morocco,2.0
+MAR,Gender,Male,100,238,0.4202,Morocco,2.0
+MAR,Social Status,High,52,80,0.65,Morocco,2.0
+MAR,Social Status,Low,20,76,0.2632,Morocco,2.0
+MAR,Species,Hoomans,226,266,0.8496,Morocco,2.0
+MAR,Species,Pets,39,253,0.1542,Morocco,2.0
+MAR,Utilitarian,Less,51,251,0.2032,Morocco,2.0
+MAR,Utilitarian,More,190,259,0.7336,Morocco,2.0
+MCO,Age,Old,4,15,0.2667,Monaco,0.0
+MCO,Age,Young,10,14,0.7143,Monaco,0.0
+MCO,Fitness,Fat,2,12,0.1667,Monaco,0.0
+MCO,Fitness,Fit,2,9,0.2222,Monaco,0.0
+MCO,Gender,Female,8,13,0.6154,Monaco,0.0
+MCO,Gender,Male,2,7,0.2857,Monaco,0.0
+MCO,Social Status,High,2,3,0.6667,Monaco,0.0
+MCO,Social Status,Low,3,7,0.4286,Monaco,0.0
+MCO,Species,Hoomans,14,16,0.875,Monaco,0.0
+MCO,Species,Pets,1,7,0.1429,Monaco,0.0
+MCO,Utilitarian,Less,2,8,0.25,Monaco,0.0
+MCO,Utilitarian,More,14,17,0.8235,Monaco,0.0
+MDA,Age,Old,26,107,0.243,Moldova,0.0
+MDA,Age,Young,71,106,0.6698,Moldova,0.0
+MDA,Fitness,Fat,46,116,0.3966,Moldova,0.0
+MDA,Fitness,Fit,47,89,0.5281,Moldova,0.0
+MDA,Gender,Female,54,101,0.5347,Moldova,0.0
+MDA,Gender,Male,49,125,0.392,Moldova,0.0
+MDA,Social Status,High,30,45,0.6667,Moldova,0.0
+MDA,Social Status,Low,5,24,0.2083,Moldova,0.0
+MDA,Species,Hoomans,103,129,0.7984,Moldova,0.0
+MDA,Species,Pets,17,103,0.165,Moldova,0.0
+MDA,Utilitarian,Less,23,108,0.213,Moldova,0.0
+MDA,Utilitarian,More,91,125,0.728,Moldova,0.0
+MDG,Age,Old,4,16,0.25,Madagascar,0.0
+MDG,Age,Young,6,11,0.5455,Madagascar,0.0
+MDG,Fitness,Fat,1,8,0.125,Madagascar,0.0
+MDG,Fitness,Fit,6,12,0.5,Madagascar,0.0
+MDG,Gender,Female,8,17,0.4706,Madagascar,0.0
+MDG,Gender,Male,3,12,0.25,Madagascar,0.0
+MDG,Social Status,High,3,4,0.75,Madagascar,0.0
+MDG,Social Status,Low,3,3,1.0,Madagascar,0.0
+MDG,Species,Hoomans,7,12,0.5833,Madagascar,0.0
+MDG,Species,Pets,2,12,0.1667,Madagascar,0.0
+MDG,Utilitarian,Less,1,6,0.1667,Madagascar,0.0
+MDG,Utilitarian,More,5,8,0.625,Madagascar,0.0
+MDV,Age,Old,1,7,0.1429,Maldives,2.0
+MDV,Age,Young,7,7,1.0,Maldives,2.0
+MDV,Fitness,Fat,7,17,0.4118,Maldives,2.0
+MDV,Fitness,Fit,2,9,0.2222,Maldives,2.0
+MDV,Gender,Female,8,15,0.5333,Maldives,2.0
+MDV,Gender,Male,3,19,0.1579,Maldives,2.0
+MDV,Social Status,High,5,5,1.0,Maldives,2.0
+MDV,Social Status,Low,3,5,0.6,Maldives,2.0
+MDV,Species,Hoomans,10,10,1.0,Maldives,2.0
+MDV,Species,Pets,2,16,0.125,Maldives,2.0
+MDV,Utilitarian,Less,5,22,0.2273,Maldives,2.0
+MDV,Utilitarian,More,6,10,0.6,Maldives,2.0
+MEX,Age,Old,679,3193,0.2127,Mexico,2.0
+MEX,Age,Young,2181,2945,0.7406,Mexico,2.0
+MEX,Fitness,Fat,1135,3075,0.3691,Mexico,2.0
+MEX,Fitness,Fit,1383,2478,0.5581,Mexico,2.0
+MEX,Gender,Female,1691,3118,0.5423,Mexico,2.0
+MEX,Gender,Male,1176,3107,0.3785,Mexico,2.0
+MEX,Social Status,High,878,1204,0.7292,Mexico,2.0
+MEX,Social Status,Low,265,910,0.2912,Mexico,2.0
+MEX,Species,Hoomans,2318,3186,0.7276,Mexico,2.0
+MEX,Species,Pets,730,3100,0.2355,Mexico,2.0
+MEX,Utilitarian,Less,729,3337,0.2185,Mexico,2.0
+MEX,Utilitarian,More,2483,3345,0.7423,Mexico,2.0
+MHL,Fitness,Fat,1,1,1.0,,
+MKD,Age,Old,76,322,0.236,Macedonia,1.0
+MKD,Age,Young,202,282,0.7163,Macedonia,1.0
+MKD,Fitness,Fat,95,282,0.3369,Macedonia,1.0
+MKD,Fitness,Fit,98,215,0.4558,Macedonia,1.0
+MKD,Gender,Female,131,294,0.4456,Macedonia,1.0
+MKD,Gender,Male,119,322,0.3696,Macedonia,1.0
+MKD,Social Status,High,69,100,0.69,Macedonia,1.0
+MKD,Social Status,Low,22,77,0.2857,Macedonia,1.0
+MKD,Species,Hoomans,249,317,0.7855,Macedonia,1.0
+MKD,Species,Pets,58,308,0.1883,Macedonia,1.0
+MKD,Utilitarian,Less,55,282,0.195,Macedonia,1.0
+MKD,Utilitarian,More,201,286,0.7028,Macedonia,1.0
+MLI,Gender,Female,0,2,0.0,,
+MLI,Gender,Male,2,2,1.0,,
+MLI,Social Status,High,1,1,1.0,,
+MLI,Species,Pets,0,1,0.0,,
+MLI,Utilitarian,More,0,2,0.0,,
+MLT,Age,Old,18,110,0.1636,Malta,2.0
+MLT,Age,Young,60,85,0.7059,Malta,2.0
+MLT,Fitness,Fat,27,90,0.3,Malta,2.0
+MLT,Fitness,Fit,37,71,0.5211,Malta,2.0
+MLT,Gender,Female,43,82,0.5244,Malta,2.0
+MLT,Gender,Male,44,107,0.4112,Malta,2.0
+MLT,Social Status,High,27,38,0.7105,Malta,2.0
+MLT,Social Status,Low,13,33,0.3939,Malta,2.0
+MLT,Species,Hoomans,71,91,0.7802,Malta,2.0
+MLT,Species,Pets,15,84,0.1786,Malta,2.0
+MLT,Utilitarian,Less,22,103,0.2136,Malta,2.0
+MLT,Utilitarian,More,79,95,0.8316,Malta,2.0
+MMR,Age,Old,4,24,0.1667,Myanmar,0.0
+MMR,Age,Young,17,22,0.7727,Myanmar,0.0
+MMR,Fitness,Fat,11,20,0.55,Myanmar,0.0
+MMR,Fitness,Fit,11,18,0.6111,Myanmar,0.0
+MMR,Gender,Female,11,22,0.5,Myanmar,0.0
+MMR,Gender,Male,5,15,0.3333,Myanmar,0.0
+MMR,Social Status,High,5,12,0.4167,Myanmar,0.0
+MMR,Social Status,Low,1,11,0.0909,Myanmar,0.0
+MMR,Species,Hoomans,11,18,0.6111,Myanmar,0.0
+MMR,Species,Pets,13,31,0.4194,Myanmar,0.0
+MMR,Utilitarian,Less,3,23,0.1304,Myanmar,0.0
+MMR,Utilitarian,More,25,31,0.8065,Myanmar,0.0
+MNE,Age,Old,10,50,0.2,Montenegro,0.0
+MNE,Age,Young,8,13,0.6154,Montenegro,0.0
+MNE,Fitness,Fat,17,35,0.4857,Montenegro,0.0
+MNE,Fitness,Fit,13,23,0.5652,Montenegro,0.0
+MNE,Gender,Female,24,37,0.6486,Montenegro,0.0
+MNE,Gender,Male,14,37,0.3784,Montenegro,0.0
+MNE,Social Status,High,4,8,0.5,Montenegro,0.0
+MNE,Social Status,Low,3,10,0.3,Montenegro,0.0
+MNE,Species,Hoomans,30,39,0.7692,Montenegro,0.0
+MNE,Species,Pets,3,31,0.0968,Montenegro,0.0
+MNE,Utilitarian,Less,12,38,0.3158,Montenegro,0.0
+MNE,Utilitarian,More,33,43,0.7674,Montenegro,0.0
+MNG,Age,Old,6,39,0.1538,Mongolia,2.0
+MNG,Age,Young,13,26,0.5,Mongolia,2.0
+MNG,Fitness,Fat,8,37,0.2162,Mongolia,2.0
+MNG,Fitness,Fit,19,27,0.7037,Mongolia,2.0
+MNG,Gender,Female,28,48,0.5833,Mongolia,2.0
+MNG,Gender,Male,11,29,0.3793,Mongolia,2.0
+MNG,Social Status,High,7,13,0.5385,Mongolia,2.0
+MNG,Social Status,Low,1,11,0.0909,Mongolia,2.0
+MNG,Species,Hoomans,37,39,0.9487,Mongolia,2.0
+MNG,Species,Pets,8,42,0.1905,Mongolia,2.0
+MNG,Utilitarian,Less,10,35,0.2857,Mongolia,2.0
+MNG,Utilitarian,More,28,35,0.8,Mongolia,2.0
+MNP,Age,Old,1,4,0.25,,
+MNP,Age,Young,4,5,0.8,,
+MNP,Fitness,Fit,2,3,0.6667,,
+MNP,Gender,Female,2,2,1.0,,
+MNP,Gender,Male,0,3,0.0,,
+MNP,Social Status,High,2,2,1.0,,
+MNP,Species,Hoomans,2,3,0.6667,,
+MNP,Species,Pets,0,1,0.0,,
+MNP,Utilitarian,Less,0,2,0.0,,
+MNP,Utilitarian,More,3,3,1.0,,
+MOZ,Age,Old,2,5,0.4,,
+MOZ,Age,Young,10,13,0.7692,,
+MOZ,Fitness,Fat,0,7,0.0,,
+MOZ,Fitness,Fit,4,6,0.6667,,
+MOZ,Gender,Female,4,6,0.6667,,
+MOZ,Gender,Male,1,5,0.2,,
+MOZ,Social Status,High,1,3,0.3333,,
+MOZ,Social Status,Low,1,1,1.0,,
+MOZ,Species,Hoomans,3,3,1.0,,
+MOZ,Species,Pets,1,8,0.125,,
+MOZ,Utilitarian,Less,3,10,0.3,,
+MOZ,Utilitarian,More,3,4,0.75,,
+MRT,Age,Old,1,1,1.0,,
+MRT,Age,Young,0,1,0.0,,
+MRT,Fitness,Fat,1,1,1.0,,
+MRT,Gender,Female,0,1,0.0,,
+MRT,Gender,Male,0,1,0.0,,
+MRT,Species,Hoomans,1,1,1.0,,
+MRT,Utilitarian,Less,0,1,0.0,,
+MRT,Utilitarian,More,1,3,0.3333,,
+MTQ,Age,Old,2,12,0.1667,Martinique,2.0
+MTQ,Age,Young,17,18,0.9444,Martinique,2.0
+MTQ,Fitness,Fat,8,12,0.6667,Martinique,2.0
+MTQ,Fitness,Fit,5,12,0.4167,Martinique,2.0
+MTQ,Gender,Female,2,10,0.2,Martinique,2.0
+MTQ,Gender,Male,8,16,0.5,Martinique,2.0
+MTQ,Social Status,High,3,5,0.6,Martinique,2.0
+MTQ,Social Status,Low,1,6,0.1667,Martinique,2.0
+MTQ,Species,Hoomans,18,21,0.8571,Martinique,2.0
+MTQ,Species,Pets,3,22,0.1364,Martinique,2.0
+MTQ,Utilitarian,Less,3,20,0.15,Martinique,2.0
+MTQ,Utilitarian,More,6,8,0.75,Martinique,2.0
+MUS,Age,Old,9,45,0.2,Mauritius,1.0
+MUS,Age,Young,24,34,0.7059,Mauritius,1.0
+MUS,Fitness,Fat,16,41,0.3902,Mauritius,1.0
+MUS,Fitness,Fit,18,31,0.5806,Mauritius,1.0
+MUS,Gender,Female,27,49,0.551,Mauritius,1.0
+MUS,Gender,Male,17,53,0.3208,Mauritius,1.0
+MUS,Social Status,High,11,17,0.6471,Mauritius,1.0
+MUS,Social Status,Low,7,17,0.4118,Mauritius,1.0
+MUS,Species,Hoomans,29,39,0.7436,Mauritius,1.0
+MUS,Species,Pets,7,38,0.1842,Mauritius,1.0
+MUS,Utilitarian,Less,6,35,0.1714,Mauritius,1.0
+MUS,Utilitarian,More,36,58,0.6207,Mauritius,1.0
+MWI,Age,Old,0,1,0.0,,
+MWI,Age,Young,0,2,0.0,,
+MWI,Fitness,Fat,3,5,0.6,,
+MWI,Fitness,Fit,0,2,0.0,,
+MWI,Gender,Female,4,6,0.6667,,
+MWI,Gender,Male,1,1,1.0,,
+MWI,Social Status,Low,0,1,0.0,,
+MWI,Species,Hoomans,4,5,0.8,,
+MWI,Species,Pets,0,4,0.0,,
+MWI,Utilitarian,Less,3,5,0.6,,
+MWI,Utilitarian,More,2,2,1.0,,
+MYS,Age,Old,211,762,0.2769,Malaysia,1.0
+MYS,Age,Young,474,680,0.6971,Malaysia,1.0
+MYS,Fitness,Fat,264,697,0.3788,Malaysia,1.0
+MYS,Fitness,Fit,354,644,0.5497,Malaysia,1.0
+MYS,Gender,Female,367,739,0.4966,Malaysia,1.0
+MYS,Gender,Male,271,739,0.3667,Malaysia,1.0
+MYS,Social Status,High,184,257,0.716,Malaysia,1.0
+MYS,Social Status,Low,88,250,0.352,Malaysia,1.0
+MYS,Species,Hoomans,569,802,0.7095,Malaysia,1.0
+MYS,Species,Pets,150,754,0.1989,Malaysia,1.0
+MYS,Utilitarian,Less,185,773,0.2393,Malaysia,1.0
+MYS,Utilitarian,More,568,789,0.7199,Malaysia,1.0
+MYT,Age,Old,0,4,0.0,,
+MYT,Age,Young,2,3,0.6667,,
+MYT,Fitness,Fat,4,6,0.6667,,
+MYT,Fitness,Fit,3,3,1.0,,
+MYT,Gender,Female,3,3,1.0,,
+MYT,Gender,Male,1,2,0.5,,
+MYT,Species,Hoomans,0,1,0.0,,
+MYT,Species,Pets,1,6,0.1667,,
+MYT,Utilitarian,Less,0,6,0.0,,
+MYT,Utilitarian,More,4,5,0.8,,
+NAM,Age,Old,2,4,0.5,,
+NAM,Age,Young,7,9,0.7778,,
+NAM,Fitness,Fat,3,5,0.6,,
+NAM,Fitness,Fit,4,5,0.8,,
+NAM,Gender,Female,5,7,0.7143,,
+NAM,Gender,Male,2,8,0.25,,
+NAM,Social Status,High,3,5,0.6,,
+NAM,Social Status,Low,1,5,0.2,,
+NAM,Species,Hoomans,4,7,0.5714,,
+NAM,Species,Pets,1,6,0.1667,,
+NAM,Utilitarian,Less,4,10,0.4,,
+NAM,Utilitarian,More,8,11,0.7273,,
+NCL,Age,Old,2,25,0.08,New Caledonia,2.0
+NCL,Age,Young,21,25,0.84,New Caledonia,2.0
+NCL,Fitness,Fat,8,20,0.4,New Caledonia,2.0
+NCL,Fitness,Fit,7,15,0.4667,New Caledonia,2.0
+NCL,Gender,Female,12,28,0.4286,New Caledonia,2.0
+NCL,Gender,Male,4,16,0.25,New Caledonia,2.0
+NCL,Social Status,High,5,9,0.5556,New Caledonia,2.0
+NCL,Social Status,Low,2,10,0.2,New Caledonia,2.0
+NCL,Species,Hoomans,23,27,0.8519,New Caledonia,2.0
+NCL,Species,Pets,3,32,0.0938,New Caledonia,2.0
+NCL,Utilitarian,Less,5,31,0.1613,New Caledonia,2.0
+NCL,Utilitarian,More,19,28,0.6786,New Caledonia,2.0
+NER,Age,Old,1,2,0.5,,
+NER,Species,Hoomans,2,2,1.0,,
+NER,Utilitarian,More,1,1,1.0,,
+NFK,Age,Young,0,1,0.0,,
+NFK,Fitness,Fit,1,1,1.0,,
+NFK,Gender,Male,0,1,0.0,,
+NFK,Social Status,High,1,1,1.0,,
+NFK,Species,Hoomans,1,1,1.0,,
+NFK,Species,Pets,0,1,0.0,,
+NFK,Utilitarian,Less,0,1,0.0,,
+NFK,Utilitarian,More,1,1,1.0,,
+NGA,Age,Old,2,14,0.1429,Nigeria,0.0
+NGA,Age,Young,15,19,0.7895,Nigeria,0.0
+NGA,Fitness,Fat,2,6,0.3333,Nigeria,0.0
+NGA,Fitness,Fit,6,12,0.5,Nigeria,0.0
+NGA,Gender,Female,7,18,0.3889,Nigeria,0.0
+NGA,Gender,Male,1,13,0.0769,Nigeria,0.0
+NGA,Social Status,High,10,10,1.0,Nigeria,0.0
+NGA,Social Status,Low,2,6,0.3333,Nigeria,0.0
+NGA,Species,Hoomans,10,12,0.8333,Nigeria,0.0
+NGA,Species,Pets,2,17,0.1176,Nigeria,0.0
+NGA,Utilitarian,Less,4,17,0.2353,Nigeria,0.0
+NGA,Utilitarian,More,14,16,0.875,Nigeria,0.0
+NIC,Age,Old,5,30,0.1667,Nicaragua,0.0
+NIC,Age,Young,19,24,0.7917,Nicaragua,0.0
+NIC,Fitness,Fat,13,36,0.3611,Nicaragua,0.0
+NIC,Fitness,Fit,13,20,0.65,Nicaragua,0.0
+NIC,Gender,Female,12,23,0.5217,Nicaragua,0.0
+NIC,Gender,Male,13,29,0.4483,Nicaragua,0.0
+NIC,Social Status,High,9,12,0.75,Nicaragua,0.0
+NIC,Social Status,Low,1,9,0.1111,Nicaragua,0.0
+NIC,Species,Hoomans,20,26,0.7692,Nicaragua,0.0
+NIC,Species,Pets,9,38,0.2368,Nicaragua,0.0
+NIC,Utilitarian,Less,5,29,0.1724,Nicaragua,0.0
+NIC,Utilitarian,More,17,20,0.85,Nicaragua,0.0
+NIU,Age,Young,1,1,1.0,,
+NLD,Age,Old,1101,5145,0.214,Netherlands,0.0
+NLD,Age,Young,3329,4695,0.7091,Netherlands,0.0
+NLD,Fitness,Fat,1688,5073,0.3327,Netherlands,0.0
+NLD,Fitness,Fit,2189,4243,0.5159,Netherlands,0.0
+NLD,Gender,Female,2326,5081,0.4578,Netherlands,0.0
+NLD,Gender,Male,1910,5128,0.3725,Netherlands,0.0
+NLD,Social Status,High,1238,1911,0.6478,Netherlands,0.0
+NLD,Social Status,Low,463,1576,0.2938,Netherlands,0.0
+NLD,Species,Hoomans,4109,5114,0.8035,Netherlands,0.0
+NLD,Species,Pets,820,5245,0.1563,Netherlands,0.0
+NLD,Utilitarian,Less,1071,5396,0.1985,Netherlands,0.0
+NLD,Utilitarian,More,3745,5088,0.736,Netherlands,0.0
+NOR,Age,Old,387,1936,0.1999,Norway,0.0
+NOR,Age,Young,1377,1909,0.7213,Norway,0.0
+NOR,Fitness,Fat,632,1909,0.3311,Norway,0.0
+NOR,Fitness,Fit,797,1572,0.507,Norway,0.0
+NOR,Gender,Female,961,1993,0.4822,Norway,0.0
+NOR,Gender,Male,742,2009,0.3693,Norway,0.0
+NOR,Social Status,High,479,764,0.627,Norway,0.0
+NOR,Social Status,Low,182,611,0.2979,Norway,0.0
+NOR,Species,Hoomans,1635,1979,0.8262,Norway,0.0
+NOR,Species,Pets,285,2037,0.1399,Norway,0.0
+NOR,Utilitarian,Less,391,2051,0.1906,Norway,0.0
+NOR,Utilitarian,More,1532,2080,0.7365,Norway,0.0
+NPL,Age,Old,4,19,0.2105,Nepal,1.0
+NPL,Age,Young,19,28,0.6786,Nepal,1.0
+NPL,Fitness,Fat,14,32,0.4375,Nepal,1.0
+NPL,Fitness,Fit,10,17,0.5882,Nepal,1.0
+NPL,Gender,Female,16,31,0.5161,Nepal,1.0
+NPL,Gender,Male,15,25,0.6,Nepal,1.0
+NPL,Social Status,High,3,8,0.375,Nepal,1.0
+NPL,Social Status,Low,5,15,0.3333,Nepal,1.0
+NPL,Species,Hoomans,30,35,0.8571,Nepal,1.0
+NPL,Species,Pets,9,37,0.2432,Nepal,1.0
+NPL,Utilitarian,Less,4,18,0.2222,Nepal,1.0
+NPL,Utilitarian,More,18,24,0.75,Nepal,1.0
+NZL,Age,Old,391,1971,0.1984,New Zealand,0.0
+NZL,Age,Young,1265,1784,0.7091,New Zealand,0.0
+NZL,Fitness,Fat,602,1928,0.3122,New Zealand,0.0
+NZL,Fitness,Fit,844,1607,0.5252,New Zealand,0.0
+NZL,Gender,Female,924,1888,0.4894,New Zealand,0.0
+NZL,Gender,Male,701,1986,0.353,New Zealand,0.0
+NZL,Social Status,High,439,695,0.6317,New Zealand,0.0
+NZL,Social Status,Low,166,575,0.2887,New Zealand,0.0
+NZL,Species,Hoomans,1570,1992,0.7882,New Zealand,0.0
+NZL,Species,Pets,345,1926,0.1791,New Zealand,0.0
+NZL,Utilitarian,Less,391,2033,0.1923,New Zealand,0.0
+NZL,Utilitarian,More,1516,2040,0.7431,New Zealand,0.0
+OMN,Age,Old,7,25,0.28,Oman,1.0
+OMN,Age,Young,16,26,0.6154,Oman,1.0
+OMN,Fitness,Fat,9,27,0.3333,Oman,1.0
+OMN,Fitness,Fit,7,21,0.3333,Oman,1.0
+OMN,Gender,Female,22,34,0.6471,Oman,1.0
+OMN,Gender,Male,11,27,0.4074,Oman,1.0
+OMN,Social Status,High,7,11,0.6364,Oman,1.0
+OMN,Social Status,Low,2,6,0.3333,Oman,1.0
+OMN,Species,Hoomans,24,28,0.8571,Oman,1.0
+OMN,Species,Pets,5,36,0.1389,Oman,1.0
+OMN,Utilitarian,Less,6,26,0.2308,Oman,1.0
+OMN,Utilitarian,More,20,25,0.8,Oman,1.0
+PAK,Age,Old,43,170,0.2529,Pakistan,1.0
+PAK,Age,Young,91,138,0.6594,Pakistan,1.0
+PAK,Fitness,Fat,78,200,0.39,Pakistan,1.0
+PAK,Fitness,Fit,57,121,0.4711,Pakistan,1.0
+PAK,Gender,Female,96,177,0.5424,Pakistan,1.0
+PAK,Gender,Male,61,147,0.415,Pakistan,1.0
+PAK,Social Status,High,36,55,0.6545,Pakistan,1.0
+PAK,Social Status,Low,26,63,0.4127,Pakistan,1.0
+PAK,Species,Hoomans,126,166,0.759,Pakistan,1.0
+PAK,Species,Pets,25,157,0.1592,Pakistan,1.0
+PAK,Utilitarian,Less,42,195,0.2154,Pakistan,1.0
+PAK,Utilitarian,More,139,176,0.7898,Pakistan,1.0
+PAN,Age,Old,20,85,0.2353,Panama,2.0
+PAN,Age,Young,46,74,0.6216,Panama,2.0
+PAN,Fitness,Fat,36,80,0.45,Panama,2.0
+PAN,Fitness,Fit,35,70,0.5,Panama,2.0
+PAN,Gender,Female,58,95,0.6105,Panama,2.0
+PAN,Gender,Male,28,83,0.3373,Panama,2.0
+PAN,Social Status,High,18,32,0.5625,Panama,2.0
+PAN,Social Status,Low,6,35,0.1714,Panama,2.0
+PAN,Species,Hoomans,63,84,0.75,Panama,2.0
+PAN,Species,Pets,17,87,0.1954,Panama,2.0
+PAN,Utilitarian,Less,21,88,0.2386,Panama,2.0
+PAN,Utilitarian,More,54,75,0.72,Panama,2.0
+PER,Age,Old,92,439,0.2096,Peru,2.0
+PER,Age,Young,315,430,0.7326,Peru,2.0
+PER,Fitness,Fat,161,454,0.3546,Peru,2.0
+PER,Fitness,Fit,203,345,0.5884,Peru,2.0
+PER,Gender,Female,237,447,0.5302,Peru,2.0
+PER,Gender,Male,158,431,0.3666,Peru,2.0
+PER,Social Status,High,110,157,0.7006,Peru,2.0
+PER,Social Status,Low,36,136,0.2647,Peru,2.0
+PER,Species,Hoomans,276,434,0.6359,Peru,2.0
+PER,Species,Pets,167,472,0.3538,Peru,2.0
+PER,Utilitarian,Less,94,459,0.2048,Peru,2.0
+PER,Utilitarian,More,321,441,0.7279,Peru,2.0
+PHL,Age,Old,296,1144,0.2587,Philippines,2.0
+PHL,Age,Young,730,1057,0.6906,Philippines,2.0
+PHL,Fitness,Fat,446,1112,0.4011,Philippines,2.0
+PHL,Fitness,Fit,479,927,0.5167,Philippines,2.0
+PHL,Gender,Female,619,1134,0.5459,Philippines,2.0
+PHL,Gender,Male,461,1171,0.3937,Philippines,2.0
+PHL,Social Status,High,308,434,0.7097,Philippines,2.0
+PHL,Social Status,Low,106,371,0.2857,Philippines,2.0
+PHL,Species,Hoomans,889,1199,0.7415,Philippines,2.0
+PHL,Species,Pets,265,1144,0.2316,Philippines,2.0
+PHL,Utilitarian,Less,289,1170,0.247,Philippines,2.0
+PHL,Utilitarian,More,833,1168,0.7132,Philippines,2.0
+PLW,Age,Young,0,1,0.0,,
+PLW,Gender,Male,0,1,0.0,,
+PLW,Species,Pets,0,1,0.0,,
+PNG,Age,Old,1,2,0.5,,
+PNG,Age,Young,0,1,0.0,,
+PNG,Fitness,Fat,0,2,0.0,,
+PNG,Fitness,Fit,0,1,0.0,,
+PNG,Gender,Female,1,2,0.5,,
+PNG,Gender,Male,1,3,0.3333,,
+PNG,Social Status,High,1,1,1.0,,
+PNG,Social Status,Low,0,1,0.0,,
+PNG,Species,Hoomans,2,2,1.0,,
+PNG,Species,Pets,0,2,0.0,,
+PNG,Utilitarian,Less,0,1,0.0,,
+PNG,Utilitarian,More,1,3,0.3333,,
+POL,Age,Old,1743,8339,0.209,Poland,0.0
+POL,Age,Young,5482,7772,0.7054,Poland,0.0
+POL,Fitness,Fat,2940,8224,0.3575,Poland,0.0
+POL,Fitness,Fit,3370,6493,0.519,Poland,0.0
+POL,Gender,Female,3971,8261,0.4807,Poland,0.0
+POL,Gender,Male,3122,8260,0.378,Poland,0.0
+POL,Social Status,High,2094,3033,0.6904,Poland,0.0
+POL,Social Status,Low,683,2477,0.2757,Poland,0.0
+POL,Species,Hoomans,6576,8187,0.8032,Poland,0.0
+POL,Species,Pets,1345,8284,0.1624,Poland,0.0
+POL,Utilitarian,Less,1866,8794,0.2122,Poland,0.0
+POL,Utilitarian,More,6253,8698,0.7189,Poland,0.0
+PRI,Age,Old,29,140,0.2071,Puerto Rico,2.0
+PRI,Age,Young,79,103,0.767,Puerto Rico,2.0
+PRI,Fitness,Fat,46,121,0.3802,Puerto Rico,2.0
+PRI,Fitness,Fit,54,93,0.5806,Puerto Rico,2.0
+PRI,Gender,Female,61,106,0.5755,Puerto Rico,2.0
+PRI,Gender,Male,49,115,0.4261,Puerto Rico,2.0
+PRI,Social Status,High,26,35,0.7429,Puerto Rico,2.0
+PRI,Social Status,Low,17,45,0.3778,Puerto Rico,2.0
+PRI,Species,Hoomans,95,120,0.7917,Puerto Rico,2.0
+PRI,Species,Pets,18,109,0.1651,Puerto Rico,2.0
+PRI,Utilitarian,Less,25,125,0.2,Puerto Rico,2.0
+PRI,Utilitarian,More,82,122,0.6721,Puerto Rico,2.0
+PRK,Fitness,Fat,1,1,1.0,,
+PRK,Gender,Female,0,1,0.0,,
+PRK,Gender,Male,0,1,0.0,,
+PRK,Social Status,Low,0,1,0.0,,
+PRK,Species,Hoomans,1,1,1.0,,
+PRK,Species,Pets,0,2,0.0,,
+PRK,Utilitarian,Less,0,1,0.0,,
+PRT,Age,Old,481,2396,0.2008,Portugal,0.0
+PRT,Age,Young,1657,2223,0.7454,Portugal,0.0
+PRT,Fitness,Fat,898,2441,0.3679,Portugal,0.0
+PRT,Fitness,Fit,976,1895,0.515,Portugal,0.0
+PRT,Gender,Female,1176,2349,0.5006,Portugal,0.0
+PRT,Gender,Male,830,2383,0.3483,Portugal,0.0
+PRT,Social Status,High,590,883,0.6682,Portugal,0.0
+PRT,Social Status,Low,207,683,0.3031,Portugal,0.0
+PRT,Species,Hoomans,1773,2343,0.7567,Portugal,0.0
+PRT,Species,Pets,516,2368,0.2179,Portugal,0.0
+PRT,Utilitarian,Less,513,2563,0.2002,Portugal,0.0
+PRT,Utilitarian,More,1890,2565,0.7368,Portugal,0.0
+PRY,Age,Old,15,68,0.2206,Paraguay,2.0
+PRY,Age,Young,47,69,0.6812,Paraguay,2.0
+PRY,Fitness,Fat,24,85,0.2824,Paraguay,2.0
+PRY,Fitness,Fit,36,68,0.5294,Paraguay,2.0
+PRY,Gender,Female,52,82,0.6341,Paraguay,2.0
+PRY,Gender,Male,23,83,0.2771,Paraguay,2.0
+PRY,Social Status,High,28,38,0.7368,Paraguay,2.0
+PRY,Social Status,Low,8,30,0.2667,Paraguay,2.0
+PRY,Species,Hoomans,72,98,0.7347,Paraguay,2.0
+PRY,Species,Pets,22,83,0.2651,Paraguay,2.0
+PRY,Utilitarian,Less,16,90,0.1778,Paraguay,2.0
+PRY,Utilitarian,More,66,84,0.7857,Paraguay,2.0
+PSE,Age,Old,14,51,0.2745,Palestinian Territory,1.0
+PSE,Age,Young,36,52,0.6923,Palestinian Territory,1.0
+PSE,Fitness,Fat,30,59,0.5085,Palestinian Territory,1.0
+PSE,Fitness,Fit,18,45,0.4,Palestinian Territory,1.0
+PSE,Gender,Female,27,53,0.5094,Palestinian Territory,1.0
+PSE,Gender,Male,29,67,0.4328,Palestinian Territory,1.0
+PSE,Social Status,High,22,26,0.8462,Palestinian Territory,1.0
+PSE,Social Status,Low,6,16,0.375,Palestinian Territory,1.0
+PSE,Species,Hoomans,43,58,0.7414,Palestinian Territory,1.0
+PSE,Species,Pets,12,59,0.2034,Palestinian Territory,1.0
+PSE,Utilitarian,Less,18,72,0.25,Palestinian Territory,1.0
+PSE,Utilitarian,More,44,57,0.7719,Palestinian Territory,1.0
+PYF,Age,Old,4,19,0.2105,French Polynesia,2.0
+PYF,Age,Young,17,21,0.8095,French Polynesia,2.0
+PYF,Fitness,Fat,7,21,0.3333,French Polynesia,2.0
+PYF,Fitness,Fit,8,14,0.5714,French Polynesia,2.0
+PYF,Gender,Female,11,15,0.7333,French Polynesia,2.0
+PYF,Gender,Male,6,18,0.3333,French Polynesia,2.0
+PYF,Social Status,High,4,4,1.0,French Polynesia,2.0
+PYF,Social Status,Low,1,5,0.2,French Polynesia,2.0
+PYF,Species,Hoomans,18,20,0.9,French Polynesia,2.0
+PYF,Species,Pets,3,24,0.125,French Polynesia,2.0
+PYF,Utilitarian,Less,8,29,0.2759,French Polynesia,2.0
+PYF,Utilitarian,More,12,15,0.8,French Polynesia,2.0
+QAT,Age,Old,21,91,0.2308,Qatar,0.0
+QAT,Age,Young,54,89,0.6067,Qatar,0.0
+QAT,Fitness,Fat,34,87,0.3908,Qatar,0.0
+QAT,Fitness,Fit,43,69,0.6232,Qatar,0.0
+QAT,Gender,Female,41,89,0.4607,Qatar,0.0
+QAT,Gender,Male,39,100,0.39,Qatar,0.0
+QAT,Social Status,High,18,29,0.6207,Qatar,0.0
+QAT,Social Status,Low,13,32,0.4062,Qatar,0.0
+QAT,Species,Hoomans,84,101,0.8317,Qatar,0.0
+QAT,Species,Pets,24,106,0.2264,Qatar,0.0
+QAT,Utilitarian,Less,20,106,0.1887,Qatar,0.0
+QAT,Utilitarian,More,76,103,0.7379,Qatar,0.0
+REU,Age,Old,18,77,0.2338,Reunion,2.0
+REU,Age,Young,63,77,0.8182,Reunion,2.0
+REU,Fitness,Fat,26,78,0.3333,Reunion,2.0
+REU,Fitness,Fit,39,68,0.5735,Reunion,2.0
+REU,Gender,Female,52,90,0.5778,Reunion,2.0
+REU,Gender,Male,19,66,0.2879,Reunion,2.0
+REU,Social Status,High,25,30,0.8333,Reunion,2.0
+REU,Social Status,Low,8,21,0.381,Reunion,2.0
+REU,Species,Hoomans,57,74,0.7703,Reunion,2.0
+REU,Species,Pets,15,79,0.1899,Reunion,2.0
+REU,Utilitarian,Less,14,63,0.2222,Reunion,2.0
+REU,Utilitarian,More,74,99,0.7475,Reunion,2.0
+ROU,Age,Old,420,2100,0.2,Romania,0.0
+ROU,Age,Young,1344,1859,0.723,Romania,0.0
+ROU,Fitness,Fat,723,2017,0.3585,Romania,0.0
+ROU,Fitness,Fit,903,1630,0.554,Romania,0.0
+ROU,Gender,Female,960,2057,0.4667,Romania,0.0
+ROU,Gender,Male,786,2034,0.3864,Romania,0.0
+ROU,Social Status,High,546,777,0.7027,Romania,0.0
+ROU,Social Status,Low,196,629,0.3116,Romania,0.0
+ROU,Species,Hoomans,1550,1997,0.7762,Romania,0.0
+ROU,Species,Pets,358,2112,0.1695,Romania,0.0
+ROU,Utilitarian,Less,459,2117,0.2168,Romania,0.0
+ROU,Utilitarian,More,1559,2155,0.7234,Romania,0.0
+RUS,Age,Old,2674,12122,0.2206,Russia,0.0
+RUS,Age,Young,7736,11192,0.6912,Russia,0.0
+RUS,Fitness,Fat,4302,12100,0.3555,Russia,0.0
+RUS,Fitness,Fit,5021,9608,0.5226,Russia,0.0
+RUS,Gender,Female,5366,12015,0.4466,Russia,0.0
+RUS,Gender,Male,4987,12147,0.4106,Russia,0.0
+RUS,Social Status,High,2920,4412,0.6618,Russia,0.0
+RUS,Social Status,Low,996,3659,0.2722,Russia,0.0
+RUS,Species,Hoomans,9373,11975,0.7827,Russia,0.0
+RUS,Species,Pets,1999,12201,0.1638,Russia,0.0
+RUS,Utilitarian,Less,2710,12464,0.2174,Russia,0.0
+RUS,Utilitarian,More,8970,12744,0.7039,Russia,0.0
+RWA,Age,Old,2,10,0.2,,
+RWA,Age,Young,2,2,1.0,,
+RWA,Fitness,Fat,0,3,0.0,,
+RWA,Fitness,Fit,2,6,0.3333,,
+RWA,Gender,Female,6,6,1.0,,
+RWA,Gender,Male,1,5,0.2,,
+RWA,Social Status,High,2,3,0.6667,,
+RWA,Species,Hoomans,7,8,0.875,,
+RWA,Species,Pets,1,6,0.1667,,
+RWA,Utilitarian,Less,2,11,0.1818,,
+RWA,Utilitarian,More,4,4,1.0,,
+SAU,Age,Old,137,513,0.2671,Saudi Arabia,1.0
+SAU,Age,Young,340,487,0.6982,Saudi Arabia,1.0
+SAU,Fitness,Fat,189,480,0.3937,Saudi Arabia,1.0
+SAU,Fitness,Fit,221,390,0.5667,Saudi Arabia,1.0
+SAU,Gender,Female,268,521,0.5144,Saudi Arabia,1.0
+SAU,Gender,Male,223,489,0.456,Saudi Arabia,1.0
+SAU,Social Status,High,131,188,0.6968,Saudi Arabia,1.0
+SAU,Social Status,Low,52,141,0.3688,Saudi Arabia,1.0
+SAU,Species,Hoomans,433,530,0.817,Saudi Arabia,1.0
+SAU,Species,Pets,92,512,0.1797,Saudi Arabia,1.0
+SAU,Utilitarian,Less,140,568,0.2465,Saudi Arabia,1.0
+SAU,Utilitarian,More,392,529,0.741,Saudi Arabia,1.0
+SDN,Age,Old,1,4,0.25,,
+SDN,Age,Young,1,3,0.3333,,
+SDN,Fitness,Fat,1,3,0.3333,,
+SDN,Fitness,Fit,6,6,1.0,,
+SDN,Gender,Female,4,6,0.6667,,
+SDN,Gender,Male,1,6,0.1667,,
+SDN,Social Status,High,2,5,0.4,,
+SDN,Social Status,Low,0,2,0.0,,
+SDN,Species,Hoomans,5,7,0.7143,,
+SDN,Species,Pets,1,7,0.1429,,
+SDN,Utilitarian,Less,2,5,0.4,,
+SDN,Utilitarian,More,4,6,0.6667,,
+SEN,Age,Old,5,11,0.4545,,
+SEN,Age,Young,5,5,1.0,,
+SEN,Fitness,Fat,2,10,0.2,,
+SEN,Fitness,Fit,3,7,0.4286,,
+SEN,Gender,Female,6,9,0.6667,,
+SEN,Gender,Male,5,12,0.4167,,
+SEN,Social Status,High,3,6,0.5,,
+SEN,Social Status,Low,1,5,0.2,,
+SEN,Species,Hoomans,9,10,0.9,,
+SEN,Species,Pets,1,9,0.1111,,
+SEN,Utilitarian,Less,1,9,0.1111,,
+SEN,Utilitarian,More,7,9,0.7778,,
+SGP,Age,Old,609,2571,0.2369,Singapore,0.0
+SGP,Age,Young,1647,2359,0.6982,Singapore,0.0
+SGP,Fitness,Fat,851,2541,0.3349,Singapore,0.0
+SGP,Fitness,Fit,1051,2038,0.5157,Singapore,0.0
+SGP,Gender,Female,1206,2528,0.4771,Singapore,0.0
+SGP,Gender,Male,898,2442,0.3677,Singapore,0.0
+SGP,Social Status,High,609,885,0.6881,Singapore,0.0
+SGP,Social Status,Low,246,780,0.3154,Singapore,0.0
+SGP,Species,Hoomans,2085,2621,0.7955,Singapore,0.0
+SGP,Species,Pets,402,2515,0.1598,Singapore,0.0
+SGP,Utilitarian,Less,525,2612,0.201,Singapore,0.0
+SGP,Utilitarian,More,1946,2650,0.7343,Singapore,0.0
+SLB,Age,Old,0,1,0.0,,
+SLB,Fitness,Fat,0,1,0.0,,
+SLB,Species,Pets,0,1,0.0,,
+SLE,Age,Old,0,1,0.0,,
+SLE,Age,Young,1,1,1.0,,
+SLE,Fitness,Fat,0,2,0.0,,
+SLE,Gender,Female,0,1,0.0,,
+SLE,Gender,Male,2,2,1.0,,
+SLE,Species,Pets,0,1,0.0,,
+SLV,Age,Old,14,65,0.2154,El Salvador,2.0
+SLV,Age,Young,41,59,0.6949,El Salvador,2.0
+SLV,Fitness,Fat,16,59,0.2712,El Salvador,2.0
+SLV,Fitness,Fit,24,46,0.5217,El Salvador,2.0
+SLV,Gender,Female,31,60,0.5167,El Salvador,2.0
+SLV,Gender,Male,17,54,0.3148,El Salvador,2.0
+SLV,Social Status,High,17,21,0.8095,El Salvador,2.0
+SLV,Social Status,Low,2,18,0.1111,El Salvador,2.0
+SLV,Species,Hoomans,49,67,0.7313,El Salvador,2.0
+SLV,Species,Pets,11,58,0.1897,El Salvador,2.0
+SLV,Utilitarian,Less,12,71,0.169,El Salvador,2.0
+SLV,Utilitarian,More,41,57,0.7193,El Salvador,2.0
+SMR,Age,Old,1,5,0.2,,
+SMR,Age,Young,6,7,0.8571,,
+SMR,Fitness,Fat,2,8,0.25,,
+SMR,Fitness,Fit,2,4,0.5,,
+SMR,Gender,Female,5,6,0.8333,,
+SMR,Gender,Male,5,7,0.7143,,
+SMR,Social Status,High,0,2,0.0,,
+SMR,Social Status,Low,1,2,0.5,,
+SMR,Species,Hoomans,5,6,0.8333,,
+SMR,Species,Pets,0,1,0.0,,
+SMR,Utilitarian,Less,2,7,0.2857,,
+SMR,Utilitarian,More,3,5,0.6,,
+SOM,Age,Old,0,1,0.0,,
+SOM,Fitness,Fat,1,2,0.5,,
+SOM,Fitness,Fit,1,2,0.5,,
+SOM,Gender,Male,2,2,1.0,,
+SOM,Species,Hoomans,1,1,1.0,,
+SOM,Species,Pets,0,3,0.0,,
+SOM,Utilitarian,Less,2,5,0.4,,
+SPM,Fitness,Fat,1,2,0.5,,
+SPM,Gender,Male,1,2,0.5,,
+SPM,Species,Hoomans,1,1,1.0,,
+SPM,Utilitarian,Less,0,1,0.0,,
+SPM,Utilitarian,More,2,2,1.0,,
+SRB,Age,Old,89,463,0.1922,Serbia,0.0
+SRB,Age,Young,334,454,0.7357,Serbia,0.0
+SRB,Fitness,Fat,156,485,0.3216,Serbia,0.0
+SRB,Fitness,Fit,215,376,0.5718,Serbia,0.0
+SRB,Gender,Female,227,484,0.469,Serbia,0.0
+SRB,Gender,Male,185,480,0.3854,Serbia,0.0
+SRB,Social Status,High,105,157,0.6688,Serbia,0.0
+SRB,Social Status,Low,45,158,0.2848,Serbia,0.0
+SRB,Species,Hoomans,349,457,0.7637,Serbia,0.0
+SRB,Species,Pets,100,477,0.2096,Serbia,0.0
+SRB,Utilitarian,Less,90,476,0.1891,Serbia,0.0
+SRB,Utilitarian,More,376,512,0.7344,Serbia,0.0
+STP,Age,Old,0,1,0.0,,
+STP,Age,Young,0,1,0.0,,
+STP,Fitness,Fat,0,1,0.0,,
+STP,Gender,Male,1,1,1.0,,
+STP,Utilitarian,Less,0,2,0.0,,
+STP,Utilitarian,More,0,1,0.0,,
+SUR,Age,Old,0,5,0.0,,
+SUR,Age,Young,6,8,0.75,,
+SUR,Fitness,Fat,0,6,0.0,,
+SUR,Fitness,Fit,1,6,0.1667,,
+SUR,Gender,Female,5,8,0.625,,
+SUR,Gender,Male,6,12,0.5,,
+SUR,Social Status,High,3,4,0.75,,
+SUR,Social Status,Low,0,3,0.0,,
+SUR,Species,Hoomans,3,5,0.6,,
+SUR,Species,Pets,0,5,0.0,,
+SUR,Utilitarian,Less,0,4,0.0,,
+SUR,Utilitarian,More,2,4,0.5,,
+SVK,Age,Old,397,2017,0.1968,Slovakia,2.0
+SVK,Age,Young,1407,1894,0.7429,Slovakia,2.0
+SVK,Fitness,Fat,684,1958,0.3493,Slovakia,2.0
+SVK,Fitness,Fit,812,1523,0.5332,Slovakia,2.0
+SVK,Gender,Female,1029,2011,0.5117,Slovakia,2.0
+SVK,Gender,Male,698,1983,0.352,Slovakia,2.0
+SVK,Social Status,High,543,763,0.7117,Slovakia,2.0
+SVK,Social Status,Low,143,604,0.2368,Slovakia,2.0
+SVK,Species,Hoomans,1594,1960,0.8133,Slovakia,2.0
+SVK,Species,Pets,305,1966,0.1551,Slovakia,2.0
+SVK,Utilitarian,Less,394,2000,0.197,Slovakia,2.0
+SVK,Utilitarian,More,1605,2135,0.7518,Slovakia,2.0
+SVN,Age,Old,75,350,0.2143,Slovenia,0.0
+SVN,Age,Young,200,288,0.6944,Slovenia,0.0
+SVN,Fitness,Fat,117,329,0.3556,Slovenia,0.0
+SVN,Fitness,Fit,141,293,0.4812,Slovenia,0.0
+SVN,Gender,Female,151,325,0.4646,Slovenia,0.0
+SVN,Gender,Male,115,340,0.3382,Slovenia,0.0
+SVN,Social Status,High,68,107,0.6355,Slovenia,0.0
+SVN,Social Status,Low,32,117,0.2735,Slovenia,0.0
+SVN,Species,Hoomans,260,334,0.7784,Slovenia,0.0
+SVN,Species,Pets,75,372,0.2016,Slovenia,0.0
+SVN,Utilitarian,Less,85,348,0.2443,Slovenia,0.0
+SVN,Utilitarian,More,247,342,0.7222,Slovenia,0.0
+SWE,Age,Old,1084,4998,0.2169,Sweden,0.0
+SWE,Age,Young,3276,4617,0.7096,Sweden,0.0
+SWE,Fitness,Fat,1770,4901,0.3612,Sweden,0.0
+SWE,Fitness,Fit,2060,3961,0.5201,Sweden,0.0
+SWE,Gender,Female,2327,4935,0.4715,Sweden,0.0
+SWE,Gender,Male,1724,4808,0.3586,Sweden,0.0
+SWE,Social Status,High,1154,1805,0.6393,Sweden,0.0
+SWE,Social Status,Low,445,1433,0.3105,Sweden,0.0
+SWE,Species,Hoomans,3784,4888,0.7741,Sweden,0.0
+SWE,Species,Pets,901,4890,0.1843,Sweden,0.0
+SWE,Utilitarian,Less,1023,5153,0.1985,Sweden,0.0
+SWE,Utilitarian,More,3757,5103,0.7362,Sweden,0.0
+SWZ,Age,Young,1,1,1.0,,
+SWZ,Fitness,Fit,1,1,1.0,,
+SXM,Age,Old,1,3,0.3333,,
+SXM,Age,Young,9,12,0.75,,
+SXM,Fitness,Fat,1,3,0.3333,,
+SXM,Fitness,Fit,6,7,0.8571,,
+SXM,Gender,Female,1,5,0.2,,
+SXM,Social Status,Low,1,2,0.5,,
+SXM,Species,Hoomans,1,1,1.0,,
+SXM,Species,Pets,0,6,0.0,,
+SXM,Utilitarian,Less,0,5,0.0,,
+SXM,Utilitarian,More,3,3,1.0,,
+SYC,Age,Old,0,1,0.0,,
+SYC,Age,Young,2,2,1.0,,
+SYC,Fitness,Fat,0,1,0.0,,
+SYC,Fitness,Fit,1,1,1.0,,
+SYC,Gender,Female,1,2,0.5,,
+SYC,Gender,Male,2,3,0.6667,,
+SYC,Social Status,High,1,2,0.5,,
+SYC,Social Status,Low,0,1,0.0,,
+SYC,Species,Hoomans,1,2,0.5,,
+SYC,Species,Pets,1,7,0.1429,,
+SYC,Utilitarian,Less,1,2,0.5,,
+SYC,Utilitarian,More,2,3,0.6667,,
+SYR,Age,Old,5,14,0.3571,Syria,0.0
+SYR,Age,Young,10,16,0.625,Syria,0.0
+SYR,Fitness,Fat,4,18,0.2222,Syria,0.0
+SYR,Fitness,Fit,11,20,0.55,Syria,0.0
+SYR,Gender,Female,10,22,0.4545,Syria,0.0
+SYR,Gender,Male,8,15,0.5333,Syria,0.0
+SYR,Social Status,High,7,8,0.875,Syria,0.0
+SYR,Social Status,Low,0,7,0.0,Syria,0.0
+SYR,Species,Hoomans,10,12,0.8333,Syria,0.0
+SYR,Species,Pets,5,19,0.2632,Syria,0.0
+SYR,Utilitarian,Less,2,14,0.1429,Syria,0.0
+SYR,Utilitarian,More,12,17,0.7059,Syria,0.0
+TCA,Age,Old,0,4,0.0,,
+TCA,Age,Young,1,1,1.0,,
+TCA,Fitness,Fat,0,5,0.0,,
+TCA,Fitness,Fit,0,1,0.0,,
+TCA,Gender,Male,0,5,0.0,,
+TCA,Social Status,High,0,1,0.0,,
+TCA,Social Status,Low,1,2,0.5,,
+TCA,Species,Pets,0,2,0.0,,
+TCA,Utilitarian,Less,1,2,0.5,,
+TCA,Utilitarian,More,1,2,0.5,,
+TGO,Age,Young,2,2,1.0,,
+TGO,Fitness,Fat,1,1,1.0,,
+TGO,Fitness,Fit,0,1,0.0,,
+TGO,Gender,Female,0,1,0.0,,
+TGO,Gender,Male,0,1,0.0,,
+TGO,Social Status,Low,1,1,1.0,,
+TGO,Species,Hoomans,1,1,1.0,,
+TGO,Utilitarian,More,1,2,0.5,,
+THA,Age,Old,254,924,0.2749,Thailand,1.0
+THA,Age,Young,556,856,0.6495,Thailand,1.0
+THA,Fitness,Fat,340,904,0.3761,Thailand,1.0
+THA,Fitness,Fit,358,762,0.4698,Thailand,1.0
+THA,Gender,Female,457,940,0.4862,Thailand,1.0
+THA,Gender,Male,337,910,0.3703,Thailand,1.0
+THA,Social Status,High,223,341,0.654,Thailand,1.0
+THA,Social Status,Low,85,273,0.3114,Thailand,1.0
+THA,Species,Hoomans,731,940,0.7777,Thailand,1.0
+THA,Species,Pets,135,886,0.1524,Thailand,1.0
+THA,Utilitarian,Less,223,967,0.2306,Thailand,1.0
+THA,Utilitarian,More,625,962,0.6497,Thailand,1.0
+TJK,Age,Old,1,3,0.3333,,
+TJK,Age,Young,1,1,1.0,,
+TJK,Fitness,Fat,1,2,0.5,,
+TJK,Fitness,Fit,0,1,0.0,,
+TJK,Gender,Female,1,3,0.3333,,
+TJK,Gender,Male,0,2,0.0,,
+TJK,Social Status,High,0,2,0.0,,
+TJK,Species,Hoomans,3,3,1.0,,
+TJK,Species,Pets,0,2,0.0,,
+TJK,Utilitarian,Less,0,2,0.0,,
+TJK,Utilitarian,More,0,1,0.0,,
+TKM,Age,Old,0,1,0.0,,
+TKM,Age,Young,0,1,0.0,,
+TKM,Utilitarian,Less,2,2,1.0,,
+TKM,Utilitarian,More,1,2,0.5,,
+TLS,Age,Old,0,2,0.0,,
+TLS,Age,Young,1,2,0.5,,
+TLS,Fitness,Fat,1,1,1.0,,
+TLS,Fitness,Fit,0,2,0.0,,
+TLS,Gender,Male,2,4,0.5,,
+TLS,Social Status,High,0,1,0.0,,
+TLS,Species,Hoomans,1,1,1.0,,
+TLS,Utilitarian,Less,0,2,0.0,,
+TLS,Utilitarian,More,0,2,0.0,,
+TON,Age,Old,1,1,1.0,,
+TON,Social Status,Low,0,1,0.0,,
+TON,Species,Pets,1,1,1.0,,
+TON,Utilitarian,More,0,1,0.0,,
+TTO,Age,Old,9,43,0.2093,Trinidad and Tobago,0.0
+TTO,Age,Young,41,58,0.7069,Trinidad and Tobago,0.0
+TTO,Fitness,Fat,26,61,0.4262,Trinidad and Tobago,0.0
+TTO,Fitness,Fit,31,46,0.6739,Trinidad and Tobago,0.0
+TTO,Gender,Female,35,64,0.5469,Trinidad and Tobago,0.0
+TTO,Gender,Male,14,47,0.2979,Trinidad and Tobago,0.0
+TTO,Social Status,High,15,19,0.7895,Trinidad and Tobago,0.0
+TTO,Social Status,Low,4,21,0.1905,Trinidad and Tobago,0.0
+TTO,Species,Hoomans,35,47,0.7447,Trinidad and Tobago,0.0
+TTO,Species,Pets,19,57,0.3333,Trinidad and Tobago,0.0
+TTO,Utilitarian,Less,8,45,0.1778,Trinidad and Tobago,0.0
+TTO,Utilitarian,More,56,69,0.8116,Trinidad and Tobago,0.0
+TUN,Age,Old,25,108,0.2315,Tunisia,0.0
+TUN,Age,Young,70,109,0.6422,Tunisia,0.0
+TUN,Fitness,Fat,31,101,0.3069,Tunisia,0.0
+TUN,Fitness,Fit,44,81,0.5432,Tunisia,0.0
+TUN,Gender,Female,62,116,0.5345,Tunisia,0.0
+TUN,Gender,Male,44,106,0.4151,Tunisia,0.0
+TUN,Social Status,High,28,38,0.7368,Tunisia,0.0
+TUN,Social Status,Low,15,37,0.4054,Tunisia,0.0
+TUN,Species,Hoomans,107,135,0.7926,Tunisia,0.0
+TUN,Species,Pets,22,112,0.1964,Tunisia,0.0
+TUN,Utilitarian,Less,29,124,0.2339,Tunisia,0.0
+TUN,Utilitarian,More,116,157,0.7389,Tunisia,0.0
+TUR,Age,Old,1982,8676,0.2284,Turkey,2.0
+TUR,Age,Young,6031,8014,0.7526,Turkey,2.0
+TUR,Fitness,Fat,3240,8711,0.3719,Turkey,2.0
+TUR,Fitness,Fit,4019,7033,0.5714,Turkey,2.0
+TUR,Gender,Female,4545,8535,0.5325,Turkey,2.0
+TUR,Gender,Male,3529,8760,0.4029,Turkey,2.0
+TUR,Social Status,High,2303,3234,0.7121,Turkey,2.0
+TUR,Social Status,Low,857,2629,0.326,Turkey,2.0
+TUR,Species,Hoomans,6093,8766,0.6951,Turkey,2.0
+TUR,Species,Pets,2674,8793,0.3041,Turkey,2.0
+TUR,Utilitarian,Less,2281,9178,0.2485,Turkey,2.0
+TUR,Utilitarian,More,6860,9376,0.7317,Turkey,2.0
+TWN,Age,Old,408,1641,0.2486,Taiwan,1.0
+TWN,Age,Young,980,1501,0.6529,Taiwan,1.0
+TWN,Fitness,Fat,632,1637,0.3861,Taiwan,1.0
+TWN,Fitness,Fit,701,1311,0.5347,Taiwan,1.0
+TWN,Gender,Female,751,1613,0.4656,Taiwan,1.0
+TWN,Gender,Male,594,1628,0.3649,Taiwan,1.0
+TWN,Social Status,High,377,589,0.6401,Taiwan,1.0
+TWN,Social Status,Low,144,459,0.3137,Taiwan,1.0
+TWN,Species,Hoomans,1207,1614,0.7478,Taiwan,1.0
+TWN,Species,Pets,311,1630,0.1908,Taiwan,1.0
+TWN,Utilitarian,Less,393,1667,0.2358,Taiwan,1.0
+TWN,Utilitarian,More,1169,1746,0.6695,Taiwan,1.0
+TZA,Age,Old,4,10,0.4,,
+TZA,Age,Young,9,10,0.9,,
+TZA,Fitness,Fat,3,9,0.3333,,
+TZA,Fitness,Fit,2,11,0.1818,,
+TZA,Gender,Female,7,11,0.6364,,
+TZA,Gender,Male,5,11,0.4545,,
+TZA,Social Status,High,3,4,0.75,,
+TZA,Social Status,Low,0,2,0.0,,
+TZA,Species,Hoomans,11,11,1.0,,
+TZA,Species,Pets,0,9,0.0,,
+TZA,Utilitarian,Less,1,11,0.0909,,
+TZA,Utilitarian,More,9,12,0.75,,
+UGA,Age,Old,1,6,0.1667,,
+UGA,Age,Young,5,7,0.7143,,
+UGA,Fitness,Fat,1,7,0.1429,,
+UGA,Fitness,Fit,6,10,0.6,,
+UGA,Gender,Female,5,8,0.625,,
+UGA,Gender,Male,4,7,0.5714,,
+UGA,Social Status,High,1,2,0.5,,
+UGA,Social Status,Low,1,4,0.25,,
+UGA,Species,Hoomans,4,4,1.0,,
+UGA,Species,Pets,0,2,0.0,,
+UGA,Utilitarian,Less,0,5,0.0,,
+UGA,Utilitarian,More,5,6,0.8333,,
+UKR,Age,Old,603,2758,0.2186,Ukraine,0.0
+UKR,Age,Young,1878,2630,0.7141,Ukraine,0.0
+UKR,Fitness,Fat,971,2783,0.3489,Ukraine,0.0
+UKR,Fitness,Fit,1163,2152,0.5404,Ukraine,0.0
+UKR,Gender,Female,1325,2809,0.4717,Ukraine,0.0
+UKR,Gender,Male,1164,2817,0.4132,Ukraine,0.0
+UKR,Social Status,High,648,987,0.6565,Ukraine,0.0
+UKR,Social Status,Low,238,823,0.2892,Ukraine,0.0
+UKR,Species,Hoomans,2127,2734,0.778,Ukraine,0.0
+UKR,Species,Pets,443,2770,0.1599,Ukraine,0.0
+UKR,Utilitarian,Less,598,2810,0.2128,Ukraine,0.0
+UKR,Utilitarian,More,2092,2986,0.7006,Ukraine,0.0
+URY,Age,Old,87,356,0.2444,Uruguay,2.0
+URY,Age,Young,249,329,0.7568,Uruguay,2.0
+URY,Fitness,Fat,113,327,0.3456,Uruguay,2.0
+URY,Fitness,Fit,166,290,0.5724,Uruguay,2.0
+URY,Gender,Female,163,331,0.4924,Uruguay,2.0
+URY,Gender,Male,127,334,0.3802,Uruguay,2.0
+URY,Social Status,High,77,115,0.6696,Uruguay,2.0
+URY,Social Status,Low,42,122,0.3443,Uruguay,2.0
+URY,Species,Hoomans,239,344,0.6948,Uruguay,2.0
+URY,Species,Pets,93,345,0.2696,Uruguay,2.0
+URY,Utilitarian,Less,76,353,0.2153,Uruguay,2.0
+URY,Utilitarian,More,255,360,0.7083,Uruguay,2.0
+USA,Age,Old,17910,86358,0.2074,United States,0.0
+USA,Age,Young,58039,80467,0.7213,United States,0.0
+USA,Fitness,Fat,29845,86751,0.344,United States,0.0
+USA,Fitness,Fit,36620,69559,0.5265,United States,0.0
+USA,Gender,Female,42621,85859,0.4964,United States,0.0
+USA,Gender,Male,31130,85749,0.363,United States,0.0
+USA,Social Status,High,21473,31718,0.677,United States,0.0
+USA,Social Status,Low,7332,26061,0.2813,United States,0.0
+USA,Species,Hoomans,67376,86669,0.7774,United States,0.0
+USA,Species,Pets,16182,86622,0.1868,United States,0.0
+USA,Utilitarian,Less,17462,90052,0.1939,United States,0.0
+USA,Utilitarian,More,67977,90488,0.7512,United States,0.0
+UZB,Age,Old,1,25,0.04,Uzbekistan,0.0
+UZB,Age,Young,16,22,0.7273,Uzbekistan,0.0
+UZB,Fitness,Fat,2,17,0.1176,Uzbekistan,0.0
+UZB,Fitness,Fit,9,17,0.5294,Uzbekistan,0.0
+UZB,Gender,Female,13,27,0.4815,Uzbekistan,0.0
+UZB,Gender,Male,15,35,0.4286,Uzbekistan,0.0
+UZB,Social Status,High,7,11,0.6364,Uzbekistan,0.0
+UZB,Social Status,Low,4,7,0.5714,Uzbekistan,0.0
+UZB,Species,Hoomans,18,19,0.9474,Uzbekistan,0.0
+UZB,Species,Pets,10,26,0.3846,Uzbekistan,0.0
+UZB,Utilitarian,Less,5,27,0.1852,Uzbekistan,0.0
+UZB,Utilitarian,More,34,42,0.8095,Uzbekistan,0.0
+VAT,Age,Old,1,5,0.2,,
+VAT,Fitness,Fat,1,5,0.2,,
+VAT,Gender,Female,1,2,0.5,,
+VAT,Gender,Male,1,1,1.0,,
+VAT,Social Status,Low,0,1,0.0,,
+VAT,Species,Hoomans,2,3,0.6667,,
+VAT,Species,Pets,0,1,0.0,,
+VAT,Utilitarian,Less,3,3,1.0,,
+VAT,Utilitarian,More,1,1,1.0,,
+VCT,Age,Old,0,1,0.0,,
+VCT,Age,Young,2,2,1.0,,
+VCT,Fitness,Fat,1,1,1.0,,
+VCT,Fitness,Fit,2,2,1.0,,
+VCT,Gender,Female,1,2,0.5,,
+VCT,Gender,Male,1,3,0.3333,,
+VCT,Social Status,High,1,1,1.0,,
+VCT,Social Status,Low,0,1,0.0,,
+VCT,Species,Pets,0,2,0.0,,
+VCT,Utilitarian,Less,0,3,0.0,,
+VCT,Utilitarian,More,1,3,0.3333,,
+VEN,Age,Old,103,431,0.239,Venezuela,2.0
+VEN,Age,Young,305,403,0.7568,Venezuela,2.0
+VEN,Fitness,Fat,156,433,0.3603,Venezuela,2.0
+VEN,Fitness,Fit,177,319,0.5549,Venezuela,2.0
+VEN,Gender,Female,273,435,0.6276,Venezuela,2.0
+VEN,Gender,Male,159,425,0.3741,Venezuela,2.0
+VEN,Social Status,High,119,154,0.7727,Venezuela,2.0
+VEN,Social Status,Low,34,134,0.2537,Venezuela,2.0
+VEN,Species,Hoomans,296,452,0.6549,Venezuela,2.0
+VEN,Species,Pets,159,459,0.3464,Venezuela,2.0
+VEN,Utilitarian,Less,96,447,0.2148,Venezuela,2.0
+VEN,Utilitarian,More,341,455,0.7495,Venezuela,2.0
+VGB,Fitness,Fit,0,1,0.0,,
+VGB,Gender,Male,1,1,1.0,,
+VGB,Social Status,Low,1,1,1.0,,
+VGB,Utilitarian,Less,1,1,1.0,,
+VIR,Age,Old,1,3,0.3333,,
+VIR,Age,Young,2,2,1.0,,
+VIR,Fitness,Fat,1,6,0.1667,,
+VIR,Fitness,Fit,2,4,0.5,,
+VIR,Gender,Female,3,6,0.5,,
+VIR,Gender,Male,1,2,0.5,,
+VIR,Social Status,Low,0,3,0.0,,
+VIR,Species,Hoomans,1,1,1.0,,
+VIR,Species,Pets,0,4,0.0,,
+VIR,Utilitarian,Less,2,5,0.4,,
+VIR,Utilitarian,More,7,8,0.875,,
+VNM,Age,Old,141,559,0.2522,Vietnam,0.0
+VNM,Age,Young,423,559,0.7567,Vietnam,0.0
+VNM,Fitness,Fat,201,530,0.3792,Vietnam,0.0
+VNM,Fitness,Fit,252,462,0.5455,Vietnam,0.0
+VNM,Gender,Female,285,549,0.5191,Vietnam,0.0
+VNM,Gender,Male,210,557,0.377,Vietnam,0.0
+VNM,Social Status,High,168,222,0.7568,Vietnam,0.0
+VNM,Social Status,Low,49,150,0.3267,Vietnam,0.0
+VNM,Species,Hoomans,423,550,0.7691,Vietnam,0.0
+VNM,Species,Pets,88,510,0.1725,Vietnam,0.0
+VNM,Utilitarian,Less,112,514,0.2179,Vietnam,0.0
+VNM,Utilitarian,More,384,538,0.7138,Vietnam,0.0
+VUT,Age,Old,0,1,0.0,,
+VUT,Age,Young,1,1,1.0,,
+VUT,Fitness,Fat,2,2,1.0,,
+VUT,Fitness,Fit,1,1,1.0,,
+VUT,Species,Pets,0,1,0.0,,
+VUT,Utilitarian,Less,0,2,0.0,,
+VUT,Utilitarian,More,1,1,1.0,,
+YEM,Age,Old,1,5,0.2,,
+YEM,Fitness,Fat,0,1,0.0,,
+YEM,Fitness,Fit,1,2,0.5,,
+YEM,Gender,Female,1,4,0.25,,
+YEM,Gender,Male,0,2,0.0,,
+YEM,Species,Hoomans,2,2,1.0,,
+YEM,Utilitarian,Less,0,3,0.0,,
+YEM,Utilitarian,More,0,3,0.0,,
+ZAF,Age,Old,129,639,0.2019,South Africa,0.0
+ZAF,Age,Young,408,577,0.7071,South Africa,0.0
+ZAF,Fitness,Fat,249,658,0.3784,South Africa,0.0
+ZAF,Fitness,Fit,319,549,0.5811,South Africa,0.0
+ZAF,Gender,Female,311,645,0.4822,South Africa,0.0
+ZAF,Gender,Male,220,608,0.3618,South Africa,0.0
+ZAF,Social Status,High,173,230,0.7522,South Africa,0.0
+ZAF,Social Status,Low,57,203,0.2808,South Africa,0.0
+ZAF,Species,Hoomans,520,661,0.7867,South Africa,0.0
+ZAF,Species,Pets,109,608,0.1793,South Africa,0.0
+ZAF,Utilitarian,Less,118,687,0.1718,South Africa,0.0
+ZAF,Utilitarian,More,508,659,0.7709,South Africa,0.0
+ZMB,Age,Old,0,3,0.0,,
+ZMB,Age,Young,2,3,0.6667,,
+ZMB,Fitness,Fat,4,6,0.6667,,
+ZMB,Fitness,Fit,3,4,0.75,,
+ZMB,Gender,Female,2,4,0.5,,
+ZMB,Gender,Male,0,5,0.0,,
+ZMB,Social Status,High,0,3,0.0,,
+ZMB,Species,Hoomans,3,4,0.75,,
+ZMB,Species,Pets,0,6,0.0,,
+ZMB,Utilitarian,Less,1,5,0.2,,
+ZMB,Utilitarian,More,4,7,0.5714,,
+ZWE,Age,Old,0,7,0.0,,
+ZWE,Age,Young,2,5,0.4,,
+ZWE,Fitness,Fat,1,5,0.2,,
+ZWE,Fitness,Fit,2,3,0.6667,,
+ZWE,Gender,Female,1,5,0.2,,
+ZWE,Gender,Male,0,2,0.0,,
+ZWE,Social Status,Low,1,4,0.25,,
+ZWE,Species,Hoomans,5,6,0.8333,,
+ZWE,Species,Pets,0,6,0.0,,
+ZWE,Utilitarian,Less,1,5,0.2,,
+ZWE,Utilitarian,More,1,2,0.5,,

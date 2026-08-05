@@ -1,0 +1,361 @@
+dimension,group,scenario_type,character_group,n_saved,n_outcomes,save_rate
+age_group,18-24,Age,Old,17759,101102,0.1757
+age_group,18-24,Age,Young,70401,94112,0.7481
+age_group,18-24,Fitness,Fat,34309,101467,0.3381
+age_group,18-24,Fitness,Fit,42646,80952,0.5268
+age_group,18-24,Gender,Female,50078,100845,0.4966
+age_group,18-24,Gender,Male,35712,101340,0.3524
+age_group,18-24,Social Status,High,25483,36863,0.6913
+age_group,18-24,Social Status,Low,8221,30635,0.2684
+age_group,18-24,Species,Hoomans,81471,101154,0.8054
+age_group,18-24,Species,Pets,16281,101482,0.1604
+age_group,18-24,Utilitarian,Less,18326,107443,0.1706
+age_group,18-24,Utilitarian,More,81791,106813,0.7657
+age_group,25-34,Age,Old,14499,71434,0.203
+age_group,25-34,Age,Young,46867,66542,0.7043
+age_group,25-34,Fitness,Fat,24867,71469,0.3479
+age_group,25-34,Fitness,Fit,28176,57195,0.4926
+age_group,25-34,Gender,Female,34691,71529,0.485
+age_group,25-34,Gender,Male,24069,71055,0.3387
+age_group,25-34,Social Status,High,16608,25932,0.6404
+age_group,25-34,Social Status,Low,6171,21596,0.2857
+age_group,25-34,Species,Hoomans,59691,71389,0.8361
+age_group,25-34,Species,Pets,8925,71700,0.1245
+age_group,25-34,Utilitarian,Less,14242,75685,0.1882
+age_group,25-34,Utilitarian,More,55739,75628,0.737
+age_group,35-49,Age,Old,7483,33971,0.2203
+age_group,35-49,Age,Young,22000,31714,0.6937
+age_group,35-49,Fitness,Fat,12267,33787,0.3631
+age_group,35-49,Fitness,Fit,13034,27484,0.4742
+age_group,35-49,Gender,Female,16774,33864,0.4953
+age_group,35-49,Gender,Male,11451,33924,0.3375
+age_group,35-49,Social Status,High,7564,12299,0.615
+age_group,35-49,Social Status,Low,3139,10377,0.3025
+age_group,35-49,Species,Hoomans,29162,33822,0.8622
+age_group,35-49,Species,Pets,3529,34380,0.1026
+age_group,35-49,Utilitarian,Less,7342,36470,0.2013
+age_group,35-49,Utilitarian,More,26250,35840,0.7324
+age_group,50-64,Age,Old,1806,7190,0.2512
+age_group,50-64,Age,Young,4571,6746,0.6776
+age_group,50-64,Fitness,Fat,2700,7141,0.3781
+age_group,50-64,Fitness,Fit,2867,5876,0.4879
+age_group,50-64,Gender,Female,3609,7144,0.5052
+age_group,50-64,Gender,Male,2633,7262,0.3626
+age_group,50-64,Social Status,High,1648,2647,0.6226
+age_group,50-64,Social Status,Low,713,2161,0.3299
+age_group,50-64,Species,Hoomans,6254,7229,0.8651
+age_group,50-64,Species,Pets,798,7221,0.1105
+age_group,50-64,Utilitarian,Less,1598,7571,0.2111
+age_group,50-64,Utilitarian,More,5806,7782,0.7461
+age_group,65-75,Age,Old,238,1009,0.2359
+age_group,65-75,Age,Young,712,1036,0.6873
+age_group,65-75,Fitness,Fat,339,1008,0.3363
+age_group,65-75,Fitness,Fit,503,909,0.5534
+age_group,65-75,Gender,Female,491,1038,0.473
+age_group,65-75,Gender,Male,421,1074,0.392
+age_group,65-75,Social Status,High,234,357,0.6555
+age_group,65-75,Social Status,Low,97,322,0.3012
+age_group,65-75,Species,Hoomans,782,1041,0.7512
+age_group,65-75,Species,Pets,235,1086,0.2164
+age_group,65-75,Utilitarian,Less,270,1149,0.235
+age_group,65-75,Utilitarian,More,785,1105,0.7104
+education,bachelor,Age,Old,12822,64572,0.1986
+education,bachelor,Age,Young,42514,60182,0.7064
+education,bachelor,Fitness,Fat,22154,64238,0.3449
+education,bachelor,Fitness,Fit,25901,52153,0.4966
+education,bachelor,Gender,Female,31303,64334,0.4866
+education,bachelor,Gender,Male,22109,64455,0.343
+education,bachelor,Social Status,High,15136,23266,0.6506
+education,bachelor,Social Status,Low,5553,19720,0.2816
+education,bachelor,Species,Hoomans,54186,64542,0.8395
+education,bachelor,Species,Pets,7966,64789,0.123
+education,bachelor,Utilitarian,Less,12882,68791,0.1873
+education,bachelor,Utilitarian,More,50559,68081,0.7426
+education,college,Age,Old,7966,43599,0.1827
+education,college,Age,Young,29859,40785,0.7321
+education,college,Fitness,Fat,15120,44132,0.3426
+education,college,Fitness,Fit,17656,34622,0.51
+education,college,Gender,Female,21704,43672,0.497
+education,college,Gender,Male,14894,43671,0.3411
+education,college,Social Status,High,10768,15935,0.6757
+education,college,Social Status,Low,3601,13246,0.2719
+education,college,Species,Hoomans,35689,43856,0.8138
+education,college,Species,Pets,6445,43873,0.1469
+education,college,Utilitarian,Less,7806,46327,0.1685
+education,college,Utilitarian,More,35261,46188,0.7634
+education,graduate,Age,Old,11921,57270,0.2082
+education,graduate,Age,Young,37558,53149,0.7067
+education,graduate,Fitness,Fat,19768,57100,0.3462
+education,graduate,Fitness,Fit,22954,45931,0.4997
+education,graduate,Gender,Female,27729,57010,0.4864
+education,graduate,Gender,Male,19907,57342,0.3472
+education,graduate,Social Status,High,13306,20793,0.6399
+education,graduate,Social Status,Low,5014,17298,0.2899
+education,graduate,Species,Hoomans,48004,57100,0.8407
+education,graduate,Species,Pets,7090,57539,0.1232
+education,graduate,Utilitarian,Less,11668,60722,0.1922
+education,graduate,Utilitarian,More,44780,60817,0.7363
+education,high,Age,Old,9517,53156,0.179
+education,high,Age,Young,38131,49991,0.7628
+education,high,Fitness,Fat,18321,53575,0.342
+education,high,Fitness,Fit,23062,42756,0.5394
+education,high,Gender,Female,27087,53551,0.5058
+education,high,Gender,Male,19193,53171,0.361
+education,high,Social Status,High,13867,19722,0.7031
+education,high,Social Status,Low,4473,16057,0.2786
+education,high,Species,Hoomans,41976,53546,0.7839
+education,high,Species,Pets,9990,53488,0.1868
+education,high,Utilitarian,Less,9836,56430,0.1743
+education,high,Utilitarian,More,43768,56516,0.7744
+education,others,Age,Old,3725,19126,0.1948
+education,others,Age,Young,13647,17927,0.7613
+education,others,Fitness,Fat,6916,19205,0.3601
+education,others,Fitness,Fit,8638,15439,0.5595
+education,others,Gender,Female,10358,19237,0.5384
+education,others,Gender,Male,7095,19172,0.3701
+education,others,Social Status,High,5064,7033,0.72
+education,others,Social Status,Low,1609,5751,0.2798
+education,others,Species,Hoomans,13218,19178,0.6892
+education,others,Species,Pets,5654,19320,0.2927
+education,others,Utilitarian,Less,3884,20259,0.1917
+education,others,Utilitarian,More,15930,20479,0.7779
+education,underHigh,Age,Old,8448,47942,0.1762
+education,underHigh,Age,Young,34339,45701,0.7514
+education,underHigh,Fitness,Fat,17042,48581,0.3508
+education,underHigh,Fitness,Fit,22201,38533,0.5762
+education,underHigh,Gender,Female,25572,48611,0.5261
+education,underHigh,Gender,Male,17495,48237,0.3627
+education,underHigh,Social Status,High,12884,17479,0.7371
+education,underHigh,Social Status,Low,3925,14413,0.2723
+education,underHigh,Species,Hoomans,34234,49664,0.6893
+education,underHigh,Species,Pets,12790,48061,0.2661
+education,underHigh,Utilitarian,Less,9124,51879,0.1759
+education,underHigh,Utilitarian,More,40178,50281,0.7991
+education,vocational,Age,Old,2206,10946,0.2015
+education,vocational,Age,Young,7779,10362,0.7507
+education,vocational,Fitness,Fat,3983,11019,0.3615
+education,vocational,Fitness,Fit,4651,8847,0.5257
+education,vocational,Gender,Female,5599,10951,0.5113
+education,vocational,Gender,Male,4024,11125,0.3617
+education,vocational,Social Status,High,2757,3989,0.6912
+education,vocational,Social Status,Low,962,3306,0.291
+education,vocational,Species,Hoomans,8581,10911,0.7865
+education,vocational,Species,Pets,2146,11189,0.1918
+education,vocational,Utilitarian,Less,2245,11752,0.191
+education,vocational,Utilitarian,More,8697,11645,0.7468
+gender,female,Age,Old,15692,84044,0.1867
+gender,female,Age,Young,59909,79626,0.7524
+gender,female,Fitness,Fat,32064,84440,0.3797
+gender,female,Fitness,Fit,35313,67743,0.5213
+gender,female,Gender,Female,47543,84200,0.5646
+gender,female,Gender,Male,26799,84473,0.3172
+gender,female,Social Status,High,21857,30680,0.7124
+gender,female,Social Status,Low,7359,25299,0.2909
+gender,female,Species,Hoomans,60813,85360,0.7124
+gender,female,Species,Pets,21212,84105,0.2522
+gender,female,Utilitarian,Less,15202,90137,0.1687
+gender,female,Utilitarian,More,70374,88970,0.791
+gender,male,Age,Old,40656,213864,0.1901
+gender,male,Age,Young,145296,199505,0.7283
+gender,male,Fitness,Fat,71478,214508,0.3332
+gender,male,Fitness,Fit,90457,171605,0.5271
+gender,male,Gender,Female,102797,214380,0.4795
+gender,male,Gender,Male,78060,213878,0.365
+gender,male,Social Status,High,52415,77898,0.6729
+gender,male,Social Status,Low,17794,64856,0.2744
+gender,male,Species,Hoomans,176781,214678,0.8235
+gender,male,Species,Pets,30349,215366,0.1409
+gender,male,Utilitarian,Less,41874,227474,0.1841
+gender,male,Utilitarian,More,170285,226096,0.7532
+income,10000,Age,Old,3330,17467,0.1906
+income,10000,Age,Young,11825,16236,0.7283
+income,10000,Fitness,Fat,6126,17490,0.3503
+income,10000,Fitness,Fit,7235,14060,0.5146
+income,10000,Gender,Female,8739,17434,0.5013
+income,10000,Gender,Male,6046,17380,0.3479
+income,10000,Social Status,High,4383,6506,0.6737
+income,10000,Social Status,Low,1528,5375,0.2843
+income,10000,Species,Hoomans,14326,17516,0.8179
+income,10000,Species,Pets,2604,17453,0.1492
+income,10000,Utilitarian,Less,3312,18454,0.1795
+income,10000,Utilitarian,More,13851,18537,0.7472
+income,15000,Age,Old,3772,19811,0.1904
+income,15000,Age,Young,13445,18451,0.7287
+income,15000,Fitness,Fat,6765,19702,0.3434
+income,15000,Fitness,Fit,8140,15939,0.5107
+income,15000,Gender,Female,9875,19827,0.4981
+income,15000,Gender,Male,6821,19719,0.3459
+income,15000,Social Status,High,4759,7240,0.6573
+income,15000,Social Status,Low,1763,5982,0.2947
+income,15000,Species,Hoomans,16563,19940,0.8306
+income,15000,Species,Pets,2691,19783,0.136
+income,15000,Utilitarian,Less,3869,21031,0.184
+income,15000,Utilitarian,More,15706,20954,0.7495
+income,25000,Age,Old,3748,18528,0.2023
+income,25000,Age,Young,12425,17262,0.7198
+income,25000,Fitness,Fat,6480,18559,0.3492
+income,25000,Fitness,Fit,7512,15005,0.5006
+income,25000,Gender,Female,9147,18608,0.4916
+income,25000,Gender,Male,6393,18478,0.346
+income,25000,Social Status,High,4318,6709,0.6436
+income,25000,Social Status,Low,1507,5492,0.2744
+income,25000,Species,Hoomans,15541,18498,0.8401
+income,25000,Species,Pets,2292,18628,0.123
+income,25000,Utilitarian,Less,3607,19690,0.1832
+income,25000,Utilitarian,More,14819,19716,0.7516
+income,35000,Age,Old,4397,21984,0.2
+income,35000,Age,Young,14340,20314,0.7059
+income,35000,Fitness,Fat,7621,21950,0.3472
+income,35000,Fitness,Fit,8600,17591,0.4889
+income,35000,Gender,Female,10482,21934,0.4779
+income,35000,Gender,Male,7374,21760,0.3389
+income,35000,Social Status,High,5075,7973,0.6365
+income,35000,Social Status,Low,1920,6639,0.2892
+income,35000,Species,Hoomans,18462,21865,0.8444
+income,35000,Species,Pets,2608,21985,0.1186
+income,35000,Utilitarian,Less,4306,22971,0.1875
+income,35000,Utilitarian,More,17323,23456,0.7385
+income,5000,Age,Old,4462,23960,0.1862
+income,5000,Age,Young,16697,22440,0.7441
+income,5000,Fitness,Fat,8453,24156,0.3499
+income,5000,Fitness,Fit,9989,19165,0.5212
+income,5000,Gender,Female,12064,24034,0.502
+income,5000,Gender,Male,8547,23985,0.3563
+income,5000,Social Status,High,6076,8822,0.6887
+income,5000,Social Status,Low,2003,7356,0.2723
+income,5000,Species,Hoomans,19133,24032,0.7961
+income,5000,Species,Pets,4002,24077,0.1662
+income,5000,Utilitarian,Less,4637,25446,0.1822
+income,5000,Utilitarian,More,19381,25402,0.763
+income,50000,Age,Old,4782,22712,0.2105
+income,50000,Age,Young,14561,20986,0.6938
+income,50000,Fitness,Fat,7701,22551,0.3415
+income,50000,Fitness,Fit,8963,18300,0.4898
+income,50000,Gender,Female,10634,22635,0.4698
+income,50000,Gender,Male,7522,22550,0.3336
+income,50000,Social Status,High,5155,8211,0.6278
+income,50000,Social Status,Low,1958,6827,0.2868
+income,50000,Species,Hoomans,19235,22617,0.8505
+income,50000,Species,Pets,2499,22766,0.1098
+income,50000,Utilitarian,Less,4502,24057,0.1871
+income,50000,Utilitarian,More,17647,23934,0.7373
+income,80000,Age,Old,2087,10050,0.2077
+income,80000,Age,Young,6700,9670,0.6929
+income,80000,Fitness,Fat,3538,10126,0.3494
+income,80000,Fitness,Fit,4015,8130,0.4938
+income,80000,Gender,Female,4985,10226,0.4875
+income,80000,Gender,Male,3477,10125,0.3434
+income,80000,Social Status,High,2239,3615,0.6194
+income,80000,Social Status,Low,922,3237,0.2848
+income,80000,Species,Hoomans,8380,10139,0.8265
+income,80000,Species,Pets,1400,10367,0.135
+income,80000,Utilitarian,Less,2117,11136,0.1901
+income,80000,Utilitarian,More,7731,10593,0.7298
+income,above100000,Age,Old,5148,22671,0.2271
+income,above100000,Age,Young,14844,21184,0.7007
+income,above100000,Fitness,Fat,7811,22699,0.3441
+income,above100000,Fitness,Fit,9412,18085,0.5204
+income,above100000,Gender,Female,10705,22546,0.4748
+income,above100000,Gender,Male,8707,22830,0.3814
+income,above100000,Social Status,High,5466,8321,0.6569
+income,above100000,Social Status,Low,2055,6907,0.2975
+income,above100000,Species,Hoomans,17353,22748,0.7628
+income,above100000,Species,Pets,4767,22825,0.2088
+income,above100000,Utilitarian,Less,5156,24142,0.2136
+income,above100000,Utilitarian,More,17360,23990,0.7236
+income,over10000,Age,Old,81,357,0.2269
+income,over10000,Age,Young,190,307,0.6189
+income,over10000,Fitness,Fat,133,371,0.3585
+income,over10000,Fitness,Fit,144,274,0.5255
+income,over10000,Gender,Female,141,343,0.4111
+income,over10000,Gender,Male,173,353,0.4901
+income,over10000,Social Status,High,75,113,0.6637
+income,over10000,Social Status,Low,30,99,0.303
+income,over10000,Species,Hoomans,275,359,0.766
+income,over10000,Species,Pets,63,329,0.1915
+income,over10000,Utilitarian,Less,85,370,0.2297
+income,over10000,Utilitarian,More,242,363,0.6667
+income,under5000,Age,Old,17140,95018,0.1804
+income,under5000,Age,Young,67447,89888,0.7503
+income,under5000,Fitness,Fat,33205,95932,0.3461
+income,under5000,Fitness,Fit,41908,76274,0.5494
+income,under5000,Gender,Female,49572,95718,0.5179
+income,under5000,Gender,Male,34048,95683,0.3558
+income,under5000,Social Status,High,24652,34504,0.7145
+income,under5000,Social Status,Low,7745,28457,0.2722
+income,under5000,Species,Hoomans,72909,96728,0.7538
+income,under5000,Species,Pets,19761,95824,0.2062
+income,under5000,Utilitarian,Less,17969,102069,0.176
+income,under5000,Utilitarian,More,78490,100295,0.7826
+political,conservative,Age,Old,10258,50726,0.2022
+political,conservative,Age,Young,34059,46914,0.726
+political,conservative,Fitness,Fat,17219,50753,0.3393
+political,conservative,Fitness,Fit,21792,40465,0.5385
+political,conservative,Gender,Female,24955,50933,0.49
+political,conservative,Gender,Male,19342,50734,0.3812
+political,conservative,Social Status,High,12718,18225,0.6978
+political,conservative,Social Status,Low,4195,15278,0.2746
+political,conservative,Species,Hoomans,38942,51151,0.7613
+political,conservative,Species,Pets,10478,50947,0.2057
+political,conservative,Utilitarian,Less,11275,53938,0.209
+political,conservative,Utilitarian,More,39746,53416,0.7441
+political,moderate,Age,Old,4199,22808,0.1841
+political,moderate,Age,Young,15698,21257,0.7385
+political,moderate,Fitness,Fat,7787,22660,0.3436
+political,moderate,Fitness,Fit,9936,18404,0.5399
+political,moderate,Gender,Female,11518,22946,0.502
+political,moderate,Gender,Male,8214,22679,0.3622
+political,moderate,Social Status,High,5896,8486,0.6948
+political,moderate,Social Status,Low,1868,6832,0.2734
+political,moderate,Species,Hoomans,17987,22900,0.7855
+political,moderate,Species,Pets,4122,22829,0.1806
+political,moderate,Utilitarian,Less,4297,24193,0.1776
+political,moderate,Utilitarian,More,18514,24107,0.768
+political,progressive,Age,Old,26651,143643,0.1855
+political,progressive,Age,Young,99378,135605,0.7328
+political,progressive,Fitness,Fat,50695,144798,0.3501
+political,progressive,Fitness,Fit,59889,115708,0.5176
+political,progressive,Gender,Female,72676,143987,0.5047
+political,progressive,Gender,Male,48869,144265,0.3387
+political,progressive,Social Status,High,35084,52605,0.6669
+political,progressive,Social Status,Low,12353,43541,0.2837
+political,progressive,Species,Hoomans,117314,145255,0.8076
+political,progressive,Species,Pets,22307,144398,0.1545
+political,progressive,Utilitarian,Less,26213,153990,0.1702
+political,progressive,Utilitarian,More,117192,151997,0.771
+religious,not_religious,Age,Old,36827,199496,0.1846
+religious,not_religious,Age,Young,137529,186549,0.7372
+religious,not_religious,Fitness,Fat,67119,199864,0.3358
+religious,not_religious,Fitness,Fit,84354,160645,0.5251
+religious,not_religious,Gender,Female,98453,199867,0.4926
+religious,not_religious,Gender,Male,69541,199521,0.3485
+religious,not_religious,Social Status,High,49147,72952,0.6737
+religious,not_religious,Social Status,Low,16474,60318,0.2731
+religious,not_religious,Species,Hoomans,159297,200091,0.7961
+religious,not_religious,Species,Pets,33486,200477,0.167
+religious,not_religious,Utilitarian,Less,37268,211927,0.1759
+religious,not_religious,Utilitarian,More,161058,211400,0.7619
+religious,somewhat,Age,Old,3049,16630,0.1833
+religious,somewhat,Age,Young,11274,16359,0.6892
+religious,somewhat,Fitness,Fat,6552,17367,0.3773
+religious,somewhat,Fitness,Fit,7227,13086,0.5523
+religious,somewhat,Gender,Female,9144,17148,0.5332
+religious,somewhat,Gender,Male,5859,16962,0.3454
+religious,somewhat,Social Status,High,4164,5857,0.7109
+religious,somewhat,Social Status,Low,1379,4773,0.2889
+religious,somewhat,Species,Hoomans,12277,18254,0.6726
+religious,somewhat,Species,Pets,4216,16614,0.2538
+religious,somewhat,Utilitarian,Less,3601,18537,0.1943
+religious,somewhat,Utilitarian,More,13628,17319,0.7869
+religious,very,Age,Old,11370,55155,0.2061
+religious,very,Age,Young,38353,51959,0.7381
+religious,very,Fitness,Fat,20110,55305,0.3636
+religious,very,Fitness,Fit,23491,44547,0.5273
+religious,very,Gender,Female,28814,55366,0.5204
+religious,very,Gender,Male,20218,55443,0.3647
+religious,very,Social Status,High,14133,20183,0.7002
+religious,very,Social Status,Low,4957,16990,0.2918
+religious,very,Species,Hoomans,44302,55288,0.8013
+religious,very,Species,Pets,9982,55923,0.1785
+religious,very,Utilitarian,Less,11181,59123,0.1891
+religious,very,Utilitarian,More,44601,58508,0.7623
