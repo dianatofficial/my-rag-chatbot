@@ -17,8 +17,7 @@ st.set_page_config(
 # فونت وزیرمتن از CDN؛ در نبود دسترسی به اینترنت به Tahoma برمی‌گردد
 st.markdown(
     """
-<link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
 <style>
   :root { --app-font: "Vazirmatn", Tahoma, sans-serif; }
 
@@ -27,18 +26,16 @@ st.markdown(
   }
 
   /* راست‌چین‌سازی متن‌ها */
-  [data-testid="stAppViewContainer"] .stMarkdown,
-  [data-testid="stChatMessage"],
-  [data-testid="stSidebar"],
-  h1, h2, h3, h4, p, li, label {
-      direction: rtl;
-      text-align: right;
+  [data-testid="stAppViewContainer"] [data-testid="stChatMessage"],
+  [data-testid="stAppViewContainer"] [data-testid="stChatMessage"] * {
+      direction: rtl !important;
+      text-align: right !important;
   }
 
   /* ورودی چت */
   [data-testid="stChatInput"] textarea {
-      direction: rtl;
-      text-align: right;
+      direction: rtl !important;
+      text-align: right !important;
       font-family: var(--app-font) !important;
   }
 
@@ -51,15 +48,15 @@ st.markdown(
   }
 
   /* فاصله‌گذاری خواناتر برای متن فارسی */
-  [data-testid="stChatMessage"] p { line-height: 1.9; }
+  [data-testid="stChatMessage"] p { line-height: 1.9 !important; }
 
-  #MainMenu, footer { visibility: hidden; }
+  #MainMenu, footer { visibility: hidden !important; }
 </style>
     """,
     unsafe_allow_html=True,
 )
 
-st.title("🤖 دستیار هوشمند دیتاست‌های اخلاق")
+st.title("RAG Engine — تحلیل داده")
 st.caption("پاسخ‌ها فقط بر پایه‌ی محتوای دیتاست‌های موجود تولید می‌شوند.")
 
 
@@ -71,9 +68,7 @@ def get_chain(k: int):
 
 
 # ------------------------------------------------------------------- نمایش غنی
-FENCE = re.compile(r"
-```(\w*)\n(.*?)
-```", re.DOTALL)
+FENCE = re.compile(r"```(\w*)\n(.*?)```", re.DOTALL)
 
 
 def _render_chart(payload: str) -> None:

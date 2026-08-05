@@ -20,7 +20,15 @@ node_modules/
 .next/
 dist/
 
-# --- توجه ---
-# پوشه‌ی faiss_index/ عمداً ignore نشده است.
-# این ایندکس پیش‌ساخته باید کامیت شود تا Streamlit Cloud
-# مجبور نشود در هر بار راه‌اندازی آن را با هزینه‌ی API بازبسازد.
+
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+faiss_index/
+*.faiss
+*.pkl
+data/raw/
+.streamlit/secrets.toml
