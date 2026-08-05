@@ -1,14 +1,26 @@
+# --- محیط و اعتبارنامه‌ها ---
 .env
 .venv/
 venv/
 envs/
+
+# --- کش پایتون ---
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
 .ipynb_checkpoints/
+
+# --- داده و سیستم ---
 *.db
 .DS_Store
+
+# --- جاوااسکریپت ---
 node_modules/
 .next/
 dist/
+
+# --- توجه ---
+# پوشه‌ی faiss_index/ عمداً ignore نشده است.
+# این ایندکس پیش‌ساخته باید کامیت شود تا Streamlit Cloud
+# مجبور نشود در هر بار راه‌اندازی آن را با هزینه‌ی API بازبسازد.
