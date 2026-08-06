@@ -6,7 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough, RunnableParallel
+from langchain_core.runnables import RunnableLambda, RunnablePassthrough, RunnableParallel
 
 try:
     from langchain_huggingface import HuggingFaceEmbeddings
@@ -22,6 +22,20 @@ except Exception:  # pragma: no cover - optional dependency
 from data_loader import load_dataset
 
 load_dotenv(dotenv_path=Path(__file__).parent / ".env")
+
+
+class FallbackLLM:
+    """LLM جایگزین برای مواقعی که مدل اصلی در دسترس نیست."""
+
+    def invoke(self, value):
+        prompt = str(value)
+        if not prompt:
+            return "پاسخ جایگزین: اطلاعات موجود در دیتاست‌ها را از روی متن مرجع استخراج کنید."
+
+        return (
+            "پاسخ جایگزین: متن مرجع برای این پرسش در دسترس نیست یا مدل اصلی پاسخ نمی‌دهد. "
+            "به‌جای حدس زدن، از داده‌های موجود در دیتاست‌ها برای تولید پاسخ استفاده کنید."
+        )
 
 BASE_DIR = Path(__file__).parent
 INDEX_DIR = BASE_DIR / "faiss_index"
@@ -184,17 +198,18 @@ def get_llm(api_key: str | None, base_url: str | None):
     try:
         from langchain_community.llms import HuggingFacePipeline
         from transformers import pipeline
-    except Exception as exc:  # pragma: no cover - optional dependency
-        raise ImportError(
-            "برای اجرای LLM محلی، بسته‌های transformers و langchain-community لازم‌اند."
-        ) from exc
+    except Exception:
+        return FallbackLLM()
 
-    generator = pipeline(
-        "text-generation",
-        model="distilgpt2",
-        device=-1,
-    )
-    return HuggingFacePipeline(pipeline=generator)
+    try:
+        generator = pipeline(
+            "text-generation",
+            model="distilgpt2",
+            device=-1,
+        )
+        return HuggingFacePipeline(pipeline=generator)
+    except Exception:
+        return FallbackLLM()
 
 
 def build_rag_chain(data_dir: str = "data", k: int = 5, rebuild: bool = False):
@@ -208,21 +223,38 @@ def build_rag_chain(data_dir: str = "data", k: int = 5, rebuild: bool = False):
     )
     retriever = vectorstore.as_retriever(search_kwargs={"k": k})
 
-    llm = get_llm(api_key, base_url)
+    try:
+        llm = get_llm(api_key, base_url)
+    except Exception:
+        llm = FallbackLLM()
 
-    answer_chain = (
-        {
-            "context": lambda x: _format_docs(x["source_documents"]),
-            "question": lambda x: x["question"],
+    def build_answer(inputs):
+        prompt_value = PROMPT.invoke(
+            {
+                "context": _format_docs(inputs["source_documents"]),
+                "question": inputs["question"],
+            }
+        )
+        try:
+            raw = llm.invoke(prompt_value)
+            return StrOutputParser().invoke(raw)
+        except Exception:
+            return (
+                "پاسخ جایگزین: متن مرجع برای این پرسش در دسترس نیست یا مدل اصلی پاسخ نمی‌دهد. "
+                "برای ادامه، از داده‌های موجود در دیتاست‌ها استفاده کنید."
+            )
+
+    def build_result(inputs):
+        answer = build_answer(inputs)
+        return {
+            "question": inputs["question"],
+            "source_documents": inputs["source_documents"],
+            "answer": answer,
         }
-        | PROMPT
-        | llm
-        | StrOutputParser()
-    )
 
     chain = RunnableParallel(
         question=RunnablePassthrough(),
         source_documents=retriever,
-    ) | RunnablePassthrough.assign(answer=answer_chain)
+    ) | RunnableLambda(build_result)
 
     return chain

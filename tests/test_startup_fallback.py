@@ -38,3 +38,18 @@ def test_load_vectorstore_builds_index_when_missing(monkeypatch):
 
     store = module.load_vectorstore(force_build=True)
     assert store.index.ntotal > 0
+
+
+def test_build_rag_chain_falls_back_when_llm_is_unavailable(monkeypatch):
+    module = importlib.reload(importlib.import_module("rag_engine"))
+
+    def fail_llm(*_args, **_kwargs):
+        raise RuntimeError("llm unavailable")
+
+    monkeypatch.setattr(module, "get_llm", fail_llm)
+
+    chain = module.build_rag_chain(data_dir="data", k=2, rebuild=False)
+    result = chain.invoke("چه داده‌ای در این دیتاست وجود دارد؟")
+
+    assert result["answer"]
+    assert "پاسخ جایگزین" in result["answer"] or "دیتاست" in result["answer"]
