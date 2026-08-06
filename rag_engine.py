@@ -71,7 +71,7 @@ def get_config(key: str, default: str | None = None) -> str | None:
     return default
 
 
-MODEL_NAME = get_config("MODEL_NAME", "gemini-3-flash-preview")
+MODEL_NAME = get_config("MODEL_NAME", "gpt-4o-mini")
 EMBED_MODEL = get_config("EMBED_MODEL", "text-embedding-3-small")
 
 PROMPT = ChatPromptTemplate.from_template(
@@ -113,9 +113,9 @@ def _load_credentials() -> tuple[str | None, str | None]:
 
 
 def get_embeddings():
-    """مدل تبدیل متن به بردار؛ در حالت پیش‌فرض از HuggingFace محلی استفاده می‌شود."""
+    """مدل تبدیل متن به بردار؛ در حالت پیش‌فرض از OpenAI-compatible API استفاده می‌شود."""
     api_key, base_url = _load_credentials()
-    if os.getenv("USE_OPENAI_EMBEDDINGS") == "1" and api_key and base_url and OpenAIEmbeddings is not None:
+    if api_key and base_url and OpenAIEmbeddings is not None:
         os.environ.setdefault("OPENAI_API_KEY", api_key)
         os.environ.setdefault("OPENAI_BASE_URL", base_url)
         return OpenAIEmbeddings(
@@ -173,6 +173,42 @@ def get_local_embeddings():
     return _FallbackEmbeddings()
 
 
+def _embedding_dimension(embeddings) -> int | None:
+    """ابعاد embedding را برای بررسی سازگاری با ایندکس برمی‌گرداند."""
+    try:
+        vector = embeddings.embed_query("dimension_probe")
+        if isinstance(vector, list):
+            return len(vector)
+    except Exception:
+        return None
+    return None
+
+
+def _select_embeddings_for_index(index_dim: int | None):
+    """embedding سازگار با بعد ایندکس را انتخاب می‌کند."""
+    candidates = []
+
+    try:
+        candidates.append(get_embeddings())
+    except Exception:
+        pass
+
+    try:
+        candidates.append(get_local_embeddings())
+    except Exception:
+        pass
+
+    for embeddings in candidates:
+        dim = _embedding_dimension(embeddings)
+        if index_dim is not None and dim == index_dim:
+            return embeddings
+
+    if candidates:
+        return candidates[0]
+
+    return get_local_embeddings()
+
+
 def build_vectorstore(data_dir: str = "data", save: bool = True) -> FAISS:
     """ایندکس FAISS را از صفر می‌سازد. هزینه‌ی API دارد؛ محلی اجرا شود."""
     rows = load_dataset(data_dir)
@@ -202,12 +238,30 @@ def load_vectorstore(data_dir: str = "data", force_build: bool = False) -> FAISS
     if force_build or not INDEX_DIR.exists():
         return build_vectorstore(data_dir, save=True)
 
+    index_dim = None
     try:
-        return FAISS.load_local(
+        import faiss
+
+        index_path = INDEX_DIR / "index.faiss"
+        if index_path.exists():
+            index_dim = faiss.read_index(str(index_path)).d
+    except Exception:
+        index_dim = None
+
+    embeddings = _select_embeddings_for_index(index_dim)
+    try:
+        store = FAISS.load_local(
             str(INDEX_DIR),
-            get_embeddings(),
+            embeddings,
             allow_dangerous_deserialization=True,
         )
+
+        # اگر بعد embedding با بعد ایندکس نخواند، به‌جای کرش‌کردن ایندکس بازسازی می‌شود.
+        dim = _embedding_dimension(embeddings)
+        if dim is not None and getattr(store.index, "d", None) not in (None, dim):
+            return build_vectorstore(data_dir, save=True)
+
+        return store
     except Exception:
         return build_vectorstore(data_dir, save=True)
 
