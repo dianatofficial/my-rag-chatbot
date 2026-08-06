@@ -50,7 +50,7 @@ st.markdown(
   /* فاصله‌گذاری خواناتر برای متن فارسی */
   [data-testid="stChatMessage"] p { line-height: 1.9 !important; }
 
-  #MainMenu, footer { visibility: hidden !important; }
+  #MainMenu, footer { display: none !important; }
 </style>
     """,
     unsafe_allow_html=True,
@@ -59,12 +59,15 @@ st.markdown(
 st.title("RAG Engine — تحلیل داده")
 st.caption("پاسخ‌ها فقط بر پایه‌ی محتوای دیتاست‌های موجود تولید می‌شوند.")
 
+if "rebuild_index" not in st.session_state:
+    st.session_state.rebuild_index = 0
+
 
 # ------------------------------------------------------------- بارگذاری زنجیره
 @st.cache_resource(show_spinner="در حال بارگذاری ایندکس دیتاست‌ها...")
-def get_chain(k: int):
+def get_chain(k: int, rebuild: int = 0):
     """زنجیره‌ی RAG. فقط یک‌بار در طول عمر کانتینر ساخته می‌شود."""
-    return build_rag_chain("data", k=k)
+    return build_rag_chain("data", k=k, rebuild=bool(rebuild))
 
 
 # ------------------------------------------------------------------- نمایش غنی
@@ -152,6 +155,10 @@ with st.sidebar:
     )
     show_sources = st.toggle("نمایش منابع پاسخ", value=True)
 
+    if st.button("بازسازی ایندکس", use_container_width=True):
+        st.session_state.rebuild_index += 1
+        st.rerun()
+
     if st.button("پاک‌کردن تاریخچه", use_container_width=True):
         st.session_state.messages = []
         st.rerun()
@@ -161,11 +168,14 @@ with st.sidebar:
 
 
 try:
-    chain = get_chain(top_k)
+    chain = get_chain(top_k, rebuild=st.session_state.rebuild_index)
 except Exception as exc:  # noqa: BLE001
-    st.error(f"خطا در راه‌اندازی موتور: {exc}")
+    st.error(
+        "موتور آماده نیست. در حال حاضر ایندکس بازسازی یا بارگذاری نمی‌شود. "
+        "چند لحظه صبر کنید یا دوباره دکمه «بازسازی ایندکس» را بزنید."
+    )
     with st.expander("جزئیات فنی"):
-        st.code(traceback.format_exc(), language="text")
+        st.code(f"{exc}\n\n{traceback.format_exc()}", language="text")
     st.stop()
 
 

@@ -4,10 +4,16 @@ from pathlib import Path
 from dotenv import load_dotenv
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableParallel
+from langchain_huggingface import HuggingFaceEmbeddings
+
+try:
+    from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+except Exception:  # pragma: no cover - optional dependency
+    ChatOpenAI = None
+    OpenAIEmbeddings = None
 
 from data_loader import load_dataset
 
@@ -76,39 +82,37 @@ def _format_docs(docs) -> str:
     return "\n\n".join(d.page_content for d in docs)
 
 
-def _load_credentials() -> tuple[str, str]:
-    """اعتبارنامه‌ها را می‌خواند و اعتبارسنجی می‌کند."""
+def _load_credentials() -> tuple[str | None, str | None]:
+    """اعتبارنامه‌ها را می‌خواند و در صورت نبود، None برمی‌گرداند."""
     api_key = get_config("API_KEY")
     base_url = get_config("BASE_URL")
-
-    missing = [
-        name
-        for name, value in (("API_KEY", api_key), ("BASE_URL", base_url))
-        if not value
-    ]
-    if missing:
-        raise ValueError(
-            f"تنظیمات ناقص است. کلیدهای زیر یافت نشدند: {', '.join(missing)}\n"
-            "در اجرای محلی آن‌ها را در فایل .env قرار دهید و در Streamlit Cloud "
-            "از بخش Manage app → Settings → Secrets اضافه کنید."
-        )
-
     return api_key, base_url
 
 
-def get_embeddings() -> OpenAIEmbeddings:
-    """مدل تبدیل متن به بردار، از طریق endpoint سازگار با OpenAI."""
+def get_embeddings():
+    """مدل تبدیل متن به بردار؛ در حالت پیش‌فرض از HuggingFace محلی استفاده می‌شود."""
     api_key, base_url = _load_credentials()
-    os.environ.setdefault("OPENAI_API_KEY", api_key)
-    os.environ.setdefault("OPENAI_BASE_URL", base_url)
-    return OpenAIEmbeddings(
-        model=EMBED_MODEL,
-        openai_api_key=api_key,
-        openai_api_base=base_url,
-        check_embedding_ctx_length=False,
-        chunk_size=64,
-        timeout=60,
-        max_retries=3,
+    if os.getenv("USE_OPENAI_EMBEDDINGS") == "1" and api_key and base_url and OpenAIEmbeddings is not None:
+        os.environ.setdefault("OPENAI_API_KEY", api_key)
+        os.environ.setdefault("OPENAI_BASE_URL", base_url)
+        return OpenAIEmbeddings(
+            model=EMBED_MODEL,
+            openai_api_key=api_key,
+            openai_api_base=base_url,
+            check_embedding_ctx_length=False,
+            chunk_size=64,
+            timeout=60,
+            max_retries=3,
+        )
+
+    return get_local_embeddings()
+
+
+def get_local_embeddings():
+    """مدل بردار محلی برای حالت fallback."""
+    return HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2",
+        model_kwargs={"device": "cpu"},
     )
 
 
@@ -123,42 +127,74 @@ def build_vectorstore(data_dir: str = "data", save: bool = True) -> FAISS:
     if not docs:
         raise ValueError("پس از تقسیم‌بندی، هیچ قطعه‌ی متنی تولید نشد.")
 
-    store = FAISS.from_documents(docs, get_embeddings())
+    embeddings = get_embeddings()
+    try:
+        store = FAISS.from_documents(docs, embeddings)
+    except Exception:
+        fallback_embeddings = get_local_embeddings()
+        store = FAISS.from_documents(docs, fallback_embeddings)
+
     if save:
+        INDEX_DIR.mkdir(parents=True, exist_ok=True)
         store.save_local(str(INDEX_DIR))
     return store
 
 
-def load_vectorstore() -> FAISS:
-    """ایندکس پیش‌ساخته را از دیسک می‌خواند."""
-    if not INDEX_DIR.is_dir():
-        raise FileNotFoundError(
-            f"ایندکس در '{INDEX_DIR}' پیدا نشد.\n"
-            "ابتدا به‌صورت محلی «python build_index.py» را اجرا کنید و "
-            "پوشه‌ی faiss_index را کامیت و push کنید."
+def load_vectorstore(data_dir: str = "data", force_build: bool = False) -> FAISS:
+    """ایندکس پیش‌ساخته را از دیسک می‌خواند و در صورت نبود، آن را می‌سازد."""
+    if force_build or not INDEX_DIR.exists():
+        return build_vectorstore(data_dir, save=True)
+
+    try:
+        return FAISS.load_local(
+            str(INDEX_DIR),
+            get_embeddings(),
+            allow_dangerous_deserialization=True,
         )
-    return FAISS.load_local(
-        str(INDEX_DIR),
-        get_embeddings(),
-        allow_dangerous_deserialization=True,
+    except Exception:
+        return build_vectorstore(data_dir, save=True)
+
+
+def get_llm(api_key: str | None, base_url: str | None):
+    """LLM را در صورت امکان از OpenAI می‌سازد و در غیر این صورت از HuggingFace."""
+    if ChatOpenAI is not None and api_key and base_url:
+        llm = ChatOpenAI(
+            model=MODEL_NAME,
+            temperature=0,
+            api_key=api_key,
+            base_url=base_url,
+            timeout=60,
+            max_retries=2,
+        )
+        try:
+            llm.invoke("test")
+            return llm
+        except Exception:
+            pass
+
+    from langchain_community.llms import HuggingFacePipeline
+    from transformers import pipeline
+
+    generator = pipeline(
+        "text-generation",
+        model="distilgpt2",
+        device=-1,
     )
+    return HuggingFacePipeline(pipeline=generator)
 
 
 def build_rag_chain(data_dir: str = "data", k: int = 5, rebuild: bool = False):
     """زنجیره RAG را می‌سازد و خروجی همراه با منابع برمی‌گرداند."""
     api_key, base_url = _load_credentials()
 
-    vectorstore = build_vectorstore(data_dir) if rebuild else load_vectorstore()
+    vectorstore = (
+        build_vectorstore(data_dir)
+        if rebuild
+        else load_vectorstore(data_dir=data_dir, force_build=not INDEX_DIR.exists())
+    )
     retriever = vectorstore.as_retriever(search_kwargs={"k": k})
 
-    llm = ChatOpenAI(
-        model=MODEL_NAME,
-        temperature=0,
-        api_key=api_key,
-        base_url=base_url,
-        timeout=60,
-        max_retries=2,
-    )
+    llm = get_llm(api_key, base_url)
 
     answer_chain = (
         {

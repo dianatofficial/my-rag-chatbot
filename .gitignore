@@ -27,8 +27,10 @@ venv/
 __pycache__/
 *.pyc
 .env
-faiss_index/
 *.faiss
 *.pkl
+!faiss_index/
+!faiss_index/*.faiss
+!faiss_index/*.pkl
 data/raw/
 .streamlit/secrets.toml
