@@ -7,7 +7,11 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableParallel
-from langchain_huggingface import HuggingFaceEmbeddings
+
+try:
+    from langchain_huggingface import HuggingFaceEmbeddings
+except Exception:  # pragma: no cover - optional dependency
+    HuggingFaceEmbeddings = None
 
 try:
     from langchain_openai import ChatOpenAI, OpenAIEmbeddings
@@ -110,6 +114,11 @@ def get_embeddings():
 
 def get_local_embeddings():
     """مدل بردار محلی برای حالت fallback."""
+    if HuggingFaceEmbeddings is None:
+        raise ImportError(
+            "بسته‌ی langchain-huggingface در این محیط نصب نیست. "
+            "برای اجرای محلی، بسته را با pip install -r requirements.txt نصب کنید."
+        )
     return HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2",
         model_kwargs={"device": "cpu"},
@@ -172,8 +181,13 @@ def get_llm(api_key: str | None, base_url: str | None):
         except Exception:
             pass
 
-    from langchain_community.llms import HuggingFacePipeline
-    from transformers import pipeline
+    try:
+        from langchain_community.llms import HuggingFacePipeline
+        from transformers import pipeline
+    except Exception as exc:  # pragma: no cover - optional dependency
+        raise ImportError(
+            "برای اجرای LLM محلی، بسته‌های transformers و langchain-community لازم‌اند."
+        ) from exc
 
     generator = pipeline(
         "text-generation",
