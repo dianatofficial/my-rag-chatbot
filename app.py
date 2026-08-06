@@ -17,6 +17,7 @@ st.set_page_config(
 # فونت وزیرمتن از CDN؛ در نبود دسترسی به اینترنت به Tahoma برمی‌گردد
 st.markdown(
     """
+<!-- Streamlit UI styling -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
 <style>
   :root { --app-font: "Vazirmatn", Tahoma, sans-serif; }
@@ -25,21 +26,18 @@ st.markdown(
       font-family: var(--app-font) !important;
   }
 
-  /* راست‌چین‌سازی متن‌ها */
   [data-testid="stAppViewContainer"] [data-testid="stChatMessage"],
   [data-testid="stAppViewContainer"] [data-testid="stChatMessage"] * {
       direction: rtl !important;
       text-align: right !important;
   }
 
-  /* ورودی چت */
   [data-testid="stChatInput"] textarea {
       direction: rtl !important;
       text-align: right !important;
       font-family: var(--app-font) !important;
   }
 
-  /* کد، نمودار و جدول باید چپ‌چین بمانند */
   code, pre, [data-testid="stCodeBlock"],
   [data-testid="stDataFrame"], [data-testid="stTable"],
   .stPlotlyChart, .stVegaLiteChart, canvas {
@@ -47,7 +45,6 @@ st.markdown(
       text-align: left !important;
   }
 
-  /* فاصله‌گذاری خواناتر برای متن فارسی */
   [data-testid="stChatMessage"] p { line-height: 1.9 !important; }
 
   #MainMenu, footer { display: none !important; }
