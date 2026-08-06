@@ -53,3 +53,15 @@ def test_build_rag_chain_falls_back_when_llm_is_unavailable(monkeypatch):
 
     assert result["answer"]
     assert "پاسخ جایگزین" in result["answer"] or "دیتاست" in result["answer"]
+
+
+def test_embedding_dimension_for_large_model_does_not_probe_network():
+    module = importlib.reload(importlib.import_module("rag_engine"))
+
+    class DummyEmbeddings:
+        model = "text-embedding-3-large"
+
+        def embed_query(self, _text):
+            raise AssertionError("embed_query should not be called for known models")
+
+    assert module._embedding_dimension(DummyEmbeddings()) == 3072

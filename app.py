@@ -5,7 +5,7 @@ import traceback
 import pandas as pd
 import streamlit as st
 
-from rag_engine import build_rag_chain
+from rag_engine import build_rag_chain, load_vectorstore
 
 # ---------------------------------------------------------------- تنظیمات صفحه
 st.set_page_config(
@@ -25,9 +25,15 @@ if "rebuild_index" not in st.session_state:
 
 # ------------------------------------------------------------- بارگذاری زنجیره
 @st.cache_resource(show_spinner="در حال بارگذاری ایندکس دیتاست‌ها...")
+def get_vectorstore(rebuild: int = 0):
+    """ایندکس را فقط یک‌بار در طول عمر کانتینر می‌سازد یا از دیسک می‌خواند."""
+    return load_vectorstore("data", force_build=bool(rebuild))
+
+
 def get_chain(k: int, rebuild: int = 0):
-    """زنجیره‌ی RAG. فقط یک‌بار در طول عمر کانتینر ساخته می‌شود."""
-    return build_rag_chain("data", k=k, rebuild=bool(rebuild))
+    """زنجیره‌ی RAG را روی ایندکس کش‌شده می‌سازد."""
+    vectorstore = get_vectorstore(rebuild=rebuild)
+    return build_rag_chain("data", k=k, rebuild=False, vectorstore=vectorstore)
 
 
 # ------------------------------------------------------------------- نمایش غنی
@@ -151,7 +157,7 @@ for msg in st.session_state.messages:
 
 
 # -------------------------------------------------------------------- ورودی کاربر
-if prompt := st.chat_input("سوال خود را درباره‌ی دیتاست‌ها بپرسید..."):
+if prompt := st.chat_input("سوال خود را درباره‌ی دیتاست‌ها بپرسید...", disabled=chain is None):
     st.session_state.messages.append({"role": "user", "content": prompt})
     with st.chat_message("user"):
         st.markdown(prompt)

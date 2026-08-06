@@ -1,7 +1,9 @@
+import json
 import os
 from pathlib import Path
 
 from dotenv import load_dotenv
+from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_core.prompts import ChatPromptTemplate
@@ -44,6 +46,13 @@ class FallbackLLM:
 
 BASE_DIR = Path(__file__).parent
 INDEX_DIR = BASE_DIR / "faiss_index"
+INDEX_METADATA_PATH = INDEX_DIR / "metadata.json"
+
+OPENAI_EMBEDDING_DIMENSIONS = {
+    "text-embedding-3-large": 3072,
+    "text-embedding-3-small": 1536,
+    "text-embedding-ada-002": 1536,
+}
 
 
 def get_config(key: str, default: str | None = None) -> str | None:
@@ -72,7 +81,12 @@ def get_config(key: str, default: str | None = None) -> str | None:
 
 
 MODEL_NAME = get_config("MODEL_NAME", "gpt-4o-mini")
-EMBED_MODEL = get_config("EMBED_MODEL", "text-embedding-3-small")
+EMBED_MODEL = get_config("EMBED_MODEL", "text-embedding-3-large")
+
+
+def _use_openai_embeddings() -> bool:
+    value = str(get_config("USE_OPENAI_EMBEDDINGS", "1") or "1").strip().lower()
+    return value not in {"0", "false", "no", "off"}
 
 PROMPT = ChatPromptTemplate.from_template(
     """تو یک دستیار پژوهشی هستی که فقط بر پایه «متن مرجع» زیر پاسخ می‌دهد.
@@ -105,6 +119,25 @@ def _format_docs(docs) -> str:
     return "\n\n".join(d.page_content for d in docs)
 
 
+def _build_documents(rows: list[str]):
+    """برای داده‌های سطری CSV فقط متن‌های بلند را chunk می‌کند تا تعداد embedding بی‌جهت زیاد نشود."""
+    splitter = RecursiveCharacterTextSplitter(chunk_size=1200, chunk_overlap=120)
+    documents = []
+
+    for row in rows:
+        source = "unknown"
+        if row.startswith("[") and "]" in row:
+            source = row[1 : row.index("]")]
+
+        if len(row) <= 1200:
+            documents.append(Document(page_content=row, metadata={"source": source}))
+            continue
+
+        documents.extend(splitter.create_documents([row], metadatas=[{"source": source}]))
+
+    return documents
+
+
 def _load_credentials() -> tuple[str | None, str | None]:
     """اعتبارنامه‌ها را می‌خواند و در صورت نبود، None برمی‌گرداند."""
     api_key = get_config("API_KEY")
@@ -115,7 +148,7 @@ def _load_credentials() -> tuple[str | None, str | None]:
 def get_embeddings():
     """مدل تبدیل متن به بردار؛ در حالت پیش‌فرض از OpenAI-compatible API استفاده می‌شود."""
     api_key, base_url = _load_credentials()
-    if api_key and base_url and OpenAIEmbeddings is not None:
+    if _use_openai_embeddings() and api_key and base_url and OpenAIEmbeddings is not None:
         os.environ.setdefault("OPENAI_API_KEY", api_key)
         os.environ.setdefault("OPENAI_BASE_URL", base_url)
         return OpenAIEmbeddings(
@@ -142,6 +175,8 @@ def get_local_embeddings():
     if SentenceTransformer is not None:
         model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
         class _LocalEmbeddings:
+            dimension = 384
+
             def __init__(self, model):
                 self.model = model
 
@@ -157,6 +192,8 @@ def get_local_embeddings():
         return _LocalEmbeddings(model)
 
     class _FallbackEmbeddings:
+        dimension = 8
+
         def __init__(self):
             self._dimension = 8
 
@@ -180,18 +217,53 @@ def get_local_embeddings():
 
 
 def _embedding_dimension(embeddings) -> int | None:
-    """ابعاد embedding را برای بررسی سازگاری با ایندکس برمی‌گرداند."""
-    try:
-        vector = embeddings.embed_query("dimension_probe")
-        if isinstance(vector, list):
-            return len(vector)
-    except Exception:
-        return None
+    """ابعاد embedding را بدون درخواست شبکه‌ای برمی‌گرداند."""
+    dimension = getattr(embeddings, "dimension", None)
+    if isinstance(dimension, int) and dimension > 0:
+        return dimension
+
+    dimensions = getattr(embeddings, "dimensions", None)
+    if isinstance(dimensions, int) and dimensions > 0:
+        return dimensions
+
+    model_name = getattr(embeddings, "model", None)
+    if isinstance(model_name, str):
+        return OPENAI_EMBEDDING_DIMENSIONS.get(model_name)
+
     return None
+
+
+def _read_index_metadata() -> dict:
+    if not INDEX_METADATA_PATH.exists():
+        return {}
+
+    try:
+        return json.loads(INDEX_METADATA_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+
+def _write_index_metadata(embeddings, store: FAISS) -> None:
+    INDEX_DIR.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "embedding_backend": type(embeddings).__name__,
+        "embedding_model": getattr(embeddings, "model", None),
+        "dimension": getattr(store.index, "d", None),
+        "vector_count": getattr(store.index, "ntotal", None),
+    }
+    INDEX_METADATA_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def _select_embeddings_for_index(index_dim: int | None):
     """embedding سازگار با بعد ایندکس را انتخاب می‌کند."""
+    metadata = _read_index_metadata()
+    metadata_dim = metadata.get("dimension")
+    if isinstance(metadata_dim, int) and metadata_dim > 0:
+        index_dim = metadata_dim
+
     candidates = []
 
     try:
@@ -215,14 +287,34 @@ def _select_embeddings_for_index(index_dim: int | None):
     return get_local_embeddings()
 
 
+def _preferred_embeddings():
+    """embedding ترجیحی پروژه را بر اساس تنظیمات جاری برمی‌گرداند."""
+    return get_embeddings()
+
+
+def _should_rebuild_index(index_dim: int | None, preferred_embeddings) -> bool:
+    """اگر ایندکس فعلی با embedding ترجیحی ناسازگار باشد، باید بازسازی شود."""
+    preferred_dim = _embedding_dimension(preferred_embeddings)
+    if index_dim is None or preferred_dim is None:
+        return False
+
+    if not _use_openai_embeddings():
+        return False
+
+    api_key, base_url = _load_credentials()
+    if not (api_key and base_url and OpenAIEmbeddings is not None):
+        return False
+
+    return index_dim != preferred_dim
+
+
 def build_vectorstore(data_dir: str = "data", save: bool = True) -> FAISS:
     """ایندکس FAISS را از صفر می‌سازد. هزینه‌ی API دارد؛ محلی اجرا شود."""
     rows = load_dataset(data_dir)
     if not rows:
         raise ValueError(f"هیچ داده‌ای در مسیر '{data_dir}' پیدا نشد.")
 
-    splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-    docs = splitter.create_documents(rows)
+    docs = _build_documents(rows)
     if not docs:
         raise ValueError("پس از تقسیم‌بندی، هیچ قطعه‌ی متنی تولید نشد.")
 
@@ -231,11 +323,13 @@ def build_vectorstore(data_dir: str = "data", save: bool = True) -> FAISS:
         store = FAISS.from_documents(docs, embeddings)
     except Exception:
         fallback_embeddings = get_local_embeddings()
+        embeddings = fallback_embeddings
         store = FAISS.from_documents(docs, fallback_embeddings)
 
     if save:
         INDEX_DIR.mkdir(parents=True, exist_ok=True)
         store.save_local(str(INDEX_DIR))
+        _write_index_metadata(embeddings, store)
     return store
 
 
@@ -253,6 +347,14 @@ def load_vectorstore(data_dir: str = "data", force_build: bool = False) -> FAISS
             index_dim = faiss.read_index(str(index_path)).d
     except Exception:
         index_dim = None
+
+    try:
+        preferred_embeddings = _preferred_embeddings()
+    except Exception:
+        preferred_embeddings = None
+
+    if preferred_embeddings is not None and _should_rebuild_index(index_dim, preferred_embeddings):
+        return build_vectorstore(data_dir, save=True)
 
     embeddings = _select_embeddings_for_index(index_dim)
     try:
@@ -273,9 +375,9 @@ def load_vectorstore(data_dir: str = "data", force_build: bool = False) -> FAISS
 
 
 def get_llm(api_key: str | None, base_url: str | None):
-    """LLM را در صورت امکان از OpenAI می‌سازد و در غیر این صورت از HuggingFace."""
+    """LLM را در صورت امکان از OpenAI می‌سازد و در غیر این صورت fallback سبک برمی‌گرداند."""
     if ChatOpenAI is not None and api_key and base_url:
-        llm = ChatOpenAI(
+        return ChatOpenAI(
             model=MODEL_NAME,
             temperature=0,
             api_key=api_key,
@@ -283,34 +385,20 @@ def get_llm(api_key: str | None, base_url: str | None):
             timeout=60,
             max_retries=2,
         )
-        try:
-            llm.invoke("test")
-            return llm
-        except Exception:
-            pass
 
-    try:
-        from langchain_community.llms import HuggingFacePipeline
-        from transformers import pipeline
-    except Exception:
-        return FallbackLLM()
-
-    try:
-        generator = pipeline(
-            "text-generation",
-            model="distilgpt2",
-            device=-1,
-        )
-        return HuggingFacePipeline(pipeline=generator)
-    except Exception:
-        return FallbackLLM()
+    return FallbackLLM()
 
 
-def build_rag_chain(data_dir: str = "data", k: int = 5, rebuild: bool = False):
+def build_rag_chain(
+    data_dir: str = "data",
+    k: int = 5,
+    rebuild: bool = False,
+    vectorstore: FAISS | None = None,
+):
     """زنجیره RAG را می‌سازد و خروجی همراه با منابع برمی‌گرداند."""
     api_key, base_url = _load_credentials()
 
-    vectorstore = (
+    vectorstore = vectorstore or (
         build_vectorstore(data_dir)
         if rebuild
         else load_vectorstore(data_dir=data_dir, force_build=not INDEX_DIR.exists())
