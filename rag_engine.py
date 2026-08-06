@@ -151,6 +151,9 @@ def get_local_embeddings():
             def embed_query(self, text):
                 return self.model.encode([text], convert_to_numpy=True)[0].tolist()
 
+            def __call__(self, text):
+                return self.embed_query(text)
+
         return _LocalEmbeddings(model)
 
     class _FallbackEmbeddings:
@@ -169,6 +172,9 @@ def get_local_embeddings():
 
         def embed_query(self, text):
             return self._simple_vector(text)
+
+        def __call__(self, text):
+            return self.embed_query(text)
 
     return _FallbackEmbeddings()
 
