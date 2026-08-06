@@ -14,44 +14,7 @@ st.set_page_config(
     layout="centered",
 )
 
-# فونت وزیرمتن از CDN؛ در نبود دسترسی به اینترنت به Tahoma برمی‌گردد
-st.markdown(
-    """
-<!-- Streamlit UI styling -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css">
-<style>
-  :root { --app-font: "Vazirmatn", Tahoma, sans-serif; }
-
-  html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebar"] {
-      font-family: var(--app-font) !important;
-  }
-
-  [data-testid="stAppViewContainer"] [data-testid="stChatMessage"],
-  [data-testid="stAppViewContainer"] [data-testid="stChatMessage"] * {
-      direction: rtl !important;
-      text-align: right !important;
-  }
-
-  [data-testid="stChatInput"] textarea {
-      direction: rtl !important;
-      text-align: right !important;
-      font-family: var(--app-font) !important;
-  }
-
-  code, pre, [data-testid="stCodeBlock"],
-  [data-testid="stDataFrame"], [data-testid="stTable"],
-  .stPlotlyChart, .stVegaLiteChart, canvas {
-      direction: ltr !important;
-      text-align: left !important;
-  }
-
-  [data-testid="stChatMessage"] p { line-height: 1.9 !important; }
-
-  #MainMenu, footer { display: none !important; }
-</style>
-    """,
-    unsafe_allow_html=True,
-)
+# فونت و استایل‌های سفارشی حذف شده‌اند تا متن CSS در صفحه ظاهر نشود.
 
 st.title("RAG Engine — تحلیل داده")
 st.caption("پاسخ‌ها فقط بر پایه‌ی محتوای دیتاست‌های موجود تولید می‌شوند.")
