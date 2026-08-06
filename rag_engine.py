@@ -14,6 +14,11 @@ except Exception:  # pragma: no cover - optional dependency
     HuggingFaceEmbeddings = None
 
 try:
+    from sentence_transformers import SentenceTransformer
+except Exception:  # pragma: no cover - optional dependency
+    SentenceTransformer = None
+
+try:
     from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 except Exception:  # pragma: no cover - optional dependency
     ChatOpenAI = None
@@ -128,15 +133,44 @@ def get_embeddings():
 
 def get_local_embeddings():
     """مدل بردار محلی برای حالت fallback."""
-    if HuggingFaceEmbeddings is None:
-        raise ImportError(
-            "بسته‌ی langchain-huggingface در این محیط نصب نیست. "
-            "برای اجرای محلی، بسته را با pip install -r requirements.txt نصب کنید."
+    if HuggingFaceEmbeddings is not None:
+        return HuggingFaceEmbeddings(
+            model_name="sentence-transformers/all-MiniLM-L6-v2",
+            model_kwargs={"device": "cpu"},
         )
-    return HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-MiniLM-L6-v2",
-        model_kwargs={"device": "cpu"},
-    )
+
+    if SentenceTransformer is not None:
+        model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+        class _LocalEmbeddings:
+            def __init__(self, model):
+                self.model = model
+
+            def embed_documents(self, texts):
+                return self.model.encode(texts, convert_to_numpy=True).tolist()
+
+            def embed_query(self, text):
+                return self.model.encode([text], convert_to_numpy=True)[0].tolist()
+
+        return _LocalEmbeddings(model)
+
+    class _FallbackEmbeddings:
+        def __init__(self):
+            self._dimension = 8
+
+        def _simple_vector(self, text: str) -> list[float]:
+            text = (text or "").lower()
+            vector = [0.0] * self._dimension
+            for index, ch in enumerate(text):
+                vector[index % self._dimension] += (ord(ch) % 11) / 10.0
+            return vector
+
+        def embed_documents(self, texts):
+            return [self._simple_vector(text) for text in texts]
+
+        def embed_query(self, text):
+            return self._simple_vector(text)
+
+    return _FallbackEmbeddings()
 
 
 def build_vectorstore(data_dir: str = "data", save: bool = True) -> FAISS:

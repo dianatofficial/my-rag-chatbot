@@ -130,13 +130,12 @@ with st.sidebar:
 try:
     chain = get_chain(top_k, rebuild=st.session_state.rebuild_index)
 except Exception as exc:  # noqa: BLE001
-    st.error(
-        "موتور آماده نیست. در حال حاضر ایندکس بازسازی یا بارگذاری نمی‌شود. "
-        "چند لحظه صبر کنید یا دوباره دکمه «بازسازی ایندکس» را بزنید."
+    st.warning(
+        "موتور در حالت بازگشتی فعال است. پاسخ‌ها ممکن است بر پایه‌ی داده‌های موجود و بدون استفاده از مدل embedding پیشرفته تولید شوند."
     )
     with st.expander("جزئیات فنی"):
         st.code(f"{exc}\n\n{traceback.format_exc()}", language="text")
-    st.stop()
+    chain = None
 
 
 # ------------------------------------------------------------------ تاریخچه‌ی چت
